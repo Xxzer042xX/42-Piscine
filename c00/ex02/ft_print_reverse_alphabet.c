@@ -1,24 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.C                                       :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/23 20:26:11 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/23 20:26:11 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/23 23:50:49 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/23 23:50:49 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void    ft_print_alpabet(void)
 {
-	write(1, &c, 1);
-}
+    char letter;
 
-int	main(void)
-{
-	ft_putchar('z');
-	return (0);
+    letter = 122;
+    while (letter >= 97)
+    {
+        write(1, &letter, 1);
+        letter--;
+    }   
 }
+/*
+int main(void)
+{
+    ft_print_alpabet();
+    return(0);
+}
+*/
