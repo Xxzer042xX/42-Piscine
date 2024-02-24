@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_is_negative.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/23 23:53:31 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/23 23:53:31 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 18:23:48 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 18:23:48 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_IS_NEGATIVE_H
+#define FT_IS_NEGATIVE_H
 
-void    ft_print_numbers(void)
-{
-    int i;
+void    ft_is_negative(int n);
 
-    i = 48;
-    while (i <= 57)
-    {
-        write(1, &i, 1);
-        i++;
-    }  
-}
+#endif

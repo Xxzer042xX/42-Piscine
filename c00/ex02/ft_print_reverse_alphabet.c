@@ -16,8 +16,8 @@ void    ft_print_reverse_alphabet(void)
 {
     char letter;
 
-    letter = 122;
-    while (letter >= 97)
+    letter = 'z';
+    while (letter >= 'a')
     {
         write(1, &letter, 1);
         letter--;

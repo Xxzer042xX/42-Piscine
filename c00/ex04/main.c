@@ -1,25 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/23 23:53:31 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/23 23:53:31 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 18:23:28 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 18:23:28 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_is_negative.h"
 
-void    ft_print_numbers(void)
+#include <stdlib.h>
+
+int main(int ac, char **av)
 {
-    int i;
+    int n;
 
-    i = 48;
-    while (i <= 57)
+    n = 0;
+    if(ac == 2)
     {
-        write(1, &i, 1);
-        i++;
-    }  
+        n = atoi(&av[1][0]);
+        ft_is_negative(n);
+    }
+    return(0);
 }

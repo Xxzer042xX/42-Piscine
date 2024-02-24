@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_print_comb.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/23 23:53:31 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/23 23:53:31 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 18:37:29 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 18:37:29 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_PRINT_COMB_H
+#define FT_PRINT_COMB_H
 
-void    ft_print_numbers(void)
-{
-    int i;
+void    ft_print_comb(void);
 
-    i = 48;
-    while (i <= 57)
-    {
-        write(1, &i, 1);
-        i++;
-    }  
-}
+#endif
