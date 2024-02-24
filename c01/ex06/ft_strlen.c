@@ -1,20 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/28 06:08:24 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/28 06:08:24 by mdelmeni         ###   ########.fr       */
+/*   Created: 2023/11/19 22:07:44 by mdelmeni          #+#    #+#             */
+/*   Updated: 2023/11/19 22:07:44 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+int	ft_strlen(char *str)
 {
-	write (1, &c, 1);
+	int	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
+}
+/*
+void    ft_putchar(char c)
+{
+    write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		ft_putchar(str[i]);
+		i++;
+	}
+	
 }
 
 void	ft_putnbr(int nb)
@@ -39,14 +62,14 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb % 10);
 	}
 }
-/*
-int	main(void)
+
+int	main(int ac, char **av)
 {
-	ft_putnbr(-2147483648);
-	ft_putchar('\n');
-	ft_putnbr(0);
-	ft_putchar('\n');
-	ft_putnbr(2147483647);
+	if(ac == 2)
+	{
+		ft_putstr("len =\t");
+		ft_putnbr(ft_strlen(av[1]));
+	}
 	ft_putchar('\n');
 	return (0);
 }

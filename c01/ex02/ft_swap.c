@@ -1,20 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/28 06:08:24 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/28 06:08:24 by mdelmeni         ###   ########.fr       */
+/*   Created: 2023/11/13 16:29:41 by mdelmeni          #+#    #+#             */
+/*   Updated: 2023/11/13 16:29:41 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_swap(int *a, int *b)
 {
-	write (1, &c, 1);
+	int	swap;
+
+	swap = *a;
+	*a = *b;
+	*b = swap;
+}
+/*
+void    ft_putchar(char c)
+{
+    write(1, &c, 1);
 }
 
 void	ft_putnbr(int nb)
@@ -39,15 +48,23 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb % 10);
 	}
 }
-/*
+
 int	main(void)
 {
-	ft_putnbr(-2147483648);
+	int	f;
+	int	g;
+
+	f = 4;
+	g = 6;
+	ft_putnbr(f);
 	ft_putchar('\n');
-	ft_putnbr(0);
+	ft_putnbr(g);
 	ft_putchar('\n');
-	ft_putnbr(2147483647);
+	ft_swap (&f, &g);
+	write(1, "Swap !!\n", 8);
+	ft_putnbr(f);
 	ft_putchar('\n');
+	ft_putnbr(g);
 	return (0);
 }
 */
