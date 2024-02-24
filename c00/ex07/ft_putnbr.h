@@ -1,41 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_putnbr.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/28 06:08:24 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/28 06:08:24 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 18:56:05 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 18:56:05 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifdef FT_PUTNBR_H
+#define FT_PUTNBR_H
 
-void	ft_putchar(char c)
-{
-	write (1, &c, 1);
-}
+void    ft_putchar(char c);
+void ft_putnbr(int nb);
 
-void	ft_putnbr(int nb)
-{
-	if (nb < 0)
-	{
-		ft_putchar('-');
-		if (nb == -2147483648)
-		{
-			ft_putchar('2');
-			nb = -147483648;
-		}
-		nb = -nb;
-	}
-	else if (nb < 10)
-	{
-		ft_putchar(nb + '0');
-	}
-	else
-	{
-		ft_putnbr(nb / 10);
-		ft_putnbr(nb % 10);
-	}
-}
+#endif

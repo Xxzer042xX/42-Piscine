@@ -12,7 +12,6 @@
 
 #include <unistd.h>
 
-// Affiche une combinaison donnée
 void    write_combination(char *str, int n)
 {
     int i;
@@ -26,7 +25,6 @@ void    write_combination(char *str, int n)
         write(1, ", ", 2);
 }
 
-// Génère récursivement les combinaisons
 void    print_combinations(char *str, int n, int pos)
 {
     if (pos == n) {
@@ -52,10 +50,3 @@ void    ft_print_combn(int n)
     if (n > 0 && n < 10)
         print_combinations(str, n, 0);
 }
-/*
-int main(void)
-{
-    ft_print_combn(2);
-    return (0);
-}
-*/
