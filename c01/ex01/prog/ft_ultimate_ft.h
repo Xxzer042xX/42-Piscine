@@ -17,8 +17,8 @@ void	ft_ultimate_ft(int *********nbr);
 
 #endif
 
-#ifdef FT_ULTIMAT_FT_1_H
-#define FT_ULTIMAT_FT_1_H
+#ifdef FONCTION_H
+#define FONCTION_H
 
 void    ft_putchar(char c);
 void	ft_putnbr(int nb);
