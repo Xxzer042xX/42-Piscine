@@ -1,18 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/13 06:16:44 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/13 06:16:44 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 19:28:42 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 19:28:42 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "ft_ft.h"
 
-void	ft_ultimate_ft(int *********nbr)
+int main(void)
 {
-	*********nbr = 42;
+    int i;
+    int *ft;
+
+    i = 0;
+    ft = &i;
+
+    ft_putnbr(i);
+    ft_putchar('\n');
+    ft_ft(ft);
+    ft_putnbr(i);
+    ft_putchar('\n');
+    return (0);
 }

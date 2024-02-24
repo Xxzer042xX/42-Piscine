@@ -37,15 +37,28 @@ void	ft_sort_int_tab(int *arr, int size)
 	}
 }
 
+
+
+
+
+int	*creat_array(char *str)
+{
+	
+}
+
 int main(int ac, char **av)
 {
+	int	i;
+
+	i = 0;
     if (ac != 7)
     {
         printf("Please provide 6 numbers as arguments.\n");
-        return (1);
+        return (0);
     }
-
-    int arr[6];
+	while(av[i])
+	{
+    	int arr[6];
     arr[0] = atoi(av[1]);
     arr[1] = atoi(av[2]);
     arr[2] = atoi(av[3]);

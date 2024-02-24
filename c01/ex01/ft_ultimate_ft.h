@@ -1,18 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_ultimate_ft.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/13 06:16:44 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/13 06:16:44 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 21:16:24 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 21:16:24 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifdef FT_ULTIMATE_FT_H
+#define FT_ULTIMATE_FT_H
 
-void	ft_ultimate_ft(int *********nbr)
-{
-	*********nbr = 42;
-}
+void	ft_ultimate_ft(int *********nbr);
+
+#endif
+
+#ifdef FT_ULTIMAT_FT_1_H
+#define FT_ULTIMAT_FT_1_H
+
+void    ft_putchar(char c);
+void	ft_putnbr(int nb);
+
+#endif
