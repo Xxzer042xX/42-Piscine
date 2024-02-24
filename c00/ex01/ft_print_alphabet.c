@@ -11,23 +11,16 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include "ft_print_alphabet.h"
 
-void    ft_print_alpabet(void)
+void    ft_print_alphabet(void)
 {
     char letter;
 
-    letter = 97;
-    while (letter <= 122)
+    letter = 'a';
+    while (letter <= 'z')
     {
         write(1, &letter, 1);
         letter++;
-    }
-    
+    }   
 }
-/*
-int main(void)
-{
-    ft_print_alpabet();
-    return(0);
-}
-*/

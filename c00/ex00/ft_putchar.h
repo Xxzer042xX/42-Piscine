@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.C                                       :+:      :+:    :+:   */
+/*   ft_putchar.h                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/23 20:26:11 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/23 20:26:11 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 17:32:15 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 17:32:15 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_PUTCHAR_H
+#define FT_PUTCHAR_H
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void    ft_putchar(char c);
+
+#endif

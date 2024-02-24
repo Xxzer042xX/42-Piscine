@@ -12,7 +12,7 @@
 
 #include <unistd.h>
 
-void    ft_print_alpabet(void)
+void    ft_print_reverse_alphabet(void)
 {
     char letter;
 
@@ -23,10 +23,3 @@ void    ft_print_alpabet(void)
         letter--;
     }   
 }
-/*
-int main(void)
-{
-    ft_print_alpabet();
-    return(0);
-}
-*/
