@@ -1,2 +1,2 @@
 - **ex01: ft_ultimate_ft**
-  - Mission: Une chaîne de pointeurs vers l'étoile 42. Crée un réseau de pointeurs, tous reliés et menant finalement à la valeur cosmique de 42.
+  - Objectif: Créer un enchaînement de pointeurs menant à la valeur mystique de 42, symbolisant un réseau de connexions vers l'essence de l'univers.

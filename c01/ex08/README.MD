@@ -1,2 +1,5 @@
 - **ex08: ft_sort_int_tab**
-  - Mission: Alignement des astres. Trie un tableau d'entiers en utilisant des pointeurs, comme aligner les planètes pour une convergence cosmique.
+  - Objectif: Trier un tableau d'entiers, en utilisant des pointeurs pour organiser les données comme ordonner les étoiles dans le cosmos.
+
+
+

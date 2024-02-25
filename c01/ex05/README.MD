@@ -1,2 +1,2 @@
 - **ex05: ft_putstr**
-  - Mission: Envoyer un message interstellaire. Transmets des données vitales entre les vaisseaux et la base en utilisant des pointeurs pour parcourir les messages caractère par caractère.
+  - Objectif: Transmettre des messages entre les vaisseaux et la base, en parcourant une chaîne de caractères avec des pointeurs, comme envoyer des signaux à travers l'espace.

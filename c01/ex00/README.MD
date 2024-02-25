@@ -1,2 +1,2 @@
 - **ex00: ft_ft**
-  - Mission: Pointer vers l'infini et au-delà (42). Ta tâche est de modifier la valeur d'une variable à l'aide d'un pointeur pour qu'elle pointe vers la réponse ultime de l'univers.
+  - Objectif: Modifier la valeur d'une variable via un pointeur pour qu'elle reflète l'ultime réponse de l'univers (42).

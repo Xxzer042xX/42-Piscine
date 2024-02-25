@@ -1,2 +1,2 @@
 - **ex02: ft_swap**
-  - Mission: Échanger des planètes de place. Utilise des pointeurs pour inverser les orbites de deux planètes, démontrant la maîtrise des forces gravitationnelles.
+  - Objectif: Utiliser des pointeurs pour échanger les valeurs de deux variables, démontrant la capacité à modifier les trajectoires dans l'espace des données.

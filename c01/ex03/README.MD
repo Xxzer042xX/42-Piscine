@@ -1,2 +1,2 @@
 - **ex03: ft_div_mod**
-  - Mission: Partager des ressources spatiales. Divise les ressources d'une expédition spatiale et calcule le reste, garantissant une utilisation efficace des provisions.
+  - Objectif: Diviser et calculer le reste de deux nombres, illustrant le partage des ressources dans une mission spatiale pour une gestion optimale.

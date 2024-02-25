@@ -1,2 +1,3 @@
 - **ex00: ft_putchar**
-  - Mission: Comme envoyer un signal lumineux dans l'espace. Une fonction pour afficher un caractère, illuminant le terminal tel une étoile.
+  -Objectif: 
+  Modifier la valeur d'une variable via un pointeur pour qu'elle reflète l'ultime réponse de l'univers (42).
