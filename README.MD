@@ -7,8 +7,7 @@ Salut, astronaute en herbe! Si tu es ici, c'est que tu es prêt à embarquer dan
 ## 🌌 42 C Projects: Une Cartographie Stellaire
 
 ### C00 - Le Décollage: Introduction au C
-ex00: ft_putchar
-Mission: Comme envoyer un signal lumineux dans l'espace. Une fonction pour afficher un caractère, illuminant le terminal tel une étoile.
+- **ex00: ft_putchar -Mission: Comme envoyer un signal lumineux dans l'espace. Une fonction pour afficher un caractère, illuminant le terminal tel une étoile.
 ex01: ft_print_alphabet
 Mission: Dessiner l'alphabet comme une constellation. Une série de caractères s'aligne pour former l'élégante séquence de l'alphabet.
 ex02: ft_print_reverse_alphabet
