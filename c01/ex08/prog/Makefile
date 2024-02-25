@@ -8,7 +8,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
 # Fichiers source
-SRC = main.c fonction.c ft_ultimate_div_mod.c
+SRC = main.c fonction.c ft_sort_in_tab.c
 
 # Fichiers objets
 OBJ = $(SRC:.c=.o)

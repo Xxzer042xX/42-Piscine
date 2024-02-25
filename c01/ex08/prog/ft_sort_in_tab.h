@@ -13,10 +13,14 @@
 #ifndef FT_SORT_IN_TAB_H
 #define FT_SORT_IN_TAB_H
 
+void	ft_sort_int_tab(int *arr, int size);
+
 #endif 
 
 #ifndef FONCTION_H
 #define FONCTION_H
 
+void    ft_putchar(char c);
+void	ft_putnbr(int nb);
 
 #endif
