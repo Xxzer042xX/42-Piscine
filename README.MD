@@ -255,6 +255,22 @@ C09 est le moment de regrouper tout ce que tu as appris et de construire ta prop
 - **ex02: ft_split**
   - Objectif: Le diviseur. Une fonction pour diviser une chaîne de caractères en un tableau de mots, le couteau suisse de la manipulation des chaînes.
 
+### C10 - Les Outils du Système
+
+Dans C10, tu vas travailler sur des fonctions qui interagissent avec le système de fichiers et le contenu des fichiers.
+
+- **ex00: display_file**
+  - Objectif: La base de la lecture de fichiers. Crée une fonction qui affiche le contenu d'un fichier passé en argument.
+
+- **ex01: cat**
+  - Objectif: Le classique. Imitation de la commande Unix `cat`, pour afficher sur la sortie standard le contenu des fichiers donnés en argument, ou de l'entrée standard si aucun fichier n'est donné.
+
+- **ex02: tail**
+  - Objectif: Le suiveur. Simule la commande Unix `tail`, qui affiche les dernières lignes d'un fichier. Un exercice pour maîtriser la gestion des fichiers et l'accès aléatoire.
+
+- **ex03: hexdump**
+  - Objectif: Le décodeur. Reproduis le comportement de la commande Unix `hexdump` pour afficher le contenu d'un fichier en hexadécimal. Un défi pour ceux qui sont à l'aise avec les manipulations de bas niveau.
+
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
 
