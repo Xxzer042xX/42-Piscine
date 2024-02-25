@@ -129,6 +129,61 @@ Dans C03, tu vas plonger dans des manipulations avancées de chaînes de caract�
 - **ex05: ft_strlcat**
   - Objectif: Synchronisation des chaînes. Concatène des chaînes en prenant en compte la taille totale du buffer, pour une fusion sécurisée et contrôlée.
 
+### C04 - Les Fondamentaux des Fonctions Numériques
+
+Nous entrons dans une zone où les nombres et les textes s'entremêlent. C04 te met au défi de convertir, d'afficher et d'interpréter des données numériques de diverses manières.
+
+- **ex00: ft_strlen**
+  - Objectif: Sonder l'étendue des communications. Calcule la longueur d'une chaîne, comme on mesure la distance entre deux astres.
+
+- **ex01: ft_putstr**
+  - Objectif: Transmission de données verbales. Affiche une chaîne de caractères sur la console, envoyant un message à travers les étoiles.
+
+- **ex02: ft_putnbr**
+  - Objectif: Émission de signaux numériques. Convertit et affiche un nombre en tant que texte, pour communiquer des données quantitatives claires.
+
+- **ex03: ft_atoi**
+  - Objectif: Décodage de séquences numériques. Transforme une chaîne de caractères en son équivalent numérique, interprétant les signaux reçus.
+
+- **ex04: ft_putnbr_base**
+  - Objectif: Traduction inter-systèmes. Affiche un nombre dans une base différente, permettant de comprendre des langages numériques variés.
+
+- **ex05: ft_atoi_base**
+  - Objectif: Conversion de base avancée. Interprète une chaîne numérique dans une base donnée pour la convertir en un nombre décimal, déchiffrant des messages en langages exotiques.
+
+### C05 - L'Art de la Numérotation et de l'Optimisation
+
+Avec C05, nous plongeons dans le domaine des calculs et des algorithmes, où chaque fonction est une épopée mathématique.
+
+- **ex00: ft_iterative_factorial**
+  - Objectif: Compter les étoiles une par une. Calcule le factoriel d'un nombre de manière itérative, en accumulant progressivement la multiplication des astres.
+
+- **ex01: ft_recursive_factorial**
+  - Objectif: Une nébuleuse qui se replie sur elle-même. Trouve le factoriel d'un nombre par la beauté de la récursivité, chaque étoile appelant la suivante.
+
+- **ex02: ft_iterative_power**
+  - Objectif: La puissance d'une supernova. Élève un nombre à une puissance de manière itérative, multipliant sa force comme la lumière se propage dans l'espace.
+
+- **ex03: ft_recursive_power**
+  - Objectif: L'écho infini des trous noirs. Utilise la récursivité pour élever un nombre à une puissance, dans une danse gravitationnelle sans fin.
+
+- **ex04: ft_fibonacci**
+  - Objectif: La spirale des galaxies. Explore la séquence de Fibonacci, où chaque nombre est la somme des deux précédents, comme les spirales d'une galaxie.
+
+- **ex05: ft_sqrt**
+  - Objectif: Mesurer l'incommensurable. Calcule la racine carrée d'un nombre, cherchant la simplicité au cœur de la complexité cosmique.
+
+- **ex06: ft_is_prime**
+  - Objectif: Les étoiles solitaires. Vérifie si un nombre est premier, comme une étoile isolée dans la vastitude de l'univers.
+
+- **ex07: ft_find_next_prime**
+  - Objectif: La quête de la planète cachée. Recherche le prochain nombre premier, comme un voyageur interstellaire à la recherche d'une nouvelle terre.
+
+- **ex08: Les dix dames**
+  - Objectif: L'harmonie des constellations. Pose un problème complexe où tu dois arranger dix éléments en évitant les conflits, telle la disposition délicate des étoiles dans une constellation.
+
+Puisses-tu naviguer dans les mathématiques comme un explorateur dans les étoiles, et que chaque fonction soit un voyage vers une nouvelle compréhension de l'univers.
+
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
 
