@@ -52,6 +52,6 @@ Approche les confins inexplorés des structures de données avec les arbres bina
 - Soumets ton code à la Norminette pour t'assurer qu'il respecte les conventions de l'école 42.
 
 ## 🌟 Conclusion
-Chaque défi te rapproche des étoiles de la maîtrise du C. Prends le temps d'apprécier les merveilles de l'univers du code, et souviens-toi, même le voyage le plus long commence par une simple frappe au clavier.
+Chaque défi te rapproche des étoiles de la maîtrise du C. Prends le temps d'apprécier les merveilles de l'univers du code, et souviens-toi, même le voyage le plus long commence par une simple frappe au clavier!
 
 **Bon voyage dans cette aventure cosmique, et que la logique du C illumine ta route!** 🌌
