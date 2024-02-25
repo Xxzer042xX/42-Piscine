@@ -1,30 +1,41 @@
-### C01 - En Orbite: Pointeurs et Conditions
+### C01 - Pointeurs et Conditions
 
-Tu manœuvres à présent dans le vide, maîtrisant les pointeurs comme des propulseurs et les conditions comme des boucliers déflecteurs. Ton code doit être aussi agile qu'un vaisseau esquivant les météorites, utilisant les variables et les pointeurs avec précision.
+Ce module explore l'utilisation avancée des pointeurs et des structures conditionnelles dans le langage C, essentiels pour manipuler les adresses mémoire et contrôler le flux d'un programme. Voici une description technique des exercices :
 
 - **ex00: ft_ft**
-  - Mission: Pointer vers l'infini et au-delà (42). Ta tâche est de modifier la valeur d'une variable à l'aide d'un pointeur pour qu'elle pointe vers la réponse ultime de l'univers.
+
+  - Écrire une fonction qui prend l'adresse d'un pointeur vers un entier comme paramètre et donne à cet entier la valeur de 42. Cet exercice initie à la modification de valeurs via des pointeurs.
 
 - **ex01: ft_ultimate_ft**
-  - Mission: Une chaîne de pointeurs vers l'étoile 42. Crée un réseau de pointeurs, tous reliés et menant finalement à la valeur cosmique de 42.
+
+  - Écrire une fonction qui prend l'adresse d'un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un entier comme paramètre et donne à cet entier la valeur 42. Cet exercice approfondit la compréhension des niveaux multiples de déréférencement.
 
 - **ex02: ft_swap**
-  - Mission: Échanger des planètes de place. Utilise des pointeurs pour inverser les orbites de deux planètes, démontrant la maîtrise des forces gravitationnelles.
+
+  - Écrire une fonction qui échange les valeurs de deux entiers dont les adresses sont passées en paramètre. Cet exercice enseigne comment modifier des variables en utilisant des pointeurs.
 
 - **ex03: ft_div_mod**
-  - Mission: Partager des ressources spatiales. Divise les ressources d'une expédition spatiale et calcule le reste, garantissant une utilisation efficace des provisions.
+
+  - Écrire une fonction qui divise deux entiers et stocke le résultat dans une variable passée en paramètre, et stocke le reste de la division dans une autre variable passée en paramètre. Cela montre comment utiliser des pointeurs pour retourner plusieurs résultats.
 
 - **ex04: ft_ultimate_div_mod**
-  - Mission: Optimiser le partage galactique. Améliore la distribution des ressources spatiales entre les vaisseaux en optimisant l'allocation avec div et mod.
+
+  - Modifier les valeurs de deux entiers passés en paramètre. Le premier entier est divisé par le second, et le résultat est stocké dans le premier entier, tandis que le reste de la division est stocké dans le second entier. Cet exercice illustre une utilisation plus directe des pointeurs pour modifier des variables in situ.
 
 - **ex05: ft_putstr**
-  - Mission: Envoyer un message interstellaire. Transmets des données vitales entre les vaisseaux et la base en utilisant des pointeurs pour parcourir les messages caractère par caractère.
+
+  - Écrire une fonction qui affiche une chaîne de caractères sur la sortie standard. Cet exercice travaille sur la traversée de chaînes avec des pointeurs.
 
 - **ex06: ft_strlen**
-  - Mission: Mesurer la longueur de la Voie Lactée. Emploie des pointeurs pour déterminer la longueur d'un message codé, comme mesurer la splendeur de notre galaxie.
+
+  - Écrire une fonction qui calcule la longueur d'une chaîne de caractères. L'utilisation des pointeurs est cruciale pour parcourir la chaîne sans modifier son contenu.
 
 - **ex07: ft_rev_int_tab**
-  - Mission: Inversion du temps spatial. Retourne l'ordre des éléments dans un tableau en utilisant des pointeurs, comme inverser le flux du temps.
+
+  - Écrire une fonction qui inverse l'ordre des éléments d'un tableau d'entiers. La taille du tableau est également passée en paramètre. Cet exercice démontre comment manipuler les indices de tableau et les valeurs via des pointeurs.
 
 - **ex08: ft_sort_int_tab**
-  - Mission: Alignement des astres. Trie un tableau d'entiers en utilisant des pointeurs, comme aligner les planètes pour une convergence cosmique.
+
+  - Écrire une fonction qui trie un tableau d'entiers par ordre croissant. Les paramètres sont le tableau et sa taille. Cette tâche applique des algorithmes de tri et montre comment pointer peut être utilisé pour échanger efficacement des éléments dans un tableau.
+
+Ces exercices permettent de développer une compréhension approfondie des pointeurs, un concept clé en C, ainsi que des compétences en contrôle de flux à travers l'usage des structures conditionnelles.
