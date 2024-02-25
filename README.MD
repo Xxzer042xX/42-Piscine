@@ -1,7 +1,3 @@
-Bien entendu, je vais harmoniser la description des modules C de l'école 42 pour préserver le fil rouge de l'histoire spatiale et fournir des résumés succincts similaires à celui pour C01.
-
----
-
 # 🚀 Odyssée Spatiale du C à l'école 42 🚀
 
 ## 🌌 42 C Projects: Une Cartographie Stellaire
