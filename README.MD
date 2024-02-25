@@ -242,6 +242,19 @@ C08 est une caverne d'Ali Baba où tu crées des outils universellement utiles, 
 - **ex05: ft_show_tab**
   - Objectif: L'exposition. Une fonction pour afficher le contenu d'un tableau de structures, l'artiste qui peint les informations cachées.
 
+### C09 - Le Chantier de la Libft
+
+C09 est le moment de regrouper tout ce que tu as appris et de construire ta propre bibliothèque de fonctions.
+
+- **ex00: libft**
+  - Objectif: Le fondement. Crée ta propre bibliothèque de fonctions en y incluant tout ce que tu as construit jusqu'à présent, le socle de ton univers de programmation.
+
+- **ex01: Makefile**
+  - Objectif: Le chef d'orchestre. Construis un Makefile qui va compiler ta libft, le maestro qui dirige la symphonie de la compilation.
+
+- **ex02: ft_split**
+  - Objectif: Le diviseur. Une fonction pour diviser une chaîne de caractères en un tableau de mots, le couteau suisse de la manipulation des chaînes.
+
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
 
