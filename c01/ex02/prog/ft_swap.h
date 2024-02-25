@@ -1,20 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_swap.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/13 16:29:41 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/13 16:29:41 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 03:07:04 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 03:07:04 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
-{
-	int	swap;
+#ifndef FT_SWAP_H
+#define FT_SWAP_H
 
-	swap = *a;
-	*a = *b;
-	*b = swap;
-}
+void	ft_swap(int *a, int *b);
+void    ft_putchar(char c);
+void	ft_putnbr(int nb);
+
+#endif
+
+#ifndef FONCTION_H
+#define FONCTION_H  
+
+void    ft_putchar(char c);
+void	ft_putnbr(int nb);
+
+#endif

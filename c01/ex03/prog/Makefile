@@ -8,13 +8,13 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
 # Fichiers source
-SRC = main.c fonction.c ft_swap.c
+SRC = main.c fonction.c ft_div_mod.c
 
 # Fichiers objets
 OBJ = $(SRC:.c=.o)
 
 # Header files
-HEADERS = ft_swap.h
+HEADERS = ft_div_mod.h
 
 # Règle par défaut
 all: $(NAME)

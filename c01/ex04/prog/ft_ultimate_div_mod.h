@@ -1,20 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_ultimate_div_mod.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/13 16:29:41 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/13 16:29:41 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 03:57:41 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 03:57:41 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
-{
-	int	swap;
+#ifndef FT_ULTIMATE_DIV_MOD_H
+#define FT_ULTIMATE_DIV_MOD_H
 
-	swap = *a;
-	*a = *b;
-	*b = swap;
-}
+void	ft_ultimate_div_mod(int *a, int *b);
+
+#endif
+
+#ifndef FONCTION_H
+#define FONCTION_H
+
+void	ft_putstr(char *str);
+void	ft_putnbr(int nb);
+void    ft_putchar(char c);
+
+#endif

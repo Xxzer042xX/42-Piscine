@@ -14,7 +14,7 @@ SRC = fonction.c main.c ft_ft.c
 OBJ = $(SRC:.c=.o)
 
 # Header files
-HEADERS = ft_ultimate_ft.h
+HEADERS = ft_ft.h
 
 # Règle par défaut
 all: $(NAME)
