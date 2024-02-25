@@ -12,34 +12,31 @@
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write (1, &c, 1);
-}
-
 void	ft_print_comb2(void)
 {
-	int	a;
-	int	b;
+	int		i;
+	int		j;
+	char	c;
 
-	a = 0;
-	while (a <= 98)
+	i = 0;
+	while (i <= 98)
 	{
-		b = a + 1;
-		while (b <= 99)
+		j = i + 1;
+		while (j <= 99)
 		{
-			ft_putchar(a / 10 + '0');
-			ft_putchar(a % 10 + '0');
-			ft_putchar(' ');
-			ft_putchar(b / 10 + '0');
-			ft_putchar(b % 10 + '0');
-			if (a != 98)
-			{
-				ft_putchar(',');
-				ft_putchar(' ');
-			}
-			b++;
+			c = i / 10 + '0';
+			write(1, &c, 1);
+			c = i % 10 + '0';
+			write(1, &c, 1);
+			write(1, " ", 1);
+			c = j / 10 + '0';
+			write(1, &c, 1);
+			c = j % 10 + '0';
+			write(1, &c, 1);
+			if (i != 98)
+				write(1,", ", 2);
+			j++;
 		}
-		a++;
+		i++;
 	}
 }
