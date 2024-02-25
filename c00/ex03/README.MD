@@ -1,2 +1,3 @@
 - **ex03: ft_print_numbers**
-  - Objectif: Numéroter les éléments de notre voyage de 0 à 9, évoquant le comptage des astéroïdes dans le vaste système solaire du langage C.
+
+  - Numéroter les éléments de notre voyage de 0 à 9, évoquant le comptage des astéroïdes dans le vaste système solaire du langage C.

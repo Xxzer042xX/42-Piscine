@@ -1,2 +1,3 @@
 - **ex02: ft_swap**
-  - Objectif: Utiliser des pointeurs pour échanger les valeurs de deux variables, démontrant la capacité à modifier les trajectoires dans l'espace des données.
+
+  - Utiliser des pointeurs pour échanger les valeurs de deux variables, démontrant la capacité à modifier les trajectoires dans l'espace des données.

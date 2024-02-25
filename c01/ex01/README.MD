@@ -1,2 +1,3 @@
 - **ex01: ft_ultimate_ft**
-  - Objectif: Créer un enchaînement de pointeurs menant à la valeur mystique de 42, symbolisant un réseau de connexions vers l'essence de l'univers.
+
+  - Créer un enchaînement de pointeurs menant à la valeur mystique de 42, symbolisant un réseau de connexions vers l'essence de l'univers.

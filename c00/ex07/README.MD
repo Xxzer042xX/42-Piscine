@@ -1,2 +1,3 @@
 - **ex07: ft_putnbr**
-  - Objectif: Transcrire des nombres en séquences de caractères, permettant la transmission de données à travers les ondes cosmiques du terminal.
+
+  - Transcrire des nombres en séquences de caractères, permettant la transmission de données à travers les ondes cosmiques du terminal.

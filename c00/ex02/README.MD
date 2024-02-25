@@ -1,2 +1,3 @@
 - **ex02: ft_print_reverse_alphabet**
-  - Objectif: Inverser le cours du temps en affichant l'alphabet à rebours, comme si nous observions le déroulement inverse d'un compte à rebours spatial.
+
+  - Inverser le cours du temps en affichant l'alphabet à rebours, comme si nous observions le déroulement inverse d'un compte à rebours spatial.

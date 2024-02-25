@@ -1,2 +1,3 @@
 - **ex03: ft_div_mod**
-  - Objectif: Diviser et calculer le reste de deux nombres, illustrant le partage des ressources dans une mission spatiale pour une gestion optimale.
+
+  - Diviser et calculer le reste de deux nombres, illustrant le partage des ressources dans une mission spatiale pour une gestion optimale.

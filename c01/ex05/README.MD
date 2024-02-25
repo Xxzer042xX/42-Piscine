@@ -1,2 +1,3 @@
 - **ex05: ft_putstr**
-  - Objectif: Transmettre des messages entre les vaisseaux et la base, en parcourant une chaîne de caractères avec des pointeurs, comme envoyer des signaux à travers l'espace.
+
+  - Transmettre des messages entre les vaisseaux et la base, en parcourant une chaîne de caractères avec des pointeurs, comme envoyer des signaux à travers l'espace.

@@ -1,2 +1,3 @@
 - **ex06: ft_print_comb2**
-  - Objectif: Illuminer le ciel avec des paires de nombres, représentant les étoiles binaires et leurs orbites synchronisées dans le cosmos du C.
+
+  - Illuminer le ciel avec des paires de nombres, représentant les étoiles binaires et leurs orbites synchronisées dans le cosmos du C.
