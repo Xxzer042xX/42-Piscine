@@ -1,2 +1,2 @@
 - **ex08: ft_print_combn**
-  - Mission: Décoder les mystères des dimensions numériques. Une aventure à travers des combinaisons de chiffres, aussi vastes et complexes que l'univers lui-même.
+  - Objectif: Naviguer à travers les dimensions des combinaisons numériques, une quête pour décrypter les configurations aussi vastes et mystérieuses que l'univers lui-même.

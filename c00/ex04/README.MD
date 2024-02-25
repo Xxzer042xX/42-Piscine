@@ -1,2 +1,2 @@
 - **ex04: ft_is_negative**
-  - Mission: Détecter les trous noirs (négatifs) dans l'espace. Cette fonction scrute les entrées pour signaler la présence d'énergies négatives.
+  - Objectif: Identifier et signaler les entités négatives, à l'image de la détection des trous noirs et des anomalies spatiales dans l'univers des nombres.

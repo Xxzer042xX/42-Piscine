@@ -1,2 +1,2 @@
 - **ex07: ft_putnbr**
-  - Mission: Émettre des signaux numériques à travers les ondes spatiales. Convertit les nombres en séquences de caractères pour les transmettre à travers la voie lactée du terminal.
+  - Objectif: Transcrire des nombres en séquences de caractères, permettant la transmission de données à travers les ondes cosmiques du terminal.

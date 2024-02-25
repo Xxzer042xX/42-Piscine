@@ -1,2 +1,2 @@
 - **ex06: ft_print_comb2**
-  - Mission: Explorer des systèmes binaires. Met en lumière les paires de nombres, comme des étoiles binaires dansant dans l'espace.
+  - Objectif: Illuminer le ciel avec des paires de nombres, représentant les étoiles binaires et leurs orbites synchronisées dans le cosmos du C.

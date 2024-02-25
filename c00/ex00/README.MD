@@ -1,3 +1,3 @@
 - **ex00: ft_putchar**
-  -Objectif: 
-  Modifier la valeur d'une variable via un pointeur pour qu'elle reflète l'ultime réponse de l'univers (42).
+
+  - Objectif:   Afficher un caractère sur le terminal, simulant l'envoi d'un signal lumineux à travers l'espace, illuminant notre chemin tel une étoile guide.
