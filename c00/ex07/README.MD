@@ -1,3 +1,3 @@
 - **ex07: ft_putnbr**
 
-  - Transcrire des nombres en séquences de caractères, permettant la transmission de données à travers les ondes cosmiques du terminal.
+  - Écrire une fonction qui peut afficher n'importe quel nombre entier, positif ou négatif. Cet exercice est crucial pour comprendre comment manipuler et afficher des nombres entiers de base.

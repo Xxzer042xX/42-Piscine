@@ -1,3 +1,3 @@
 - **ex00: ft_putchar**
 
-  - Print a Character
+  - Écrire une fonction qui affiche un caractère passé en paramètre. Cette fonction est essentielle pour l'affichage de base dans le terminal.
