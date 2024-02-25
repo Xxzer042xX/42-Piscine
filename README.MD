@@ -107,9 +107,27 @@ Prêt pour un voyage à travers les structures de données et les manipulations 
 - **ex12: ft_print_memory**
   - Mission: Visualisation de la mémoire stellaire. Donne un aperçu graphique de la mémoire, comme un tableau de bord montrant les constellations de données.
 
+### C03 - Manipulation de Chaînes de Caractères Avancée
 
-### C03 à C07 - Avancée: Manipulation de Chaînes, Analyse, Maths et Allocation
-- De la comparaison d'univers parallèles (chaînes) à la création de nouvelles dimensions (allocation dynamique).
+Dans C03, tu vas plonger dans des manipulations avancées de chaînes de caractères. Chaque fonction est un pas de plus vers la maîtrise de l'art de la manipulation de données textuelles. Voici tes défis:
+
+- **ex00: ft_strcmp**
+  - Objectif: Aligner les fréquences de communication. Compare deux chaînes de caractères pour détecter des correspondances ou des divergences.
+
+- **ex01: ft_strncmp**
+  - Objectif: Analyse comparative limitée. Compare les premiers caractères (jusqu'à n) de deux chaînes pour vérifier leur concordance partielle.
+
+- **ex02: ft_strcat**
+  - Objectif: Fusion des données textuelles. Concatène une chaîne à la fin d'une autre, étendant le message pour une transmission plus complète.
+
+- **ex03: ft_strncat**
+  - Objectif: Concaténation avec contrôle de distance. Ajoute une partie d'une chaîne à une autre, en se limitant à n caractères pour une précision accrue.
+
+- **ex04: ft_strstr**
+  - Objectif: Recherche dans le vide des données. Trouve la première occurrence d'une sous-chaîne dans une chaîne, comme un signal perdu dans l'espace.
+
+- **ex05: ft_strlcat**
+  - Objectif: Synchronisation des chaînes. Concatène des chaînes en prenant en compte la taille totale du buffer, pour une fusion sécurisée et contrôlée.
 
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
