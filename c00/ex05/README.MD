@@ -1,0 +1,2 @@
+- **ex05: ft_print_comb**
+  - Mission: Créer des galaxies de combinaisons numériques. Assemble les chiffres pour cartographier de nouvelles configurations stellaires.

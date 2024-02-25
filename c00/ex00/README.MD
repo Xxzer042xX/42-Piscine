@@ -1,1 +1,2 @@
-ewfhhwhefhewhfh
+- **ex00: ft_putchar**
+  - Mission: Comme envoyer un signal lumineux dans l'espace. Une fonction pour afficher un caractère, illuminant le terminal tel une étoile.

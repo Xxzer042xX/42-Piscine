@@ -1,0 +1,2 @@
+- **ex06: ft_print_comb2**
+  - Mission: Explorer des systèmes binaires. Met en lumière les paires de nombres, comme des étoiles binaires dansant dans l'espace.

@@ -1,0 +1,2 @@
+- **ex01: ft_print_alphabet**
+  - Mission: Dessiner l'alphabet comme une constellation. Une série de caractères s'aligne pour former l'élégante séquence de l'alphabet.

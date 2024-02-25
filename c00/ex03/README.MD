@@ -1,0 +1,2 @@
+- **ex03: ft_print_numbers**
+  - Mission: Compter les astéroïdes de 0 à 9. Numérote les corps célestes dans le système solaire de notre terminal.

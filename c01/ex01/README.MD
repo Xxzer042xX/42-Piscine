@@ -1,0 +1,2 @@
+- **ex01: ft_ultimate_ft**
+  - Mission: Une chaîne de pointeurs vers l'étoile 42. Crée un réseau de pointeurs, tous reliés et menant finalement à la valeur cosmique de 42.

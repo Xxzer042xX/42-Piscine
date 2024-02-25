@@ -1,0 +1,2 @@
+- **ex04: ft_ultimate_div_mod**
+  - Mission: Optimiser le partage galactique. Améliore la distribution des ressources spatiales entre les vaisseaux en optimisant l'allocation avec div et mod.

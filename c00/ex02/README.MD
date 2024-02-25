@@ -1,0 +1,2 @@
+- **ex02: ft_print_reverse_alphabet**
+  - Mission: Un voyage à reculons dans l'alphabet spatial. Les lettres se déploient en ordre inverse, rappelant le compte à rebours avant le lancement.
