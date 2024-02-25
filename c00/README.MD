@@ -1,7 +1,7 @@
 
 ### C00 - Le Décollage: Introduction au C
 
-Ce module est la mise à feu de ta fusée 42. Tu apprends les bases de la syntaxe en C, écris tes premières fonctions simples et te familiarises avec les boucles et les structures de contrôle, le tout pour préparer ton lancement dans le code.
+Ce module est la mise à feu de ta fusée 42. Apprends les bases syntaxiques et la structure d'un programme C. C'est ton initiation à la compilation, aux variables, et aux fonctions simples, le tout pour préparer ton lancement dans le code.
 
 - **ex00: ft_putchar**
   - Mission: Comme envoyer un signal lumineux dans l'espace. Une fonction pour afficher un caractère, illuminant le terminal tel une étoile.
