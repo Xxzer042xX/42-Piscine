@@ -1,5 +1,7 @@
 # 🚀 Odyssée Spatiale du C à l'école 42 🚀
 
+Salut, astronaute en herbe! Si tu es ici, c'est que tu es prêt à embarquer dans une aventure cosmique à travers l'univers du langage C, spécialement conçue par et pour les étudiants de l'école 42. Prépare-toi à plonger dans le grand bain de la Piscine C, où tu nageras parmi les étoiles du code, les galaxies des pointeurs et les trous noirs des segfaults.
+
 ## 🌌 42 C Projects: Une Cartographie Stellaire
 
 ### C00 - Le Décollage: Introduction au C
