@@ -46,9 +46,6 @@ Comme découvrir de nouvelles formes de vie, tu apprendras à créer et manipule
 ### C13 - Gestion des Arbres Binaires en C
 Approche les confins inexplorés des structures de données avec les arbres binaires. Tu apprendras à les parcourir, les modifier et les utiliser pour stocker des données de manière efficace et ordonnée, comme cartographier des systèmes stellaires.
 
-## 🛸 Piscine Exam: Tester les Limites de l'Univers
-- **Level 0 à Level 3** - Franchis les portails des connaissances, testant ta compréhension et ton application du C pour atteindre de nouveaux horizons de compétences.
-
 ## 🌠 Conseils de l'Astronaute
 - Partage ton voyage avec d'autres explorateurs sur GitHub et autres plateformes.
 - Profite de chaque ressource pour parfaire tes connaissances.
