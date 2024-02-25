@@ -220,6 +220,27 @@ C07 te fait expérimenter l'alchimie des données, où tu transformes et fusionn
 - **ex05: ft_split**
   - Objectif: Les fragments d'astéroïdes. Sépare une chaîne en sous-chaînes selon un séparateur, comme on découvre des fragments d'un météore dispersés dans l'espace.
 
+### C08 - La Bibliothèque des Fonctions Universelles
+
+C08 est une caverne d'Ali Baba où tu crées des outils universellement utiles, des clés pour ouvrir n'importe quelle serrure dans le monde du C.
+
+- **ex00: ft.h**
+  - Objectif: La trousse à outils. Un fichier d'en-tête général pour tes fonctions, l'armoire à épices de ton arsenal de programmation.
+
+- **ex01: ft_boolean.h**
+  - Objectif: Le code du vrai et du faux. Un fichier d'en-tête pour gérer les valeurs booléennes, les feux de signalisation de ta logique.
+
+- **ex02: ft_abs.h**
+  - Objectif: L'équilibreur. Un fichier d'en-tête qui définit une macro pour obtenir la valeur absolue, la balance qui pèse le positif et le négatif.
+
+- **ex03: ft_point.h**
+  - Objectif: La cartographie du point. Un fichier d'en-tête qui définit un type pour représenter un point dans l'espace, le GPS de tes structures de données.
+
+- **ex04: ft_strs_to_tab**
+  - Objectif: L'architecte des tableaux. Une fonction pour transformer un tableau de chaînes en un tableau de structures, l'ingénieur des données structurées.
+
+- **ex05: ft_show_tab**
+  - Objectif: L'exposition. Une fonction pour afficher le contenu d'un tableau de structures, l'artiste qui peint les informations cachées.
 
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
