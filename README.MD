@@ -299,6 +299,63 @@ Pour C11, il semble que les exercices sont axés sur la manipulation avancée de
 - **ex07: ft_advanced_sort_string_tab**
   - Objectif: Trie un tableau de chaînes de caractères en utilisant une fonction de comparaison fournie par l'utilisateur, pour un tri plus avancé et personnalisable.
 
+### C12 - Gestion des Listes Chaînées en C
+
+Les exercices de C12 semblent se concentrer sur les listes chaînées, une structure de données fondamentale en informatique. Chaque exercice aborde une opération différente que tu pourrais avoir besoin d'effectuer sur une liste chaînée.
+
+- **ex00: ft_create_elem**
+  - Objectif: Créer un nouvel élément de liste.
+
+- **ex01: ft_list_push_front**
+  - Objectif: Ajouter un nouvel élément au début de la liste.
+
+- **ex02: ft_list_size**
+  - Objectif: Compter le nombre d'éléments dans la liste.
+
+- **ex03: ft_list_last**
+  - Objectif: Trouver le dernier élément de la liste.
+
+- **ex04: ft_list_push_back**
+  - Objectif: Ajouter un nouvel élément à la fin de la liste.
+
+- **ex05: ft_list_push_strs**
+  - Objectif: Ajouter une série de chaînes à la liste.
+
+- **ex06: ft_list_clear**
+  - Objectif: Supprimer tous les éléments de la liste et libérer la mémoire.
+
+- **ex07: ft_list_at**
+  - Objectif: Récupérer l'élément à un indice donné.
+
+- **ex08: ft_list_reverse**
+  - Objectif: Inverser l'ordre des éléments de la liste.
+
+- **ex09: ft_list_foreach**
+  - Objectif: Appliquer une fonction à chaque élément de la liste.
+
+- **ex10: ft_list_foreach_if**
+  - Objectif: Appliquer une fonction à chaque élément de la liste qui satisfait une condition donnée.
+
+- **ex11: ft_list_find**
+  - Objectif: Trouver un élément dans la liste selon une condition spécifiée.
+
+- **ex12: ft_list_remove_if**
+  - Objectif: Supprimer certains éléments de la liste selon une condition spécifiée.
+
+- **ex13: ft_list_merge**
+  - Objectif: Fusionner deux listes en une seule.
+
+- **ex14: ft_list_sort**
+  - Objectif: Trier la liste selon une condition spécifiée.
+
+- **ex15: ft_list_reverse_fun**
+  - Objectif: Inverser la liste en utilisant une fonction fournie par l'utilisateur.
+
+- **ex16: ft_sorted_list_insert**
+  - Objectif: Insérer un nouvel élément dans une liste déjà triée, tout en conservant l'ordre.
+
+- **ex17: ft_sorted_list_merge**
+  - Objectif: Fusionner deux listes triées en une seule liste triée.
 
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
