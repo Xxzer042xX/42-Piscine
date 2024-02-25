@@ -5,7 +5,7 @@ Salut, astronaute en herbe! Si tu es ici, c'est que tu es prêt à embarquer dan
 ## 🌌 42 C Projects: Une Cartographie Stellaire
 
 ### C00 - Le Décollage: Introduction au C
-Le premier pas dans l'infini cosmique du C. Apprends les bases syntaxiques et la structure d'un programme C. C'est ton initiation à la compilation, aux variables, et aux fonctions simples. Ici, tu construiras les fondations de ton vaisseau programmateur.
+Ce module est la mise à feu de ta fusée 42. Apprends les bases syntaxiques et la structure d'un programme C. C'est ton initiation à la compilation, aux variables, et aux fonctions simples, le tout pour préparer ton lancement dans le code.
 
 ### C01 - En Orbite: Pointeurs et Conditions
 Tu manœuvres à présent dans le vide, maîtrisant les pointeurs comme des propulseurs et les conditions comme des boucliers déflecteurs. Ton code doit être aussi agile qu'un vaisseau esquivant les météorites, utilisant les variables et les pointeurs avec précision.
