@@ -182,7 +182,22 @@ Avec C05, nous plongeons dans le domaine des calculs et des algorithmes, où cha
 - **ex08: Les dix dames**
   - Objectif: L'harmonie des constellations. Pose un problème complexe où tu dois arranger dix éléments en évitant les conflits, telle la disposition délicate des étoiles dans une constellation.
 
-Puisses-tu naviguer dans les mathématiques comme un explorateur dans les étoiles, et que chaque fonction soit un voyage vers une nouvelle compréhension de l'univers.
+### C06 - La Symphonie des Paramètres
+
+Dans C06, tu es le chef d'orchestre de paramètres divers, harmonisant entrées et sorties avec finesse et précision.
+
+- **ex00: ft_print_program_name**
+  - Objectif: L'écho de ton vaisseau. Affiche le nom du programme en cours, révélant son identité comme une signature dans l'univers sonore.
+
+- **ex01: ft_print_params**
+  - Objectif: La mélodie des planètes. Parcours et affiche les paramètres du programme un par un, comme les notes d'une partition stellaire.
+
+- **ex02: ft_rev_params**
+  - Objectif: Les anneaux de Saturne à rebours. Inverse et affiche les paramètres du programme, dansant comme les astres en rétrograde.
+
+- **ex03: ft_sort_params**
+  - Objectif: L'ordre cosmique rétabli. Trie et affiche les paramètres dans l'ordre alphabétique, organisant le chaos comme on aligne les étoiles dans le ciel nocturne.
+
 
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
