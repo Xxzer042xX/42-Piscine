@@ -33,6 +33,7 @@ Salut, astronaute en herbe! Si tu es ici, c'est que tu es prêt à embarquer dan
 - **ex08: ft_print_combn**
   - Mission: Décoder les mystères des dimensions numériques. Une aventure à travers des combinaisons de chiffres, aussi vastes et complexes que l'univers lui-même.
 
+
 ### C01 - En Orbite: Pointeurs et Conditions
 
 Dans cette phase de notre voyage, nous allons manipuler des pointeurs et des conditions pour maîtriser le contrôle de notre vaisseau spatial à travers les champs d'astéroïdes des types et des variables. Préparez-vous à plonger dans l'infini!
@@ -66,7 +67,48 @@ Dans cette phase de notre voyage, nous allons manipuler des pointeurs et des con
 
 
 ### C02 - Exploration: Chaînes et Tableaux
-- **ex00 à ex08** - De la copie de signaux cosmiques à la transformation d'étoiles en supernovas (majuscules et minuscules).
+
+Prêt pour un voyage à travers les structures de données et les manipulations de chaînes? C02 te lance dans le grand vide pour explorer et manipuler des chaînes de caractères. Chaque exercice est une opportunité de maîtriser un nouvel aspect des données textuelles en C.
+
+- **ex00: ft_strcpy**
+  - Mission: Cloner les communications interstellaires. Copie une chaîne de caractères dans une autre, assurant la transmission des messages à travers l'espace.
+
+- **ex01: ft_strncpy**
+  - Mission: Transmission codée sur mesure. Copie un nombre spécifié de caractères d'une chaîne, évitant les interférences d'informations non désirées.
+
+- **ex02: ft_str_is_alpha**
+  - Mission: Filtrage linguistique stellaire. Vérifie si une chaîne est alphabétique, distinguant les signaux linguistiques des bruits de fond cosmiques.
+
+- **ex03: ft_str_is_numeric**
+  - Mission: Détecteur de séquences numériques. Identifie les chaînes composées uniquement de chiffres, essentiel pour le calcul de trajectoires spatiales.
+
+- **ex04: ft_str_is_lowercase**
+  - Mission: Analyse de fréquences basses. Vérifie la pureté des minuscules dans les communications, garantissant la clarté des transmissions.
+
+- **ex05: ft_str_is_uppercase**
+  - Mission: Surveillance des majuscules. Assure que les chaînes sont en majuscules, nécessaire pour les alertes et les commandes critiques.
+
+- **ex06: ft_str_is_printable**
+  - Mission: Certification d'affichage. Teste si une chaîne peut être imprimée, ce qui est crucial pour les affichages de bord et les journaux de mission.
+
+- **ex07: ft_strupcase**
+  - Mission: Conversion en code d'alerte. Transforme toutes les lettres en majuscules, préparant les messages pour les annonces importantes.
+
+- **ex08: ft_strlowcase**
+  - Mission: Passage en mode discret. Convertit les chaînes en minuscules pour des communications sécurisées et discrètes.
+
+- **ex09: ft_strcapitalize**
+  - Mission: Codage de l'importance. Met en majuscule la première lettre de chaque mot pour une emphase protocolaire et une lisibilité accrue.
+
+- **ex10: ft_strlcpy**
+  - Mission: Transfert de données sécurisé. Copie une chaîne dans une autre en limitant la taille du transfert pour protéger la mémoire des surcharges.
+
+- **ex11: ft_putstr_non_printable**
+  - Mission: Interprétation des signaux cachés. Affiche des chaînes qui contiennent des caractères non imprimables, révélant les messages secrets.
+
+- **ex12: ft_print_memory**
+  - Mission: Visualisation de la mémoire stellaire. Donne un aperçu graphique de la mémoire, comme un tableau de bord montrant les constellations de données.
+
 
 ### C03 à C07 - Avancée: Manipulation de Chaînes, Analyse, Maths et Allocation
 - De la comparaison d'univers parallèles (chaînes) à la création de nouvelles dimensions (allocation dynamique).
