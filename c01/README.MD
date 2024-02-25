@@ -1,6 +1,6 @@
 ### C01 - En Orbite: Pointeurs et Conditions
 
-Dans cette phase de notre voyage, nous allons manipuler des pointeurs et des conditions pour maîtriser le contrôle de notre vaisseau spatial à travers les champs d'astéroïdes des types et des variables. Préparez-vous à plonger dans l'infini!
+Tu manœuvres à présent dans le vide, maîtrisant les pointeurs comme des propulseurs et les conditions comme des boucliers déflecteurs. Ton code doit être aussi agile qu'un vaisseau esquivant les météorites, utilisant les variables et les pointeurs avec précision.
 
 - **ex00: ft_ft**
   - Mission: Pointer vers l'infini et au-delà (42). Ta tâche est de modifier la valeur d'une variable à l'aide d'un pointeur pour qu'elle pointe vers la réponse ultime de l'univers.
