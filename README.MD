@@ -2,7 +2,7 @@
 
 Salut, astronaute en herbe! Si tu es ici, c'est que tu es prêt à embarquer dans une aventure cosmique à travers l'univers du langage C, spécialement conçue par et pour les étudiants de l'école 42. Prépare-toi à plonger dans le grand bain de la Piscine C, où tu nageras parmi les étoiles du code, les galaxies des pointeurs et les trous noirs des segfaults.
 
-## 🌌 42 C Projects: Une Cartographie Stellaire
+## 🌌 42 : Une Cartographie Stellaire
 
 ### C00 - Le Décollage: Introduction au C
 Ce module est la mise à feu de ta fusée 42. Apprends les bases syntaxiques et la structure d'un programme C. C'est ton initiation à la compilation, aux variables, et aux fonctions simples, le tout pour préparer ton lancement dans le code.

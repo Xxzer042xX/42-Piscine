@@ -1,3 +1,3 @@
 - **ex01: ft_print_alphabet**
 
-  - Écrire l'alphabet de manière séquentielle, tel une constellation qui s'aligne pour former un chemin à travers la voûte céleste de la programmation.
+  - Print the Alphabet
