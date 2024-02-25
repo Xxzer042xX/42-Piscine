@@ -271,6 +271,35 @@ Dans C10, tu vas travailler sur des fonctions qui interagissent avec le système
 - **ex03: hexdump**
   - Objectif: Le décodeur. Reproduis le comportement de la commande Unix `hexdump` pour afficher le contenu d'un fichier en hexadécimal. Un défi pour ceux qui sont à l'aise avec les manipulations de bas niveau.
 
+### C11 - La Manipulation des Tableaux et des Pointeurs de Fonction
+
+Pour C11, il semble que les exercices sont axés sur la manipulation avancée des tableaux et l'utilisation des pointeurs de fonction en C, ce qui est une pratique courante dans la programmation fonctionnelle et pour créer des interfaces plus génériques et réutilisables en C.
+
+- **ex00: ft_foreach**
+  - Objectif: Applique une fonction donnée sur chaque élément d'un tableau. Une bonne introduction aux pointeurs de fonction.
+
+- **ex01: ft_map**
+  - Objectif: Transforme un tableau en appliquant une fonction donnée à chaque élément, et renvoie un nouveau tableau avec les résultats.
+
+- **ex02: ft_any**
+  - Objectif: Évalue si au moins un élément du tableau satisfait un critère donné par une fonction booléenne.
+
+- **ex03: ft_count_if**
+  - Objectif: Compte le nombre d'éléments qui satisfont un critère défini par une fonction booléenne.
+
+- **ex04: ft_is_sort**
+  - Objectif: Vérifie si un tableau est trié selon un critère défini par une fonction de comparaison.
+
+- **ex05: do-op**
+  - Objectif: Crée une calculatrice simple qui utilise les pointeurs de fonction pour appliquer une opération choisie.
+
+- **ex06: ft_sort_string_tab**
+  - Objectif: Trie un tableau de chaînes de caractères.
+
+- **ex07: ft_advanced_sort_string_tab**
+  - Objectif: Trie un tableau de chaînes de caractères en utilisant une fonction de comparaison fournie par l'utilisateur, pour un tri plus avancé et personnalisable.
+
+
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
 
