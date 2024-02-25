@@ -357,6 +357,34 @@ Les exercices de C12 semblent se concentrer sur les listes chaînées, une struc
 - **ex17: ft_sorted_list_merge**
   - Objectif: Fusionner deux listes triées en une seule liste triée.
 
+### C13 - Gestion des Arbres Binaires en C
+
+Les exercices de C13 sont destinés à t'apprendre à manipuler des arbres binaires en C. Voici un aperçu des exercices basés sur le nom des fonctions :
+
+- **ex00: btree_create_node**
+  - Objectif: Créer un nouveau nœud d'arbre binaire.
+
+- **ex01: btree_apply_prefix**
+  - Objectif: Parcourir l'arbre en préfixe et appliquer une fonction donnée à chaque nœud.
+
+- **ex02: btree_apply_infix**
+  - Objectif: Parcourir l'arbre en infixe et appliquer une fonction donnée à chaque nœud.
+
+- **ex03: btree_apply_suffix**
+  - Objectif: Parcourir l'arbre en suffixe et appliquer une fonction donnée à chaque nœud.
+
+- **ex04: btree_insert_data**
+  - Objectif: Insérer des données dans l'arbre de manière ordonnée.
+
+- **ex05: btree_search_item**
+  - Objectif: Rechercher un élément dans l'arbre.
+
+- **ex06: btree_level_count**
+  - Objectif: Compter le nombre de niveaux dans l'arbre.
+
+- **ex07: btree_apply_by_level**
+  - Objectif: Appliquer une fonction à chaque nœud de l'arbre niveau par niveau.
+
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
 
