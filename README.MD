@@ -198,6 +198,28 @@ Dans C06, tu es le chef d'orchestre de paramètres divers, harmonisant entrées 
 - **ex03: ft_sort_params**
   - Objectif: L'ordre cosmique rétabli. Trie et affiche les paramètres dans l'ordre alphabétique, organisant le chaos comme on aligne les étoiles dans le ciel nocturne.
 
+### C07 - L'Alchimie des Données
+
+C07 te fait expérimenter l'alchimie des données, où tu transformes et fusionnes des éléments pour créer de nouvelles structures de données.
+
+- **ex00: ft_strdup**
+  - Objectif: Clonage stellaire. Duplique une chaîne de caractères, créant un double identique prêt pour l'expédition.
+
+- **ex01: ft_range**
+  - Objectif: L'échelle de l'univers. Crée un tableau d'entiers contenant toutes les valeurs entre deux limites, cartographiant un secteur de l'espace numérique.
+
+- **ex02: ft_ultimate_range**
+  - Objectif: Le spectre complet des possibilités. Génère un tableau d'entiers sur une plage donnée, capturant l'étendue d'un phénomène cosmique.
+
+- **ex03: ft_strjoin**
+  - Objectif: La fusion des comètes. Concatène un ensemble de chaînes en une seule, tissant une nébuleuse de mots.
+
+- **ex04: ft_convert_base**
+  - Objectif: Le langage des civilisations interstellaires. Convertit un nombre d'une base à une autre, déchiffrant des inscriptions anciennes d'autres mondes.
+
+- **ex05: ft_split**
+  - Objectif: Les fragments d'astéroïdes. Sépare une chaîne en sous-chaînes selon un séparateur, comme on découvre des fragments d'un météore dispersés dans l'espace.
+
 
 ## 🛸 Piscine Exam: Tester les Limites de l'Univers
 - **Level 0 à Level 3** - Chaque niveau franchi te rapproche de la maîtrise de l'espace-temps du C.
