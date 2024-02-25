@@ -25,7 +25,7 @@ Salut, astronaute en herbe! Si tu es ici, c'est que tu es prêt à embarquer dan
 - **ex08: ft_print_combn**
   - Mission: Décoder les mystères des dimensions numériques. Une aventure à travers des combinaisons de chiffres, aussi vastes et complexes que l'univers lui-même.
 
-## C01 - En Orbite: Pointeurs et Conditions
+### C01 - En Orbite: Pointeurs et Conditions
 
 Dans cette phase de notre voyage, nous allons manipuler des pointeurs et des conditions pour maîtriser le contrôle de notre vaisseau spatial à travers les champs d'astéroïdes des types et des variables. Préparez-vous à plonger dans l'infini!
 
