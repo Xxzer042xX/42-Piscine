@@ -1,3 +1,3 @@
 - **ex05: ft_putstr**
 
-  - Transmettre des messages entre les vaisseaux et la base, en parcourant une chaîne de caractères avec des pointeurs, comme envoyer des signaux à travers l'espace.
+  - Écrire une fonction qui affiche une chaîne de caractères sur la sortie standard. Cet exercice travaille sur la traversée de chaînes avec des pointeurs.

@@ -1,3 +1,3 @@
 - **ex06: ft_strlen**
 
-  - Mesurer la longueur d'une chaîne de caractères en utilisant des pointeurs, équivalent à évaluer l'étendue de la Voie Lactée.
+  - Écrire une fonction qui calcule la longueur d'une chaîne de caractères. L'utilisation des pointeurs est cruciale pour parcourir la chaîne sans modifier son contenu.

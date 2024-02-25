@@ -1,3 +1,3 @@
 - **ex03: ft_div_mod**
 
-  - Diviser et calculer le reste de deux nombres, illustrant le partage des ressources dans une mission spatiale pour une gestion optimale.
+  - Écrire une fonction qui divise deux entiers et stocke le résultat dans une variable passée en paramètre, et stocke le reste de la division dans une autre variable passée en paramètre. Cela montre comment utiliser des pointeurs pour retourner plusieurs résultats.

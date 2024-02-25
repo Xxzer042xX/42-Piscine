@@ -1,3 +1,3 @@
 - **ex01: ft_ultimate_ft**
 
-  - Créer un enchaînement de pointeurs menant à la valeur mystique de 42, symbolisant un réseau de connexions vers l'essence de l'univers.
+  - Écrire une fonction qui prend l'adresse d'un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un pointeur vers un entier comme paramètre et donne à cet entier la valeur 42. Cet exercice approfondit la compréhension des niveaux multiples de déréférencement.
