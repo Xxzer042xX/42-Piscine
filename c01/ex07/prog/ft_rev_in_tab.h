@@ -1,23 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_rev_in_tab.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/19 21:22:29 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/19 21:22:29 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 05:28:09 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 05:28:09 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putstr(char *str)
-{
-	int	i;
+#ifndef FT_REV_IN_TAB_H
+#define FT_REV_IN_TAB_H
 
-	i = 0;
-	while (str[i])
-	{
-		ft_putchar(str[i]);
-		i++;
-	}
-}
+void	ft_rev_int_tab(int *tab, int size);
+
+#endif
+
+#ifndef FONCTION_H
+#define fONCTION_H
+
+void	ft_putnbr(int nb);
+void    ft_putchar(char c);
+#endif

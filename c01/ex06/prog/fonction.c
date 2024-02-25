@@ -1,38 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
+/*   fonction.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/25 06:04:15 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/25 06:04:15 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 03:57:05 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 03:57:05 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_rev_int_tab(int *tab, int size)
-{
-	int	tmp;
-	int	start;
-	int	end;
-
-	start = 0;
-	end = size - 1;
-	while (start < end)
-	{
-		tmp = tab[start];
-		tab[start] = tab[end];
-		tab[end] = tmp;
-		start++;
-		end--;
-	}
-}
-/*
 void    ft_putchar(char c)
 {
     write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		ft_putchar(str[i]);
+		i++;
+	}
+	
 }
 
 void	ft_putnbr(int nb)
@@ -58,27 +53,3 @@ void	ft_putnbr(int nb)
 	}
 }
 
-int	main(void)
-{
-	int	arr[6];
-	int	size;
-	int	i;
-
-	arr[0] = 1;
-	arr[1] = 2;
-	arr[2] = 3;
-	arr[3] = 4;
-	arr[4] = 5;
-	arr[5] = 6;
-	size = 6;
-	i = 0;
-	ft_rev_int_tab(arr, size);
-	while (i < size)
-	{
-		ft_putnbr(arr[i]);
-		i++;
-	}
-	ft_putchar('\n');
-	return (0);
-}
-*/

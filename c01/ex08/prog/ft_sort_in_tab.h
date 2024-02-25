@@ -1,23 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_sort_in_tab.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/19 21:22:29 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/19 21:22:29 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 05:40:38 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 05:40:38 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putstr(char *str)
-{
-	int	i;
+#ifndef FT_SORT_IN_TAB_H
+#define FT_SORT_IN_TAB_H
 
-	i = 0;
-	while (str[i])
-	{
-		ft_putchar(str[i]);
-		i++;
-	}
-}
+#endif 
+
+#ifndef FONCTION_H
+#define FONCTION_H
+
+
+#endif

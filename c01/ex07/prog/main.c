@@ -1,23 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/19 21:22:29 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/19 21:22:29 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 03:56:56 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 03:56:56 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putstr(char *str)
+#include "ft_rev_in_tab.h"
+
+int	main(void)
 {
+	int	arr[6];
+	int	size;
 	int	i;
 
+	arr[0] = 1;
+	arr[1] = 2;
+	arr[2] = 3;
+	arr[3] = 4;
+	arr[4] = 5;
+	arr[5] = 6;
+	size = 6;
 	i = 0;
-	while (str[i])
+	ft_rev_int_tab(arr, size);
+	while (i < size)
 	{
-		ft_putchar(str[i]);
+		ft_putnbr(arr[i]);
 		i++;
 	}
+	ft_putchar('\n');
+	return (0);
 }

@@ -1,23 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/19 21:22:29 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/19 21:22:29 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 03:56:56 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 03:56:56 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putstr(char *str)
-{
-	int	i;
+#include "ft_strlen.h"
 
-	i = 0;
-	while (str[i])
+int	main(int ac, char **av)
+{
+	if(ac == 2)
 	{
-		ft_putchar(str[i]);
-		i++;
+		ft_putstr("len =\t");
+		ft_putnbr(ft_strlen(av[1]));
 	}
+	ft_putchar('\n');
+	return (0);
 }
