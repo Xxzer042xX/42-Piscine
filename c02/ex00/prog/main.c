@@ -5,22 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/25 03:56:56 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/25 03:56:56 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/29 17:14:07 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/29 17:14:07 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_sort_in_tab.h"
+#include "ft_strcpy.h"
 
-void    ft_sort_in_tab(tab, size);
-void    ft_putstr(tab, size);
 
-int	main(void)
+char    *ft_strcpy(char *dest, char *src);
+void    ft_putstr(char *str);
+
+int main(void)
 {
-	int	tab[] = {42, 24, 12, 89, 5};
-	int	size = 5;
+    char *pt_dest;
+    char *pt_src;
 
-	ft_sort_in_tab(tab, size);
-    ft_putstr(tab, size);
-	return (0);
+    *pt_dest =
+    
+    ft_strcpy(dest, src);
+    ft_putstr(dest);
+    return (0);
 }

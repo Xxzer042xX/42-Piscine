@@ -1,26 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   fonction.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/25 03:56:56 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/25 03:56:56 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/29 17:32:47 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/29 17:32:47 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_sort_in_tab.h"
+#include <unistd.h>
 
-void    ft_sort_in_tab(tab, size);
-void    ft_putstr(tab, size);
-
-int	main(void)
+void    ft_putstr(char *str)
 {
-	int	tab[] = {42, 24, 12, 89, 5};
-	int	size = 5;
+    int i;
 
-	ft_sort_in_tab(tab, size);
-    ft_putstr(tab, size);
-	return (0);
+    i = 0;
+    while (str[i] != '\0')
+    {
+        write(1, &str[i], 1);
+        i++;
+    }
 }

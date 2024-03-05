@@ -12,8 +12,14 @@
 
 #include "ft_print_combn.h"
 
-int main(void)
+int main(int ac, char **av)
 {
-    ft_print_combn(2);
-    return (0);
+    int numbers;
+
+    if (ac == 2)
+    {
+        numbers = av[1][0] - 48;
+        ft_print_combn(numbers);
+    }
+    return(0);    
 }

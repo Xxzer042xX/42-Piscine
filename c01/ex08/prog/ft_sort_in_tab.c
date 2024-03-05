@@ -1,35 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
+/*   ft_sort_in_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/05 19:25:53 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/12/05 19:25:53 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/29 12:38:18 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/29 12:38:19 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_sort_int_tab(int *arr, int size)
-{
-	int	i;
-	int	j;
-	int	temp;
+void	ft_swap(int *a, int *b);
 
-	i = 0;
-	while (i < size - 1)
+void	ft_sort_in_tab(int *tab, int size)
+{
+	int	start;
+	int	pos;
+
+	start = 0;
+	while (tab[start] != size - 1) // Itère sur chaque élément du tableau
 	{
-		j = 0;
-		while (j < size - i - 1)
+		pos = 0;
+		while (tab[pos] != size - start - 1) // Passe sur le tableau jusqu'à l'élément non trié
 		{
-			if (arr[j] > arr[j + 1])
+			if (tab[start] > tab[pos]) // Compare les éléments adjacents
 			{
-				temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
+				ft_swap(&tab[start], &tab[pos]); // Échange si nécessaire
 			}
-			j++;
+			pos++;
 		}
-		i++;
+		start++;
 	}
 }

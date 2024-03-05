@@ -1,26 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/25 03:56:56 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/25 03:56:56 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/29 17:23:18 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/29 17:23:18 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_sort_in_tab.h"
+#ifndef FT_STRCPY_H
+# define FT_STRCPY_H
 
-void    ft_sort_in_tab(tab, size);
-void    ft_putstr(tab, size);
+char    *ft_strcpy(char *dest, char *src);
 
-int	main(void)
-{
-	int	tab[] = {42, 24, 12, 89, 5};
-	int	size = 5;
+#endif
 
-	ft_sort_in_tab(tab, size);
-    ft_putstr(tab, size);
-	return (0);
-}
+#ifndef FONCTION_H
+# define FONCTION_H
+
+void    ft_putstr(char *str);
+
+#endif

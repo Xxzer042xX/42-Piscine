@@ -1,26 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_rev_in_tab.c                                   :+:      :+:    :+:    */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/25 03:56:56 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/25 03:56:56 by mdelmeni         ###   ########.fr       */
+/*   Created: 2023/11/25 06:04:15 by mdelmeni          #+#    #+#             */
+/*   Updated: 2023/11/25 06:04:15 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_sort_in_tab.h"
 
-void    ft_sort_in_tab(tab, size);
-void    ft_putstr(tab, size);
-
-int	main(void)
+void	ft_rev_int_tab(int *tab, int size)
 {
-	int	tab[] = {42, 24, 12, 89, 5};
-	int	size = 5;
+	int	tmp;
+	int	start;
+	int	end;
 
-	ft_sort_in_tab(tab, size);
-    ft_putstr(tab, size);
-	return (0);
+	start = 0;
+	end = size - 1;
+	while (start < end)
+	{
+		tmp = tab[start];
+		tab[start] = tab[end];
+		tab[end] = tmp;
+		start++;
+		end--;
+	}
 }
