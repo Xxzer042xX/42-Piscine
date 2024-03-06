@@ -14,7 +14,7 @@
 
 char    *ft_strncpy(char *dest, char *src, unsigned int n)
 {
-    int i;
+    unsigned    int i;
 
     i = 0;
     while (src[i] != '\0' && i < n)//temps que n as pas atteint le le nombr de char a prendre sur src
@@ -29,7 +29,7 @@ char    *ft_strncpy(char *dest, char *src, unsigned int n)
     }
     return (dest);
 }
-
+/*
 int main()
 {
     char src[] = "abcd";
@@ -38,3 +38,4 @@ int main()
     printf("%s", dest);
     return 0;
 }
+*/
