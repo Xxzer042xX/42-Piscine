@@ -13,12 +13,11 @@
 #include <unistd.h>
 
 void	ft_putstr(char *str);
-void    ft_putchar(char c);
 
 int	main(int ac, char **av)
 {
 	if(ac == 2)
 		ft_putstr(av[1]);
-	ft_putchar('\n');
+	write(1, "\n", 1);
 	return (0);
 }

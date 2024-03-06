@@ -1,44 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fonction.c                                         :+:      :+:    :+:   */
+/*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/29 11:55:35 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/29 11:55:35 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/06 08:56:33 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/06 08:56:33 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdio.h>
 
-void    ft_put_str(char *str, int n)
+char    *ft_strncpy(char *dest, char *src, unsigned int n)
 {
     int i;
 
     i = 0;
-    while (i < n)
+    while (src[i] != '\0' && i < n)//temps que n as pas atteint le le nombr de char a prendre sur src
     {
-        write(1, &str[i], 1);
+        dest[i] = src[i];
         i++;
     }
-    if (str[0] != '9' - n + 1)
-        write(1, ", ", 2);
+    while (i < n)
+    {
+        dest[i] = '\0';
+        i++;
+    }
+    return (dest);
 }
 
-void    i_love_recursive(char *str, int n, int pos)
+int main()
 {
-    if (pos == n)
-    {
-        ft_put_str(str, n);
-        return;
-    }
-    if (pos == 0)
-        str[pos] = '0';
-    else
-        str[pos] = str[pos - 1] + 1;
-    while (str[pos] <= '9') {
-        i_love_recursive(str, n, pos + 1);
-        str[pos]++;
-    }
+    char src[] = "abcd";
+    char dest[] = "efgh";
+    ft_strncpy(dest, src, 3);
+    printf("%s", dest);
+    return 0;
 }

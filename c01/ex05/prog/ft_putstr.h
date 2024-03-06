@@ -16,11 +16,3 @@
 void	ft_putstr(char *str);
 
 #endif
-
-
-#ifndef FONCTION_H
-#define FONCTION_H
-
-void    ft_putchar(char c);
-
-#endif

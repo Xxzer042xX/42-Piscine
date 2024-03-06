@@ -14,12 +14,7 @@
 #define FT_PRINT_COMBN_H
 
 void    ft_print_combn(int n);
-
-#endif
-
-#ifndef FONCTION_H
-#define FONCTION_H
-
 void    i_love_recursive(char *str, int n, int pos);
 void    ft_put_str(char *str, int n);
+
 #endif
