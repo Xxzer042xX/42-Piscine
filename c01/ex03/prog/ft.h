@@ -1,27 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_div_mod.h                              :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/25 03:57:41 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/25 03:57:41 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 03:34:24 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 03:34:24 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_ULTIMATE_DIV_MOD_H
-#define FT_ULTIMATE_DIV_MOD_H
+#ifndef FT_H
+#define FT_H
 
-void	ft_ultimate_div_mod(int *a, int *b);
-
-#endif
-
-#ifndef FONCTION_H
-#define FONCTION_H
-
-void	ft_putstr(char *str);
-void	ft_putnbr(int nb);
+void	ft_div_mod(int a, int b, int *div, int *mod);
 void    ft_putchar(char c);
+void	ft_putnbr(int nb);
+void	ft_putstr(char *str);
 
 #endif

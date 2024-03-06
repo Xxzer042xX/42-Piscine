@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_swap.h"
+#include "ft.h"
 #include <unistd.h>
 
 void	ft_putnbr(int nb);

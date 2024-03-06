@@ -1,17 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_comb2.h                                   :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/24 18:41:49 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/24 18:41:49 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 18:16:58 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 18:16:58 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINT_COMB2_H
-#define FT_PRINT_COMB2_H
+#ifndef FT_H
+#define FT_H
 
-void    ft_print_comb2(void);
+void    ft_print_numbers(void);
+
 #endif

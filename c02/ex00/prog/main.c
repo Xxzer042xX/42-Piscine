@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_strcpy.h"
+#include "ft.h"
 
 
 char    *ft_strcpy(char *dest, char *src);
@@ -23,7 +23,7 @@ int main(void)
 
     *pt_dest =
     
-    ft_strcpy(dest, src);
-    ft_putstr(dest);
+    ft_strcpy(pt_dest, pt_src);
+    ft_putstr(pt_src);
     return (0);
 }

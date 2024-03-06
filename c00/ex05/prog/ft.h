@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.h                                        :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/25 04:29:33 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/25 04:29:33 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 18:37:29 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 18:37:29 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PUTSTR_H
-#define FT_PUTSTR_H
+#ifndef FT_H
+#define FT_H
 
-void	ft_putstr(char *str);
+void    ft_print_comb(void);
 
 #endif

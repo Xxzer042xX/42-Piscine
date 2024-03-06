@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/19 21:22:29 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/19 21:22:29 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 17:24:37 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 17:24:37 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_H
+#define FT_H
 
-void	ft_putstr(char *str)
-{
-	int	i;
+void    ft_print_alphabet(void);
 
-	i = 0;
-	while (str[i])
-	{
-		write(1, &str[i], 1);
-		i++;
-	}
-}
+#endif

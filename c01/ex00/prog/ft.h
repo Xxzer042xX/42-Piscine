@@ -1,18 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.h                                 :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/24 18:16:58 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/24 18:16:58 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 19:28:52 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 19:28:52 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINT_NUMBERS_H
-#define FT_PRINT_NUMBERS_H
+#ifndef FT_H
+#define FT_H
 
-void    ft_print_numbers(void);
+void    ft_ft(int *nbr);
+void    ft_putchar(char c);
+void	ft_putnbr(int nb);
 
 #endif
+

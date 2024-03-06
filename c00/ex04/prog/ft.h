@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.h                                        :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/24 18:56:05 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/24 18:56:05 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/24 18:23:48 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/24 18:23:48 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifdef FT_PUTNBR_H
-#define FT_PUTNBR_H
+#ifndef FT_H
+#define FT_H
 
-void ft_putnbr(int nb);
+void    ft_is_negative(int n);
 
 #endif

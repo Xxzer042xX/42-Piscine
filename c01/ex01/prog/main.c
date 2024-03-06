@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_ultimate_ft.h"
+#include "ft.h"
 
 void	ft_ultimate_ft(int *********nbr);
 void	ft_putnbr(int nb);

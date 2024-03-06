@@ -1,18 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.h                                       :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/24 17:32:15 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/24 17:32:15 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 03:07:04 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 03:07:04 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PUTCHAR_H
-#define FT_PUTCHAR_H
+#ifndef FT_H
+#define FT_H
 
+void	ft_swap(int *a, int *b);
 void    ft_putchar(char c);
+void	ft_putnbr(int nb);
 
 #endif

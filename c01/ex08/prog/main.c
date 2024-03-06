@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_sort_in_tab.h"
+#include "ft.h"
 
 void    ft_sort_in_tab(tab, size);
 void    ft_putstr(tab, size);

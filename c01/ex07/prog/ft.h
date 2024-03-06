@@ -1,26 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.h                                   :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/24 21:16:24 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/24 21:16:24 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/25 05:28:09 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/25 05:28:09 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifdef FT_ULTIMATE_FT_H
-#define FT_ULTIMATE_FT_H
+#ifndef FT_H
+#define FT_H
 
-void	ft_ultimate_ft(int *********nbr);
-
-#endif
-
-#ifdef FONCTION_H
-#define FONCTION_H
-
-void    ft_putchar(char c);
+void	ft_rev_int_tab(int *tab, int size);
 void	ft_putnbr(int nb);
-
+void    ft_putchar(char c);
 #endif

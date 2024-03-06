@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_print_combn.h"
+#include "ft.h"
 
 void    ft_print_combn(int n);
 

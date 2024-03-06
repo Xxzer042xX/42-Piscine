@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_print_reverse_alphabet.h"
+#include "ft.h"
 
 int main(void)
 {

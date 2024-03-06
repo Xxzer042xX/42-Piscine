@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.h                                   :+:      :+:    :+:   */
+/*   ft.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/24 18:23:48 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/24 18:23:48 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/02/29 17:23:18 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/02/29 17:23:18 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_IS_NEGATIVE_H
-#define FT_IS_NEGATIVE_H
+#ifndef FT_H
+# define FT_H
 
-void    ft_is_negative(int n);
+char    *ft_strcpy(char *dest, char *src);
+void    ft_putstr(char *str);
 
 #endif
