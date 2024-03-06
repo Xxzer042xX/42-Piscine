@@ -1,30 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_rev_in_tab.c                                   :+:      :+:    :+:    */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/25 06:04:15 by mdelmeni          #+#    #+#             */
-/*   Updated: 2023/11/25 06:04:15 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/06 23:11:06 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/06 23:11:06 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft.h"
 
-void	ft_rev_int_tab(int *tab, int size)
+#include <stdio.h>
+
+char    *ft_strncpy(char *dest, char *src, unsigned int n);
+
+int main(void)
 {
-	int	tmp;
-	int	start;
-	int	end;
-
-	start = 0;
-	end = size - 1;
-	while (start < end)
-	{
-		tmp = tab[start];
-		tab[start] = tab[end];
-		tab[end] = tmp;
-		start++;
-		end--;
-	}
+    char src[] = "abcd";
+    char dest[] = "efgh";
+    ft_strncpy(dest, src, 3);
+    printf("%s", dest);
+    return (0);
 }

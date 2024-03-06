@@ -11,33 +11,6 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
-//Fonction pour afficher un entier
-void	ft_putnbr(int nb)
-{
-	char c;
-	if (nb < 0)
-	{
-			write(1, "-", 1);
-		if (nb == -2147483648)
-		{
-				write(1, "2", 1);
-			nb = -147483648;
-		}
-		nb = -nb;
-		ft_putnbr(nb);
-	}
-	else if (nb < 10)
-	{
-		c = nb + '0';
-		write(1, &c, 1);
-	}
-	else
-	{
-		ft_putnbr(nb / 10);
-		ft_putnbr(nb % 10);
-	}
-}
-
 // Fonction pour échanger deux entiers
 void	ft_swap(int *a, int *b)
 {
@@ -69,22 +42,4 @@ void	ft_sort_int_tab(int *tab, int size)
 		start++;
 	}
 }
-/*
-int	main(void)
-{
-	int	tab[] = {42, 24, 12, 89, 5};
-	int	size;
-	int	i;
 
-	size = 5;
-	i = 0;
-	ft_sort_int_tab(tab, size);
-	while (i < size)
-	{
-		ft_putnbr(tab[i]);
-		write(1, ", ", 2);
-		i++;
-	}
-	return (0);
-}
-*/

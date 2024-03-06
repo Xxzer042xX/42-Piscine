@@ -24,3 +24,4 @@ int	main(void)
     ft_putstr(tab, size);
 	return (0);
 }
+

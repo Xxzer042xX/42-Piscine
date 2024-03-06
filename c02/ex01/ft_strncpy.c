@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 char    *ft_strncpy(char *dest, char *src, unsigned int n)
 {
     unsigned    int i;
@@ -29,13 +27,3 @@ char    *ft_strncpy(char *dest, char *src, unsigned int n)
     }
     return (dest);
 }
-/*
-int main()
-{
-    char src[] = "abcd";
-    char dest[] = "efgh";
-    ft_strncpy(dest, src, 3);
-    printf("%s", dest);
-    return 0;
-}
-*/
