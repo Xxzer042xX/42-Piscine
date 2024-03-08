@@ -15,11 +15,13 @@ char    *ft_strncpy(char *dest, char *src, unsigned int n)
     unsigned    int i;
 
     i = 0;
-    while (src[i] != '\0' && i < n)//temps que n as pas atteint le le nombr de char a prendre sur src
+    //temps que le nbr de char a prendre sur src n est pas atteint et que src n est pas fini
+    while (src[i] != '\0' && i < n)
     {
         dest[i] = src[i];
         i++;
     }
+    //si src ne contenais rien ou pas le nbr d emplcemenmt allouer, remplir la derneire case de dest par \0
     while (i < n)
     {
         dest[i] = '\0';
