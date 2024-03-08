@@ -1,28 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/29 17:14:07 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/29 17:14:07 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/07 18:37:12 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/07 18:37:12 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft.h"
+#ifndef FT_H
+# define FT_H
 
-char    *ft_strcpy(char *dest, char *src);
-void    ft_putstr(char *str);
+int ft_str_is_numeric(char *str);
+void ft_putchar(char c);
 
-int main(void)
-{
-    char *pt_dest;
-    char *pt_src;
-
-    *pt_dest =
-    
-    ft_strcpy(pt_dest, pt_src);
-    ft_putstr(pt_src);
-    return (0);
-}
+#endif

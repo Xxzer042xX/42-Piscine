@@ -5,24 +5,23 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/29 17:14:07 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/29 17:14:07 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/08 00:09:22 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/08 00:09:22 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft.h"
 
-char    *ft_strcpy(char *dest, char *src);
-void    ft_putstr(char *str);
+#include <stdio.h>
 
-int main(void)
+int ft_strupcase(char *str);
+
+int        main(int ac, char **av)
 {
-    char *pt_dest;
-    char *pt_src;
+    char *str;
 
-    *pt_dest =
-    
-    ft_strcpy(pt_dest, pt_src);
-    ft_putstr(pt_src);
+    str = av[1];
+    ft_strupcase(str);
+    printf("%s", str);
     return (0);
 }

@@ -1,28 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/29 17:14:07 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/29 17:14:07 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/07 00:01:04 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/07 00:01:04 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft.h"
-
-char    *ft_strcpy(char *dest, char *src);
-void    ft_putstr(char *str);
-
-int main(void)
+int ft_str_is_alpha(char *str)
 {
-    char *pt_dest;
-    char *pt_src;
+    int i;
 
-    *pt_dest =
-    
-    ft_strcpy(pt_dest, pt_src);
-    ft_putstr(pt_src);
-    return (0);
+    i = 0;
+    while (str[i])
+    {
+        if((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z'))
+            i++;
+        else
+            return (0);
+    }
+    return (1);
 }

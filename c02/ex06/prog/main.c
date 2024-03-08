@@ -5,24 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/29 17:14:07 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/29 17:14:07 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/07 19:27:56 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/07 19:27:56 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft.h"
 
-char    *ft_strcpy(char *dest, char *src);
-void    ft_putstr(char *str);
+void ft_putchar(char c);
+int ft_str_is_printable(char *str);
 
-int main(void)
+int main(int ac, char **av)
 {
-    char *pt_dest;
-    char *pt_src;
-
-    *pt_dest =
-    
-    ft_strcpy(pt_dest, pt_src);
-    ft_putstr(pt_src);
+    ft_putchar(ft_str_is_printable(av[1]));
     return (0);
 }
