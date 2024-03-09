@@ -15,10 +15,13 @@ char    *ft_strcpy(char *dest, char *src)
     int i;
     
     i = 0;
-    while (src[i] != '\0')
+    while (*src)
     {
-        dest[i] = src[i];
+        *dest = *src;
+        src++;
+        dest++;
         i++;
     }
+    dest -= i;
     return (dest);
 }
