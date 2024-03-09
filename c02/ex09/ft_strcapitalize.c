@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 char *ft_strcapitalize(char *str)
 {
     int i;
@@ -37,13 +35,3 @@ char *ft_strcapitalize(char *str)
     }
     return (str);
 }
-/*
-int main(int ac, char **av)
-{
-    if(ac == 2)
-    {
-    printf("%s",ft_strcapitalize(av[1]));
-    }
-    return 0;
-}
-*/

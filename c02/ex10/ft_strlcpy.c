@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
 unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
 {
     unsigned i;
@@ -30,13 +28,4 @@ unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
         i++;
     }
     return (i);
-}
-
-int main()
-{
-    char dest[40];
-    char src[] = "hello les copain, comment";
-    printf("%d\n", ft_strlcpy(dest, src, 40));
-    printf("%s\n", dest);
-    return 0;
 }

@@ -46,12 +46,3 @@ void ft_putstr_non_printable(char *str)
         i++;
     }
 }
-/*
-int main(void)
-{
-    char str[] = "Coucou\ntu\tvas\\bien ?";
-    ft_putstr_non_printable(str);
-    return (0);
-}
-
-*/
