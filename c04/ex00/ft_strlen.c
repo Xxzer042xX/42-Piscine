@@ -1,25 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/08 00:18:06 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/08 00:18:06 by mdelmeni         ###   ########.fr       */
+/*   Created: 2023/11/19 22:07:44 by mdelmeni          #+#    #+#             */
+/*   Updated: 2023/11/19 22:07:44 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strlowcase(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        if (str[i] >= 'A' && str[i] <= 'Z')
-            str[i] += 32;
-        i++;
-    }
-    return (str);
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }

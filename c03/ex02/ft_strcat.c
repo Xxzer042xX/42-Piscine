@@ -1,31 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncpy.c                                       :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/06 08:56:33 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/06 08:56:33 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/09 14:33:35 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/09 14:33:35 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char    *ft_strncpy(char *dest, char *src, unsigned int n)
+#include <stdio.h>
+
+char *ft_strcat(char *dest, char *src)
 {
-    unsigned    int i;
+    int i;
+    int j;
 
     i = 0;
-    //temps que le nbr de char a prendre sur src n est pas atteint et que src n est pas fini
-    while (src[i] != '\0' && i < n)
-    {
-        dest[i] = src[i];
+    j = 0;
+    while (dest[i] != '\0')
         i++;
-    }
-    //si src ne contenais pas le nbr d emplcemenmt allouer, mettre dans dest \0
-    while (i < n)
+    while (src[j] != '\0')
     {
-        dest[i] = '\0';
+        dest[i] = src[j];
         i++;
+        j++;
     }
+    dest[i] = '\0';
     return (dest);
 }
+/*
+int main(void)
+{
+    char dest[] = "Hello";
+    char src[] = " World";
+    printf("%s\n", ft_strcat(dest, src));
+    return (0);
+}
+*/

@@ -1,31 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncpy.c                                       :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/06 08:56:33 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/06 08:56:33 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/09 13:32:52 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/09 13:32:52 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char    *ft_strncpy(char *dest, char *src, unsigned int n)
+int ft_strcmp(char *s1, char *s2)
 {
-    unsigned    int i;
-
+    int i;
     i = 0;
-    //temps que le nbr de char a prendre sur src n est pas atteint et que src n est pas fini
-    while (src[i] != '\0' && i < n)
+    while (s1[i] != '\0' && s2[i] != '\0')
     {
-        dest[i] = src[i];
+        if (s1[i] != s2[i])
+            return (s1[i] - s2[i]);
         i++;
     }
-    //si src ne contenais pas le nbr d emplcemenmt allouer, mettre dans dest \0
-    while (i < n)
-    {
-        dest[i] = '\0';
-        i++;
-    }
-    return (dest);
+    return (s1[i] - s2[i]);
 }

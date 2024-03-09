@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/08 00:18:06 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/08 00:18:06 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/09 14:10:57 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/09 14:10:57 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strlowcase(char *str)
-{
-    int i;
+#ifndef FT_H
+# define FT_H
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        if (str[i] >= 'A' && str[i] <= 'Z')
-            str[i] += 32;
-        i++;
-    }
-    return (str);
-}
+int ft_strcmp(char *s1, char *s2);
+
+#endif

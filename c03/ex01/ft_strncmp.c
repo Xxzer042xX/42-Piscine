@@ -1,31 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncpy.c                                       :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/06 08:56:33 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/06 08:56:33 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/09 14:14:58 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/09 14:14:58 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char    *ft_strncpy(char *dest, char *src, unsigned int n)
+#include <stdio.h>
+
+int ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-    unsigned    int i;
+    unsigned int i;
 
     i = 0;
-    //temps que le nbr de char a prendre sur src n est pas atteint et que src n est pas fini
-    while (src[i] != '\0' && i < n)
-    {
-        dest[i] = src[i];
+    while (i < n && s1[i] == s2[i])
         i++;
-    }
-    //si src ne contenais pas le nbr d emplcemenmt allouer, mettre dans dest \0
-    while (i < n)
-    {
-        dest[i] = '\0';
-        i++;
-    }
-    return (dest);
+    if (i == n)
+        return (0);
+    return (s1[i] - s2[i]);
 }
+/*
+int main(void)
+{
+    char s1[] = "abdepjfejjf";
+    char s2[] = "abcepjfejjf";
+    printf("%d\n", ft_strncmp(s1, s2, 3));
+    return (0);
+}
+*/

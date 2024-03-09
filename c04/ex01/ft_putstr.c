@@ -1,25 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/08 00:18:06 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/08 00:18:06 by mdelmeni         ###   ########.fr       */
+/*   Created: 2023/11/19 21:22:29 by mdelmeni          #+#    #+#             */
+/*   Updated: 2023/11/19 21:22:29 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strlowcase(char *str)
-{
-    int i;
+#include <unistd.h>
 
-    i = 0;
-    while (str[i] != '\0')
+void	ft_putstr(char *str)
+{
+    while (*str)
     {
-        if (str[i] >= 'A' && str[i] <= 'Z')
-            str[i] += 32;
-        i++;
+        write(1, str, 1);
+        str++;
     }
-    return (str);
 }

@@ -31,12 +31,16 @@ void print_hex(unsigned char c)
 
 void print_address(unsigned long long addr)
 {
+    int i;
     char address[16];
     char *hex = "0123456789abcdef";
-    for (int i = 15; i >= 0; i--)
+    
+    i = 15;
+    while (i >= 0)
     {
         address[i] = hex[addr % 16];
         addr /= 16;
+        i--;
     }
     ft_putstr(address, 16);
     ft_putchar(':');
@@ -46,7 +50,9 @@ void print_address(unsigned long long addr)
 void print_line_content(unsigned char *addr, size_t size)
 {
     size_t i;
-    for (i = 0; i < 16; i++)
+    
+    i = 0;
+    while(i < 16)
     {
         if (i < size)
             print_hex(addr[i]);
@@ -54,9 +60,14 @@ void print_line_content(unsigned char *addr, size_t size)
             ft_putstr("  ", 2);
         if (i % 2)
             ft_putchar(' ');
+        i++;
     }
-    for (i = 0; i < size; i++)
+    i = 0;
+    while(i < size)
+    {
         ft_putchar((addr[i] >= 32 && addr[i] <= 126) ? addr[i] : '.');
+        i++;
+    }
     ft_putchar('\n');
 }
 

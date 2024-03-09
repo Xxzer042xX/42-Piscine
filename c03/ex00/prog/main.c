@@ -1,25 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/08 00:18:06 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/08 00:18:06 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/09 14:10:46 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/09 14:10:46 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strlowcase(char *str)
-{
-    int i;
+#include <stdio.h>
+#include "ft.h"
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        if (str[i] >= 'A' && str[i] <= 'Z')
-            str[i] += 32;
-        i++;
-    }
-    return (str);
+int ft_strcmp(char *s1, char *s2);
+
+int main(void)
+{
+    char s1[] = "bcd";
+    char s2[] = "abc";
+    printf("%d\n", ft_strcmp(s1, s2));
+    return (0);
 }
