@@ -10,14 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//La fonction strlcpy() copie jusqu’à la taille - 1 caractères de la chaîne terminée par NUL src vers dst, terminant le résultat par NUL.
 #include <stdio.h>
 
 unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
 {
-    unsigned i;//pour me deplacer dasn dest et src
+    unsigned i;
     
-    i = 0;//commence posssition 0
+    i = 0;
    
     //temps que le nbr de char a prendre - 1('\0') sur src n est pas atteint et que src n est pas fini
     while (src[i] != '\0' && i < size - 1)
