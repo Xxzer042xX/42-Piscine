@@ -10,3 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include "ft.h"
+
+int main(void)
+{
+    char dest[] = "Hello";
+    char src[] = " World";
+    printf("%s\n", ft_strncat(dest, src, 3));
+    return (0);
+}

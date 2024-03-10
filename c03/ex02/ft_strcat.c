@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 
 char *ft_strcat(char *dest, char *src)
 {
@@ -19,8 +18,10 @@ char *ft_strcat(char *dest, char *src)
 
     i = 0;
     j = 0;
+    //increment i until the end of dest
     while (dest[i] != '\0')
         i++;
+    
     while (src[j] != '\0')
     {
         dest[i] = src[j];
@@ -30,12 +31,3 @@ char *ft_strcat(char *dest, char *src)
     dest[i] = '\0';
     return (dest);
 }
-/*
-int main(void)
-{
-    char dest[] = "Hello";
-    char src[] = " World";
-    printf("%s\n", ft_strcat(dest, src));
-    return (0);
-}
-*/

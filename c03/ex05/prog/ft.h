@@ -10,3 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_H
+#define FT_H
+
+unsigned int ft_strlcat(char *dest, char *src, unsigned int size);
+
+#endif

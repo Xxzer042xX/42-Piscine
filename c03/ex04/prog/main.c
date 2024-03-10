@@ -10,3 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include "ft.h"
+
+int main(void)
+{
+    char str[] = "abdepjfejjf";
+    char to_find[] = "epj";
+    printf("%s\n", ft_strstr(str, to_find));
+    return (0);
+}

@@ -10,3 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_H
+#define FT_H
+
+char *ft_strstr(char *str, char *to_find);
+
+#endif

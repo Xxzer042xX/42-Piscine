@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINT_COMB2_H
-#define FT_PRINT_COMB2_H
+#ifndef FT_H
+#define FT_H
 
 void    ft_print_comb2(void);
 void    ft_putchar(char c);

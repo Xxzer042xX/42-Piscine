@@ -10,3 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include "ft.h"
+
+int main(void)
+{
+    char s1[] = "abdepjfejjf";
+    char s2[] = "abcepjfejjf";
+    printf("%d\n", ft_strncmp(s1, s2, 3));
+    return (0);
+}

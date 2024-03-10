@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 
-#include <stdio.h>
-
 char *ft_strstr(char *str, char *to_find)
 {
     int i;
@@ -32,12 +30,3 @@ char *ft_strstr(char *str, char *to_find)
     }
     return (0);
 }
-/*
-int main(void)
-{
-    char str[] = "abdepjfejjf";
-    char to_find[] = "epj";
-    printf("%s\n", ft_strstr(str, to_find));
-    return (0);
-}
-*/

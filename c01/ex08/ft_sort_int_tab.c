@@ -28,7 +28,7 @@ void	ft_sort_int_tab(int *tab, int size)
 	int	pos;
 
 	start = 0;
-	while (start < size - 1) // Itère sur chaque élément du tableau
+	while (start < size - 1)
 	{
 		pos = 0;
 		while (pos < size - start - 1)
