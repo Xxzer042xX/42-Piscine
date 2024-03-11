@@ -24,14 +24,18 @@ void	ft_swap(int *a, int *b)
 //Sort an array of integers in ascending order
 void	ft_sort_int_tab(int *tab, int size)
 {
-	int	start;
+	int	i;
 	int	pos;
+	int	len;
 
-	start = 0;
-	while (start < size - 1)
+	i = 0;
+	len = size - 1;
+	//while all the elements from array are not checked with each other
+	while (i < len)
 	{
 		pos = 0;
-		while (pos < size - start - 1)
+		//while pos is not compared with all elements
+		while (pos < len)
 		{
 			if (tab[pos] > tab[pos + 1])
 			{
@@ -39,7 +43,7 @@ void	ft_sort_int_tab(int *tab, int size)
 			}
 			pos++;
 		}
-		start++;
+		i++;
 	}
 }
 

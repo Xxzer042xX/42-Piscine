@@ -12,7 +12,7 @@
 
 #include <unistd.h>
 
-//Display all the characters of a string
+//Display all the characters of a string char by char
 void	ft_putstr(char *str)
 {
     while (*str)

@@ -12,15 +12,15 @@
 
 #include "ft.h"
 
-void    ft_sort_in_tab(tab, size);
-void    ft_putstr(tab, size);
+void	ft_sort_int_tab(int *arr, int size);
+void	ft_putstr(int *tab, int size);
 
 int	main(void)
 {
-	int	tab[] = {42, 24, 12, 89, 5};
+	int	tab[] = {-420, 24, 12, 7, 0};
 	int	size = 5;
 
-	ft_sort_in_tab(tab, size);
+	ft_sort_int_tab(tab, size);
     ft_putstr(tab, size);
 	return (0);
 }

@@ -18,27 +18,14 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_putstr(int *tab, int size)
-{
-	int i;
-	
-	i = 0;
-	while (i != size)
-	{
-		ft_putnbr(&tab[i]);
-		i++;
-	}
-}
-
 void	ft_putnbr(int nb)
 {
-	char c;
 	if (nb < 0)
 	{
-			ft_putchar('-');
+		write(1, "-", 1);
 		if (nb == -2147483648)
 		{
-				ft_putchar('2');
+			write(1, "2", 1);
 			nb = -147483648;
 		}
 		nb = -nb;
@@ -46,12 +33,27 @@ void	ft_putnbr(int nb)
 	}
 	else if (nb < 10)
 	{
-		c = nb + '0';
-		ft_putchar(c);
+		ft_putchar(nb + 48);
 	}
 	else
 	{
 		ft_putnbr(nb / 10);
 		ft_putnbr(nb % 10);
 	}
+}
+
+void	ft_putstr(int *tab, int size)
+{
+	int	i;
+
+	i = 0;
+	while (i < size)
+	{
+		ft_putnbr(*tab);
+		ft_putchar(',');
+		ft_putchar(' ');
+		tab++;
+		i++;
+	}
+	tab -= i;
 }

@@ -13,7 +13,7 @@
 #ifndef FT_H
 #define FT_H
 
-void	ft_sort_in_tab(int *arr, int size);
+void	ft_sort_int_tab(int *arr, int size);
 void    ft_putchar(char c);
 void	ft_swap(int *a, int *b);
 void	ft_putstr(int *tab, int size);
