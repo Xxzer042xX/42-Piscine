@@ -21,9 +21,8 @@ void ft_putchar(char c)
 //Display all different combinations of two-digit numbers in ascending order
 void	ft_print_comb2(void)
 {
-	int		i;
-	int		j;
-	char	c;
+	int i;
+	int j;
 
 	i = 0;
 	//Display first combination
