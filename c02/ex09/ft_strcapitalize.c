@@ -10,8 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//Capitalizes the first letter of each word in a string, and returns the string.
-//if other charcater is uppercase, it will be converted to lowercase
+/*Capitalizes the first letter of each word in a string, and returns the string.
+if other charcater is uppercase, it will be converted to lowercase
+*/
 char *ft_strcapitalize(char *str)
 {
     int i;
