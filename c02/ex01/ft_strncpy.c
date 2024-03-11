@@ -10,18 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+
+//Copies the n first characters of src to dest, and returns the value of dest
 char    *ft_strncpy(char *dest, char *src, unsigned int n)
 {
     unsigned    int i;
 
     i = 0;
-    //temps que le nbr de char a prendre sur src n est pas atteint et que src n est pas fini
+    //Copy src to dest until the end of src or until n
     while (src[i] != '\0' && i < n)
     {
         dest[i] = src[i];
         i++;
     }
-    //si src ne contenais pas le nbr d emplcemenmt allouer, mettre dans dest \0
+    //If n is greater than the length of src, fill the rest of dest with '\0'
     while (i < n)
     {
         dest[i] = '\0';

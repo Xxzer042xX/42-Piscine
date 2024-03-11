@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
+//Concatenates src to dest and returns dest
 char *ft_strcat(char *dest, char *src)
 {
     int i;
@@ -18,7 +18,6 @@ char *ft_strcat(char *dest, char *src)
 
     i = 0;
     j = 0;
-    //increment i until the end of dest
     while (dest[i] != '\0')
         i++;
     

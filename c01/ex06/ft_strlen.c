@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Return the length of a string 
 int	ft_strlen(char *str)
 {
 	int	len;

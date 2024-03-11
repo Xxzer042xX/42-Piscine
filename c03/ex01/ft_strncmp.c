@@ -10,12 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Compares to strings to a maximum of n characters and returns the difference between the first two different characters
 int ft_strncmp(char *s1, char *s2, unsigned int n)
 {
     unsigned int i;
 
     i = 0;
-    //increment i while s1[i] and s2[i] are the same and i is less than n
     while (i < n && s1[i] == s2[i])
         i++;
     if (i == n)

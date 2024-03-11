@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Concatenates n characters from src to dest and returns dest
 char *ft_strncat(char *dest, char *src, unsigned int nb)
 {
     unsigned int i;

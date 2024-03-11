@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+//Display all digits in ascending order
 void    ft_print_numbers(void)
 {
     int i;

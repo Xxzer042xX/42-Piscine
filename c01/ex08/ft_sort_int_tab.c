@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include <unistd.h>
 
-// Fonction pour échanger deux entiers
+//Swap the value of two pointers with help of a temporary variable
 void	ft_swap(int *a, int *b)
 {
 	int	temp;
@@ -21,7 +21,7 @@ void	ft_swap(int *a, int *b)
 	*b = temp;
 }
 
-// Fonction pour trier un tableau d'entiers par ordre croissant
+//Sort an array of integers in ascending order
 void	ft_sort_int_tab(int *tab, int size)
 {
 	int	start;

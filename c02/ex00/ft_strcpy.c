@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Copies the value of src to dest, and returns the value of dest
 char    *ft_strcpy(char *dest, char *src)
 {
     int i;

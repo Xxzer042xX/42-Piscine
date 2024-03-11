@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Checks if the string contains only uppercase characters, and returns 1 if it does, 0 if it doesn't
 int ft_str_is_uppercase(char *str)
 {
     int i;

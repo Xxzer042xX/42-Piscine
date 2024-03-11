@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Compares two strings and returns the difference between the first two different characters
 int ft_strcmp(char *s1, char *s2)
 {
     int i;

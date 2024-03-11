@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Swap the value of two pointers with help of a temporary variable
 void	ft_swap(int *a, int *b)
 {
 	int	swap;

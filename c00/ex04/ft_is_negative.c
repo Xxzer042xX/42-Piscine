@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+//Display N if n is negative, P if n is positive or 0
 void    ft_is_negative(int n)
 {
     if(n < 0)

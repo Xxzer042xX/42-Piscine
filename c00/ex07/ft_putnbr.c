@@ -12,11 +12,13 @@
 
 #include <unistd.h>
 
+//Display a character on the standard output.
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
+//Display all number of a given integer
 void	ft_putnbr(int nb)
 {
 	if (nb < 0)

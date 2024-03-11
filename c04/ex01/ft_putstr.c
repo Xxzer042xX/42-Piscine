@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+//Writes a string char by char with the write function on the standard output
 void	ft_putstr(char *str)
 {
     while (*str)

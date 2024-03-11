@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
+//Assigne 42 to the value of the pointer
 void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;

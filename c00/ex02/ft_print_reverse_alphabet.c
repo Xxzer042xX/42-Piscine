@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+//Display the alphabet in lowercase in reverse
 void    ft_print_reverse_alphabet(void)
 {
     char letter;

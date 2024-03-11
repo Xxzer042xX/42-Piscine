@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+//Display all different combinations of three digits in ascending order
 void	ft_print_comb(void)
 {
 	char	a;
@@ -19,12 +20,15 @@ void	ft_print_comb(void)
 	char	c;
 
 	a = '0';
+	//display first digit
 	while (a <= '7')
 	{
 		b = a + 1;
+		//display second digit
 		while (b <= '8')
 		{
 			c = b + 1;
+			//display third digit
 			while (c <= '9')
 			{
 				write (1, &a, 1);

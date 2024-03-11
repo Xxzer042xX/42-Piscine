@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Assign the result of the division of a by b to the int pointed by div
+//Assign the result of the modulo of a by b to the int pointed by mod
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
 	*div = a / b;

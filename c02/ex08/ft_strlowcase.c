@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Converts all uppercase characters in a string to lowercase, and returns the string
 char *ft_strlowcase(char *str)
 {
     int i;
