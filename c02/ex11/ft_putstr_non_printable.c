@@ -24,10 +24,11 @@ char conv_low(unsigned char c)
 //Displays a non-printable character in hexadecimal
 void aff_non_printable(unsigned char c)
 {
-    write(1, "\\", 1);
     char hexa[2];
+
     hexa[0] = conv_low(c / 16);
     hexa[1] = conv_low(c % 16);
+    write(1, "\\", 1);
     write(1, hexa, 2);
 }
 

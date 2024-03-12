@@ -15,14 +15,8 @@
 //Display n characters from str and a comma and a space if str[0] is not 9 - n + 1
 void    ft_put_str(char *str, int n)
 {
-    int i;
-
-    i = 0;
-    while (i < n)
-    {
-        write(1, &str[i], 1);
-        i++;
-    }
+    write(1, str, n);
+    //Dynamic display of the comma and space
     if (str[0] != '9' - n + 1)
         write(1, ", ", 2);
 }
@@ -45,7 +39,7 @@ void    i_love_recursive(char *str, int n, int pos)
     //While the character is less than or equal to 9, call the function recursively and increment the character
     while (str[pos] <= '9') {
         i_love_recursive(str, n, pos + 1);
-        str[pos]++;
+        str[pos]++;//Increment the character
     }
 }
 
