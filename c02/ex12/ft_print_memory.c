@@ -38,7 +38,9 @@ void print_address(unsigned long long addr)
     i = 15;
     while (i >= 0)
     {
+        //Assign the hex value of the address to the address array
         address[i] = hex[addr % 16];
+        //Move to the next hex value
         addr /= 16;
         i--;
     }
@@ -47,9 +49,9 @@ void print_address(unsigned long long addr)
     ft_putchar(' ');
 }
 
-void print_line_content(unsigned char *addr, size_t size)
+void print_line_content(unsigned char *addr, int size)
 {
-    size_t i;
+    int i;
     
     i = 0;
     while(i < 16)
@@ -71,13 +73,23 @@ void print_line_content(unsigned char *addr, size_t size)
     ft_putchar('\n');
 }
 
+//
 void *ft_print_memory(void *addr, unsigned int size)
 {
-    unsigned int i = 0;
+    unsigned int i;
+    unsigned int line_size;
+    
+    i = 0;
+    //while all segment of 16 bytes are not printed
     while (i < size)
     {
         print_address((unsigned long long)(addr + i));
-        size_t line_size = (size - i < 16) ? size - i : 16;
+        //If nb of char left to print is less than 16,
+        if (size - i < 16)
+            line_size = size - i;
+        //Section of 16 bytes is complete
+        else
+            line_size = 16;
         print_line_content(addr + i, line_size);
         i += 16;
     }

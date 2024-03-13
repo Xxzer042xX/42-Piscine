@@ -10,3 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_H
+#define FT_H
+
+int ft_atoi(char *str);
+void ft_is_negative(int *sign);
+void ft_isspace(char *str, int *pos);
+void ft_sign(char *str, int *pos, int *sign);
+void ft_result(char *str, int *pos, int *result);
+
+
+#endif

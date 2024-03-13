@@ -13,7 +13,7 @@
 //Copies up to size - 1 characters from the string src to dest,and returns the length of src
 unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
 {
-    unsigned i;
+    unsigned int i;
     
     i = 0;
    

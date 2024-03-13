@@ -37,7 +37,8 @@ void    i_love_recursive(char *str, int n, int pos)
     else
         str[pos] = str[pos - 1] + 1;
     //While the character is less than or equal to 9, call the function recursively and increment the character
-    while (str[pos] <= '9') {
+    while (str[pos] <= '9') 
+    {
         i_love_recursive(str, n, pos + 1);
         str[pos]++;//Increment the character
     }

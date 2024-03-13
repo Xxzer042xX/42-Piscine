@@ -38,8 +38,9 @@ void print_address(unsigned long long addr)
     i = 15;
     while (i >= 0)
     {
-        //Save address of 16 bytes from hex in address[i]
+        //Assign the hex value of the address to the address array
         address[i] = hex[addr % 16];
+        //Move to the next hex value
         addr /= 16;
         i--;
     }

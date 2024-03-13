@@ -10,3 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "ft.h"
+
+int main()
+{
+    char str[] = "---+--+1234ab567";
+    printf("%d", ft_atoi(str));
+    printf("\n%d", atoi(str));
+    return (0);
+}
