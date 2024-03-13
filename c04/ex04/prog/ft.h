@@ -10,3 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_H
+# define FT_H
+
+void    ft_putchar(char c);
+int    ft_is_valid_base(char *base);
+void    ft_putnbr_base(int nbr, char *base);
+
+#endif

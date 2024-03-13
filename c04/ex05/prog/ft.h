@@ -10,3 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_H
+# define FT_H
+
+int    ft_is_valid_base(char *base);
+int    ft_in_base(char c, char *base);
+void    ft_prepare_str(char **str, int *sign);
+int    ft_atoi_base(char *str, char *base);
+
+#endif
+

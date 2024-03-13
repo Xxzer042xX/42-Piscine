@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 // Fonction pour écrire un caractère sur la sortie standard
 void    ft_putchar(char c)
 {
@@ -68,17 +66,3 @@ void    ft_putnbr_base(int nbr, char *base)
     else
         ft_putchar(base[nb]);
 }
-/*
-// Exemple d'utilisation
-int     main(void)
-{
-    ft_putnbr_base(42, "0123456789");
-    write(1, "\n", 1);
-    ft_putnbr_base(-42, "01");
-    write(1, "\n", 1);
-    ft_putnbr_base(42, "0123456789ABCDEF");
-    write(1, "\n", 1);
-    ft_putnbr_base(42, "poneyvif");
-    return (0);
-}
-*/
