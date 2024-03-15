@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Count the number of characters in a string
 unsigned int ft_strlen(char *str)
 {
     unsigned int i;
@@ -20,7 +21,7 @@ unsigned int ft_strlen(char *str)
     return (i);
 }
 
-// Concaténer des chaînes avec gestion de la taille du tampon
+// Concatenate two strings with gestions of buffer size
 unsigned int ft_strlcat(char *dest, char *src, unsigned int size)
 {
     unsigned int l_dest = ft_strlen(dest);
