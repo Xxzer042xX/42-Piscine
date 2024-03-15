@@ -10,18 +10,21 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//Copies up to size - 1 characters from the string src to dest,and returns the length of src
+//Copies up to size - 1 characters from the string src to dest,and returns the length of totality of src.
 unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
 {
     unsigned int i;
     
     i = 0;
-   
-    //Copy src to dest until the end of src or until size - 1
-    while (src[i] != '\0' && i < size - 1)
+    //Copy src to dest if size of dest is greater than 0
+    if (size > 0)
     {
-        dest[i] = src[i];
-        i++;
+        while (src[i] != '\0' && i < size - 1)
+        {
+            dest[i] = src[i];
+            i++;
+        }
+    dest[i] = '\0';
     }
     //If size is greater than the length of src, fill the rest of dest with '\0'
     while(src[i] != '\0')

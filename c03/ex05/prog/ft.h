@@ -14,5 +14,6 @@
 #define FT_H
 
 unsigned int ft_strlcat(char *dest, char *src, unsigned int size);
+unsigned int ft_strlen(char *str);
 
 #endif
