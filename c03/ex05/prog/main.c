@@ -12,11 +12,13 @@
 
 #include <stdio.h>
 #include "ft.h"
+#include <stdlib.h>
 
 int main(void)
 {
-    char dest[] = "Hello";
-    char src[] = " World";
-    printf("%d\n", ft_strlcat(dest, src, 3));
+    char dest[20] = "Hello";//6
+    char src[8] = " World!";//8
+    printf("%d\n", ft_strlcat(dest, src, 20));
+    printf("%s\n", dest);
     return (0);
 }

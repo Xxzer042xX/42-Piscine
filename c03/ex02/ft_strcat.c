@@ -13,20 +13,19 @@
 //Concatenates src to dest and returns dest
 char *ft_strcat(char *dest, char *src)
 {
-    int i;
-    int j;
+    char *pt_dest;
+    char *pt_src;
 
-    i = 0;
-    j = 0;
-    while (dest[i] != '\0')
-        i++;
-    
-    while (src[j] != '\0')
+    pt_src = src;
+    pt_dest = dest;
+    while (*pt_dest != '\0')
+        pt_dest++;
+    while (*pt_src != '\0')
     {
-        dest[i] = src[j];
-        i++;
-        j++;
+        *pt_dest = *pt_src;
+        pt_dest++;
+        pt_src++;
     }
-    dest[i] = '\0';
+    *pt_dest = '\0';
     return (dest);
 }

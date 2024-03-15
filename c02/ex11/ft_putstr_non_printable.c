@@ -21,7 +21,7 @@ char conv_low(unsigned char c)
         return ('a' + c - 10);
 }
 
-//Displays a non-printable character in hexadecimal
+//Displays a non-printable character in hexadecimal, divise the byte (nibble = 4  bits = 1/2 byte)
 void aff_non_printable(unsigned char c)
 {
     char hexa[2];
