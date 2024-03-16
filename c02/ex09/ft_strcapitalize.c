@@ -20,7 +20,7 @@ char	*ft_strcapitalize(char *str)
 
 	i = 0;
     
-    //if th firste character is a lowercase, it will be converted to uppercase
+    // Capitalize the first letter of the string
 	if (str[i] != '\0' && (str[i] >= 'a' && str[i] <= 'z'))
 		str[i] = str[i] - 32;
 	i += 1;
