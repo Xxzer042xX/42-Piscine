@@ -24,7 +24,7 @@ char *ft_strstr(char *str, char *to_find)
     while (str[i] != '\0')
     {
         j = 0;
-        //adds the value of j to srt[i] to move this in str without changing the value of i, time str[i] is equal to to_find[j] and to_find[j] is not at the end of the string
+        //Syncronize the counter of the two strings
         while (str[i + j] == to_find[j] && to_find[j] != '\0')
             j++;
         //Condition for return the pointer to the first occurrence of to_find in str

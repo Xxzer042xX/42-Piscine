@@ -24,10 +24,13 @@ unsigned int ft_strlen(char *str)
 // Concatenate two strings with gestions of buffer size
 unsigned int ft_strlcat(char *dest, char *src, unsigned int size)
 {
-    unsigned int l_dest = ft_strlen(dest);
-    unsigned int l_src = ft_strlen(src);
-    unsigned int i = 0;
+    unsigned int l_dest;
+    unsigned int l_src;
+    unsigned int i;
 
+    l_dest = ft_strlen(dest);
+    l_src = ft_strlen(src);
+    i = 0;
     if (size <= l_dest)
         return (size + l_src);
     while (src[i] != '\0' && (l_dest + i) < (size - 1))
