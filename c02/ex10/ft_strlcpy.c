@@ -28,8 +28,6 @@ unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
     }
     //If size is greater than the length of src, fill the rest of dest with '\0'
     while(src[i] != '\0')
-    {
         i++;
-    }
     return (i);
 }
