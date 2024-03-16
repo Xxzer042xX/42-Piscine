@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+int    ft_strlen(char *str)
+{
+    int i;
+
+    i = 0;
+    while (str[i])
+        i++;
+    return (i);
+}
+
 // Vérifie si la base est valide
 int    ft_is_valid_base(char *base)
 {
@@ -54,13 +64,13 @@ int    ft_in_base(char c, char *base)
 // Sauter les espaces blancs et déterminer le signe
 void    ft_prepare_str(char **str, int *sign)
 {
+    *sign = 1;
     while (**str == ' ' || (**str >= '\t' && **str <= '\r'))
         (*str)++;
-    *sign = 1;
     while (**str == '-' || **str == '+')
     {
         if (**str == '-')
-            *sign *= -1;
+            *sign *= - 1;
         (*str)++;
     }
 }
@@ -73,17 +83,17 @@ int    ft_atoi_base(char *str, char *base)
     int base_len;
     int index;
 
+    sign = 0;
+    result = 0;
+    base_len = ft_strlen(base);
+    index = 0;
     if (!ft_is_valid_base(base))
         return (0);
     ft_prepare_str(&str, &sign);
-    result = 0;
-    base_len = 0;
-    while (base[base_len])
-        base_len++;
-    while (*str)
+    while (*str != '\0')
     {
         index = ft_in_base(*str, base);
-        if (index == -1)
+        if (index == - 1)
             break ;
         result = result * base_len + index;
         str++;

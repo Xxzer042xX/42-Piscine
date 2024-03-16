@@ -12,26 +12,29 @@
 
 #include <unistd.h>
 
-// Fonction pour écrire un caractère sur la sortie standard
+// Display a character on the standard output
 void    ft_putchar(char c)
 {
     write(1, &c, 1);
 }
 
-// Vérifie si la base est valide
+// Verify if the base is valid
 int     ft_is_valid_base(char *base)
 {
     int i;
     int j;
 
     i = 0;
-    if (!base[0] || !base[1])
+    // if the base[0] is empty or the base[1] is empty, return 0
+    if (!base[0] || base[1] == '\0')
         return (0);
-    while (base[i])
+    //Check all the characters in the base
+    while (base[i] != '\0')
     {
         if (base[i] == '+' || base[i] == '-')
             return (0);
         j = i + 1;
+        //Check all occurences of the character in the base 
         while (base[j])
         {
             if (base[i] == base[j])
@@ -47,19 +50,23 @@ int     ft_is_valid_base(char *base)
 void    ft_putnbr_base(int nbr, char *base)
 {
     long nb;
-    int base_len;
+    int base_len;// length of the base
 
     nb = nbr;
     base_len = 0;
+    // if ft_is_valid_base == 0, !ft_is_valid_base == 1
     if (!ft_is_valid_base(base))
         return ;
-    while (base[base_len])
+    //Count the length of the base
+    while (base[base_len] != '\0')
         base_len++;
+    // if the number is negative, display the '-' and make the number positive
     if (nb < 0)
     {
         ft_putchar('-');
         nb = -nb;
     }
+    //Recursive call to display the number in the base
     if (nb >= base_len)
     {
         ft_putnbr_base(nb / base_len, base);
