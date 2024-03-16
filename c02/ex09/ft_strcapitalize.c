@@ -19,10 +19,11 @@ char	*ft_strcapitalize(char *str)
 	int	i;
 
 	i = 0;
+    
     //if th firste character is a lowercase, it will be converted to uppercase
 	if (str[i] != '\0' && (str[i] >= 'a' && str[i] <= 'z'))
 		str[i] = str[i] - 32;
-	i = 1;
+	i += 1;
 	while (str[i] != '\0')
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
