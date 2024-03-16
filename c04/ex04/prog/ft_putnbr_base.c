@@ -25,7 +25,7 @@ int     ft_is_valid_base(char *base)
     int j;
 
     i = 0;
-    if (!base[0] || !base[1])
+    if (!base[0] || !base[1])//base[0] == '\0' || base[1] == '\0'
         return (0);
     while (base[i])
     {
@@ -51,7 +51,7 @@ void    ft_putnbr_base(int nbr, char *base)
 
     nb = nbr;
     base_len = 0;
-    if (!ft_is_valid_base(base))
+    if (ft_is_valid_base(base) == 0)
         return ;
     while (base[base_len])
         base_len++;
