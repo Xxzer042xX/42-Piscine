@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_recursive_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/10 13:16:13 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/10 13:16:13 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/17 01:33:43 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/17 01:33:43 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "ft.h"
-
-int main(void)
+int ft_recursive_power(int nb, int power)
 {
-    printf("%d", ft_find_next_prime(7));
-    return 0;
+    if (power < 0)
+        return (0);
+    if (power == 0)
+        return (1);
+    return (nb * ft_recursive_power(nb, power - 1));
 }

@@ -10,3 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include "ft.h"
+
+int main(void)
+{
+    printf("%d", ft_recursive_power(2, 3));
+    return (0);
+}

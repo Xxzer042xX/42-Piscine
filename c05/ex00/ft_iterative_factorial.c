@@ -10,15 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
+//Calculates the factorial of a number
 int ft_iterative_factorial(int nb)
 {
     int i;
     int result;
 
-    i = 1;
-    result = 1;
+    i = 1;// The factorial of 0 is 1
+    result = 1;// The result of a factorial is always 1
     if (nb < 0)
         return (0);
     while (i <= nb)
@@ -28,11 +27,4 @@ int ft_iterative_factorial(int nb)
     }
     return (result);
 }
-/*
-int main()
-{
-    ft_iterative_factorial(5);
-    printf("%d", ft_iterative_factorial(5));
-    return 0;
-}
-*/
+

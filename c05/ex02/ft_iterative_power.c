@@ -1,20 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_iterative_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/10 13:16:13 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/10 13:16:13 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/17 01:24:56 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/17 01:24:56 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "ft.h"
-
-int main(void)
+int ft_iterative_power(int nb, int power)
 {
-    printf("%d", ft_find_next_prime(7));
-    return 0;
+    int i;
+    int res;
+
+    i = 1;
+    res = 1;
+    if (power < 0)
+        return (0);
+    while (i <= power)
+    {
+        res *= nb;
+        i++;
+    }
+    return (res);
 }
+

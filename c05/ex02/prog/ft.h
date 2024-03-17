@@ -10,3 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_H
+#define FT_H
+
+int ft_iterative_power(int nb, int power);
+
+#endif

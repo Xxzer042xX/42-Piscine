@@ -10,3 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include "ft.h"
+
+int ft_sqrt(int nb);
+
+int main(void)
+{
+    printf("%d", ft_sqrt(4));
+    return 0;
+}

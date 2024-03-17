@@ -1,20 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_fibonacci.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/10 13:16:13 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/10 13:16:13 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/17 01:40:25 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/17 01:40:25 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "ft.h"
-
-int main(void)
+int ft_fibonacci(int index)
 {
-    printf("%d", ft_find_next_prime(7));
-    return 0;
+    if (index < 0)
+        return (-1);
+    if (index == 0)
+        return (0);
+    if (index == 1)
+        return (1);
+    return (ft_fibonacci(index - 1) + ft_fibonacci(index - 2));
 }

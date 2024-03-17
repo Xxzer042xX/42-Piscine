@@ -1,20 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/10 13:16:13 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/10 13:16:13 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/17 01:46:08 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/17 01:46:08 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "ft.h"
-
-int main(void)
+int ft_sqrt(int nb)
 {
-    printf("%d", ft_find_next_prime(7));
-    return 0;
+    int i;
+
+    i = 1;
+    while (i <= nb / 2 || nb == 1)
+    {
+        if (i * i == nb)
+            return (i);
+        i++;
+    }
+    return (0);
 }

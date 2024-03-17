@@ -1,20 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_find_next_prime.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/10 13:16:13 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/10 13:16:13 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/03/17 02:16:52 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/03/17 02:16:52 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "ft.h"
-
-int main(void)
+int ft_find_next_prime(int nb)
 {
-    printf("%d", ft_find_next_prime(7));
-    return 0;
+    int i;
+
+    i = 2;
+    if (nb <= 1)
+        return (2);
+    while (i < nb)
+    {
+        if (nb % i == 0)
+        {
+            nb++;
+            i = 2;
+        }
+        else
+            i++;
+    }
+    return (nb);
 }
