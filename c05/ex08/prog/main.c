@@ -10,3 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft.h"
+
+// La fonction main pour tester
+int     main(void)
+{
+    ft_ten_queens_puzzle();
+    return (0);
+}
