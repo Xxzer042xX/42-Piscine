@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+//Prints the parameters passed to the program
 void    ft_putstr(char *str)
 {
     while (*str)

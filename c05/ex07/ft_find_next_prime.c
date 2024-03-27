@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Returns the next prime number after the input
 int ft_find_next_prime(int nb)
 {
     int i;

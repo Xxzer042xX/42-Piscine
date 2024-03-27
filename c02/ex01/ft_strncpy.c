@@ -24,10 +24,7 @@ char    *ft_strncpy(char *dest, char *src, unsigned int n)
         i++;
     }
     //If n is greater than the length of src, fill the rest of dest with '\0'
-    while (i < n)
-    {
+    if(i < n)
         dest[i] = '\0';
-        i++;
-    }
     return (dest);
 }

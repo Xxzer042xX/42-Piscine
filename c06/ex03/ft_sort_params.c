@@ -12,12 +12,7 @@
 
 #include <unistd.h>
 
-void    ft_putchar(char c)
-{
-    write(1, &c, 1);
-}
-
-// Fonction pour échanger les pointeurs de deux chaînes
+// function to swap the strings
 void    swap(char **a, char **b)
 {
     char *temp;
@@ -27,6 +22,7 @@ void    swap(char **a, char **b)
     *b = temp;
 }
 
+//function to compare the strings
 int ft_strcmp(char *s1, char *s2)
 {
     int i;
@@ -39,7 +35,7 @@ int ft_strcmp(char *s1, char *s2)
     }
     return (s1[i] - s2[i]);
 }
-// Fonction de tri à bulles pour trier le tableau de chaînes
+// Function to sort the strings
 void    bubble_sort(char **arr, int n)
 {
     int     i;
@@ -66,19 +62,19 @@ void    bubble_sort(char **arr, int n)
     }
 }
 
+// print the string
 void ft_putstr(char *str)
 {
     int i;
     i = 0;
     while (str[i] != '\0')
     {
-        ft_putchar(str[i]);
+        write(1, str[i], 1);
         i++;
     }
-    ft_putchar('\n');
+    write(1, "\n", 1);
 }
 
-// Fonction principale pour démontrer le tri du tableau de chaînes
 int main(int ac, char **av)
 {
     int i;
@@ -92,7 +88,6 @@ int main(int ac, char **av)
     }
     bubble_sort(arr, ac);
 
-    // Affichage du tableau trié
     while (i < ac)
     {
         ft_putstr(arr[i]);

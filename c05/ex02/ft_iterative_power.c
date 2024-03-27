@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Returns the result of nb raised to the power of power with an iterative functionv
 int ft_iterative_power(int nb, int power)
 {
     int i;

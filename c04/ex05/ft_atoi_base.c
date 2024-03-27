@@ -27,7 +27,8 @@ int    ft_is_valid_base(char *base)
     int j;
 
     i = 0;
-    if (!base[0] || !base[1])
+    //
+    if (!base[0] || base[1] == '\0')
         return (0);
     while (base[i])
     {

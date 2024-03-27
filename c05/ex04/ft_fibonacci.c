@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Returns the nbr at the index of the Fibonacci sequence
 int ft_fibonacci(int index)
 {
     if (index < 0)

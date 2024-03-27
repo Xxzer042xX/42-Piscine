@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Returns the square root of nb if it exists, 0 otherwise
 int ft_sqrt(int nb)
 {
     int i;

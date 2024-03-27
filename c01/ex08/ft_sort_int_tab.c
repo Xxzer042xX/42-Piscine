@@ -9,7 +9,6 @@
 /*   Updated: 2024/02/29 12:38:19 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 
 //Swap the value of two pointers with help of a temporary variable
 void	ft_swap(int *a, int *b)
@@ -22,28 +21,22 @@ void	ft_swap(int *a, int *b)
 }
 
 //Sort an array of integers in ascending order
-void	ft_sort_int_tab(int *tab, int size)
+void ft_sort_int_tab(int *tab, int size)
 {
-	int	i;
-	int	pos;
-	int	len;
+	int i;
 
 	i = 0;
-	len = size - 1;
-	//while all the elements from array are not checked with each other
-	while (i < len)
-	{
-		pos = 0;
-		//while pos is not compared with all elements
-		while (pos < len)
-		{
-			if (tab[pos] > tab[pos + 1])
-			{
-				ft_swap(&tab[pos], &tab[pos + 1]);
-			}
-			pos++;
-		}
+    // Base case: If the array size is 1 or less, it's already sorted.
+    if (size <= 1)
+        return;
+    // Iterate through the first size-1 elements
+    while (i < size - 1)
+	{   // If the current element is greater than the next element, swap them
+		if (tab[i] > tab[i + 1])
+            ft_swap(&tab[i], &tab[i + 1]);
 		i++;
-	}
+    }
+    ft_sort_int_tab(tab, size - 1);
 }
+
 

@@ -12,7 +12,7 @@
 
 #include <unistd.h>
 
-//Display the alphabet in lowercase
+//Display the alphabet in lowercase from a to z
 void    ft_print_alphabet(void)
 {
     char letter;

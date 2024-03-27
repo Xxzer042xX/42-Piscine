@@ -12,12 +12,6 @@
 
 #include <unistd.h>
 
-// Display a character on the standard output
-void    ft_putchar(char c)
-{
-    write(1, &c, 1);
-}
-
 // Verify if the base is valid
 int     ft_is_valid_base(char *base)
 {
@@ -25,6 +19,7 @@ int     ft_is_valid_base(char *base)
     int j;
 
     i = 0;
+    j = 0;
     // if the base[0] is empty or the base[1] is empty, return 0
     if (!base[0] || base[1] == '\0')
         return (0);
@@ -63,7 +58,7 @@ void    ft_putnbr_base(int nbr, char *base)
     // if the number is negative, display the '-' and make the number positive
     if (nb < 0)
     {
-        ft_putchar('-');
+        write(1, "-", 1);
         nb = -nb;
     }
     //Recursive call to display the number in the base
@@ -73,5 +68,5 @@ void    ft_putnbr_base(int nbr, char *base)
         ft_putnbr_base(nb % base_len, base);
     }
     else
-        ft_putchar(base[nb]);
+        write(1, &base[nb], 1);
 }

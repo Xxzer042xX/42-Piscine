@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Returns the factorial of nb with a recursive function
 int ft_recursive_factorial(int nb)
 {
     if (nb < 0)

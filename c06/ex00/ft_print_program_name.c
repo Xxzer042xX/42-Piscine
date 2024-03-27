@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-
+//Prints the name of the program
 void    ft_putstr(char *str)
 {
     while (*str)

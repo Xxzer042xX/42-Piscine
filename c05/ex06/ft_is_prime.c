@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Returns 1 if the input is a prime number, 0 if not
 int ft_is_prime(int nb)
 {
     int i;
