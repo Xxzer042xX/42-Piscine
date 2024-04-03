@@ -18,8 +18,10 @@ char    *ft_strdup(char *src)
     char    *dest;
     int     i;
 
+    i = 0;
     //Calculates the length of the string.
-    i = sizeof(src) + 1;
+    while(src[i] != '\0')
+        i++;
 
     //Allocates memory for the new string.
     dest = (char *)malloc(sizeof(char) * i);
