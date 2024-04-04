@@ -25,7 +25,7 @@ int *ft_range(int min, int max)
     else
     {
         // Allocates memory for the range array.
-        array = (int *)malloc(sizeof(int) * (max - min));
+        array = malloc(sizeof(int) * (max - min));
 
         // If the allocation fails, return NULL.
         if (array == NULL)

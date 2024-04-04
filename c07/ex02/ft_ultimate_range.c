@@ -29,7 +29,7 @@ int ft_ultimate_range(int **range, int min, int max)
     else
     {
         // Allocate memory for an array of integers containing all values between min and max.
-        tab = (int *)malloc(sizeof(int) * (max - min));
+        tab = malloc(sizeof(int) * (max - min));
 
         // If the allocation fails, set range to NULL and return -1.
         if (tab == NULL)
