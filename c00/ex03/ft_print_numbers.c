@@ -20,7 +20,7 @@ void    ft_print_numbers(void)
     i = 0;
     while (i <= 9)
     {
-        write(1, &i, 1);
+        write(1, &(char){i + '0'}, 1);// <3 O7
         i++;
     }  
 }
