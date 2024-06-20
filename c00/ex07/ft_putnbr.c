@@ -12,31 +12,24 @@
 
 #include <unistd.h>
 
-//Display a character on the standard output.
-void	ft_putchar(char c)
+// Display all digits of a given integer using two's complement
+void ft_putnbr(int nb)
 {
-	write(1, &c, 1);
-}
-
-//Display all number of a given integer
-void	ft_putnbr(int nb)
-{
-	if (nb < 0)
+    if (nb == -2147483648)
 	{
-		write(1, "-", 1);
-		if (nb == -2147483648)
-		{
-			write(1, "2", 1);
-			nb = -147483648;
-		}
-		nb = -nb;
+        write(1, "-2147483648", 11);
+	}
+	else if (nb < 0)
+    {
+        write(1, "-", 1);
+        nb *= -1;
 		ft_putnbr(nb);
-	}
-	else if (nb < 10)
-		ft_putchar(nb + 48);
-	else
-	{
-		ft_putnbr(nb / 10);
-		ft_putnbr(nb % 10);
-	}
+    }
+    else if (nb < 10)
+        write(1, &(char){nb + '0'}, 1);
+    else
+    {
+        ft_putnbr(nb / 10);
+        ft_putnbr(nb % 10);
+    }
 }

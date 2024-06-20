@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_print_combn.c                                   :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/29 11:58:33 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/02/29 11:58:33 by mdelmeni         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h> // Inclut la bibliothèque unistd.h, nécessaire pour la fonction write
 
 // Fonction principale pour générer et afficher toutes les combinaisons de n chiffres
@@ -46,4 +34,13 @@ void ft_print_combn(int n)
 
     // Début du traitement dans ft_print_combn
     generate_combinations(pos, current); // Démarre la génération des combinaisons avec les valeurs initialisées
+}
+
+int main(int ac, char **av)
+{
+    if (ac == 2 && av[1][0] > '0')
+        ft_print_combn(av[1][0] - 48);
+    else
+        write(1, "lol\n", 4);
+    return (0);
 }
