@@ -13,14 +13,14 @@
 #include <unistd.h>
 
 //Display the alphabet in lowercase from 'z' to 'a'
-void    ft_print_reverse_alphabet(void)
+void	ft_print_reverse_alphabet(void)
 {
-    char letter;
+	char	letter;
 
-    letter = 'z';
-    while (letter >= 'a')
-    {
-        write(1, &letter, 1);
-        letter--;
-    }   
+	letter = 'z';
+	while (letter >= 'a')
+	{
+		write(1, &letter, 1);
+		letter--;
+	}
 }

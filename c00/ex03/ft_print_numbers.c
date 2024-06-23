@@ -13,14 +13,14 @@
 #include <unistd.h>
 
 //Display all digits in ascending order
-void    ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (i <= 9)
-    {
-        write(1, &(char){i + '0'}, 1);// <3 O7
-        i++;
-    }  
+	i = 0;
+	while (i <= 9)
+	{
+		write(1, &(char){i + '0'}, 1);
+		i++;
+	}
 }
