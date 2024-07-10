@@ -58,7 +58,6 @@ void ft_eval_solution(int **grid, int *views_value)
 {
     if (ft_solveGrid(grid, views_value, 0, 0) == 1) // Si une solution est trouvée
     {
-        write (1, "eval termined\n\n", 16);
         ft_print_grid(grid);
     }
     else
