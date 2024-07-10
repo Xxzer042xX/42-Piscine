@@ -20,7 +20,7 @@ int main(int ac, char **av)
     n = 0;
     if(ac == 2)
     {
-        n = atoi(&av[1][0]);
+        n = atoi(av[1]);
         ft_is_negative(n);
     }
     return(0);
