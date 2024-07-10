@@ -1,5 +1,3 @@
-Voici une version complète du README pour le programme `rush01`, incluant des exemples d'entrées valides et non valides pour des grilles de tailles variées (de 2x2 à 6x6) :
-
 # rush01
 
 Ce programme `rush01` génère et vérifie des grilles de sudoku de différentes tailles. Voici comment l'utiliser et quelques exemples d'entrées valides et non valides.
