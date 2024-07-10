@@ -1,6 +1,6 @@
 # rush01
 
-Ce programme `rush01` génère et vérifie des grilles de sudoku de différentes tailles. Voici comment l'utiliser et quelques exemples d'entrées valides et non valides.
+Ce programme `rush01` génère et vérifie des grilles skyscraspers de différentes tailles. Voici comment l'utiliser et quelques exemples d'entrées valides.
 
 ## Utilisation
 
