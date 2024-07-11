@@ -1,8 +1,6 @@
-Voici une version complète du README pour le programme `rush01`, incluant des exemples d'entrées valides et non valides pour des grilles de tailles variées (de 2x2 à 6x6) :
-
 # rush01
 
-Ce programme `rush01` génère et vérifie des grilles de sudoku de différentes tailles. Voici comment l'utiliser et quelques exemples d'entrées valides et non valides.
+Ce programme `rush01` génère et vérifie des grilles skyscraspers de différentes tailles. Voici comment l'utiliser et quelques exemples d'entrées valides.
 
 ## Utilisation
 
@@ -12,7 +10,7 @@ Pour exécuter le programme `rush01`, utilisez la commande suivante :
 ./rush-01 "sequence_de_chiffres"
 ```
 
-- `sequence_de_chiffres` est une séquence de chiffres représentant les hauteurs visibles depuis les quatre côtés de la grille de sudoku, dans l'ordre suivant : vue de gauche à droite, vue de droite à gauche, vue d'en haut vers le bas, vue d'en bas vers le haut.
+- `sequence_de_chiffres` est une séquence de chiffres représentant les hauteurs visibles depuis les quatre côtés de la grille de skyscraspers.
 
 ```bash
 ./rush-01 "col1up col2up col3up col4up col1down col2down col3down col4down row1left row2left
