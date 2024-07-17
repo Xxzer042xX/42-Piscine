@@ -15,9 +15,9 @@
 //Display all different combinations of three digits in ascending order
 void	ft_print_comb(void)
 {
-	int	a;
-	int	b;
-	int	c;
+	char	a;
+	char	b;
+	char	c;
 
 	a = '0';
 	while (a <= '7')

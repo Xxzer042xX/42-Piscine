@@ -20,7 +20,7 @@ void	generate_combinations(int pos, char current, int n, char *str)
 		write (1, str, n);
 		if (str[0] != '9' - n + 1)
 			write (1, ", ", 2);
-		return ();
+		return;
 	}
 	str[pos] = current;
 	if (current <= '9')
@@ -41,7 +41,7 @@ void	ft_print_combn(int n)
 	pos = 0;
 	current = '0';
 	if (n <= 0 || n >= 10)
-		return ();
+		return;
 	else
 		generate_combinations(pos, current, n, str);
 }

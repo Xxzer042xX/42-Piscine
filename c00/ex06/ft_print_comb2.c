@@ -12,12 +12,6 @@
 
 #include <unistd.h>
 
-//Display a character on the standard output.
-void	ft_putchar(char c)
-{
-	write (1, &c, 1);
-}
-
 //Display all different combinations of two-digit numbers in ascending order
 void	ft_print_comb2(void)
 {
@@ -30,16 +24,13 @@ void	ft_print_comb2(void)
 		j = i + 1;
 		while (j <= 99)
 		{
-			ft_putchar(i / 10 + '0');
-			ft_putchar(i % 10 + '0');
-			ft_putchar(' ');
-			ft_putchar(j / 10 + '0');
-			ft_putchar(j % 10 + '0');
+			write(1, &(char){(i / 10) + '0'}, 1);
+			write(1, &(char){(i % 10) + '0'}, 1);
+			write(1, " ", 1);
+			write(1, &(char){(j / 10) + '0'}, 1);
+			write(1, &(char){(j % 10) + '0'}, 1);
 			if (i != 98)
-			{
-				ft_putchar(',');
-				ft_putchar(' ');
-			}
+				write(1, ", ", 2);
 			j++;
 		}
 		i++;
