@@ -1,7 +1,7 @@
 #ifndef GLOBALS_H
 #define GLOBALS_H
 
-#define SIZE 4
+#define SIZE 5
 
 #include "check_views_value.h"
 #include "grid.h"

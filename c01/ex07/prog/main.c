@@ -18,13 +18,14 @@ int	main(void)
 	int	size;
 	int	i;
 
-	arr[0] = 1;
-	arr[1] = 2;
-	arr[2] = 3;
-	arr[3] = 4;
-	arr[4] = 5;
-	arr[5] = 6;
+	i = 0;
 	size = 6;
+	while (i < size)
+	{
+		arr[i] = i + 1;
+		i++;
+	}
+	
 	i = 0;
 	ft_rev_int_tab(arr, size);
 	while (i < size)
