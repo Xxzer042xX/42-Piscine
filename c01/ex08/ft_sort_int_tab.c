@@ -20,23 +20,42 @@ void	ft_swap(int *a, int *b)
 	*b = temp;
 }
 
+void	ft_sort_int_tab(int *tab, int size)
+{
+	int *start;
+	int *end;
+
+	start = tab;
+	end = tab + (size -1);
+	if (size <= 1)
+		return;
+	while (start < end)
+	{
+		if (*start > *(start + 1))
+			ft_swap(start, start + 1);
+		start++;
+	}
+	ft_sort_int_tab(tab, size - 1);
+}
+
+/*
 //Sort an array of integers in ascending order
 void ft_sort_int_tab(int *tab, int size)
 {
 	int i;
 
 	i = 0;
-    // Base case: If the array size is 1 or less, it's already sorted.
+	//verifie len de tab
     if (size <= 1)
         return;
-    // Iterate through the first size-1 elements
+	//parcour le tab pour evaluer < || >
     while (i < size - 1)
-	{   // If the current element is greater than the next element, swap them
+	{
 		if (tab[i] > tab[i + 1])
             ft_swap(&tab[i], &tab[i + 1]);
 		i++;
     }
+	//appel recursif 
     ft_sort_int_tab(tab, size - 1);
 }
-
-
+*/
