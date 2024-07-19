@@ -16,6 +16,9 @@
 //Copies the value of src to dest, and returns the pointer of dest
 char    *ft_strcpy(char *dest, char *src)
 {
+    char *d;
+
+    d = dest;
     while (*src)
     {
         *dest = *src;
@@ -23,5 +26,5 @@ char    *ft_strcpy(char *dest, char *src)
         dest++;
     }
     *dest = '\0';
-    return (dest);
+    return (d);
 }

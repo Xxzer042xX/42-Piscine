@@ -11,12 +11,13 @@
 /* ************************************************************************** */
 
 #include "ft.h"
-#include <unistd.h>
-void *ft_print_memory(void *addr, unsigned int size);
 
-int main()
+
+int main(void)
 {
-    char str[] = "Bonjour les aminches\t\n\tc  est fou\ttout\tce qu on peut faire avec\t\n\tprint_memory\n\n\n\tlol.lol\n ";
-    ft_print_memory(str, sizeof(str));
-    return 0;
+    char *str;
+    
+    str = "Bonjour les amiches\t\n\tc  est fou\ttout\tce qu on peut faire avec\t\n\tprint_memory\n\n\n\tlol.lol\n ";
+    ft_print_memory(str, 91);
+    return (0);
 }

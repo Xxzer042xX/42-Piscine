@@ -18,7 +18,7 @@ char conv_low(unsigned char c)
     if (c < 10)
         return ('0' + c);
     else
-        return ('a' + c - 10);
+        return ('a' + (c - 10));
 }
 
 //Displays a non-printable character in hexadecimal, divise the byte (nibble = 4  bits = 1/2 byte)
@@ -35,14 +35,13 @@ void aff_non_printable(unsigned char c)
 //Displays a string, replacing non-printable characters with their hexadecimal value
 void ft_putstr_non_printable(char *str)
 {
-    int i = 0;
-    while (str[i])
+    while (*str)
     {
         //If the character is printable, display it
-        if (str[i] >= 32 && str[i] <= 126)
-            write(1, &str[i], 1);
+        if (*str>= 32 && *str <= 126)
+            write(1, str, 1);
         else
-            aff_non_printable(str[i]);
-        i++;
+            aff_non_printable(*str);
+        str++;
     }
 }

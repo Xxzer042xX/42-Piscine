@@ -51,7 +51,7 @@ char	*ft_strcapitalize(char *str)
 {
 	int	i;
 
-	i = 0;ww
+	i = 0;
 	// Capitalize the first letter if it's lowercase
 	if (str[i] != '\0' && (str[i] >= 'a' && str[i] <= 'z'))
 		str[i] = str[i] - 32;

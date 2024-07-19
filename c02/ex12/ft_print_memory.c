@@ -12,11 +12,6 @@
 
 #include <unistd.h>
 
-void ft_putchar(char c)
-{
-    write(1, &c, 1);
-}
-
 void ft_putstr(char *str, int len)
 {
     write(1, str, len);
@@ -25,8 +20,8 @@ void ft_putstr(char *str, int len)
 void print_hex(unsigned char c)
 {
     char *hex = "0123456789abcdef";
-    ft_putchar(hex[c / 16]);
-    ft_putchar(hex[c % 16]);
+    write(1, &hex[c / 16], 1);
+    write(1, &hex[c % 16], 1);
 }
 
 void print_address(unsigned long long addr)
@@ -45,8 +40,7 @@ void print_address(unsigned long long addr)
         i--;
     }
     ft_putstr(address, 16);
-    ft_putchar(':');
-    ft_putchar(' ');
+    ft_putstr(": ", 2);
 }
 
 void print_line_content(unsigned char *addr, int line_size)
@@ -65,19 +59,19 @@ void print_line_content(unsigned char *addr, int line_size)
             ft_putstr("  ", 2);
         //Print a space after every 2 hex values
         if (i % 2)// i % 2 == 1
-            ft_putchar(' ');
+            write(1, " ", 1);
         i++;
     }
     i = 0;
     while(i < line_size)
     {
         if (addr[i] >= 32 && addr[i] <= 126)
-            ft_putchar(addr[i]);
+            write(1, &addr[i], 1);
         else
-            ft_putchar('.');        
+            write(1, ".", 1);        
         i++;
     }
-    ft_putchar('\n');
+    write(1, "\n", 1);
 }
 
 //
