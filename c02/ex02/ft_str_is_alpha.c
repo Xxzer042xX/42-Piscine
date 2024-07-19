@@ -10,6 +10,19 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+int ft_str_is_alpha(char *str)
+{
+    while (*str)
+    {
+        if((*str >= 'A' && *str <= 'Z') || (*str >= 'a' && *str <= 'z'))
+            str++;
+        else
+            return (0);
+    }
+    return (1);
+}
+
+/*
 //Checks if the string contains only alphabetical characters, and returns 1 if it does, 0 if it doesn't
 int ft_str_is_alpha(char *str)
 {
@@ -25,3 +38,4 @@ int ft_str_is_alpha(char *str)
     }
     return (1);
 }
+*/

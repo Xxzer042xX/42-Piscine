@@ -26,7 +26,7 @@ void	ft_sort_int_tab(int *tab, int size)
 	int *end;
 
 	start = tab;
-	end = tab + (size -1);
+	end = tab + (size - 1);
 	if (size <= 1)
 		return;
 	while (start < end)

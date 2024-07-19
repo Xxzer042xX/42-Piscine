@@ -13,7 +13,8 @@
 #ifndef FT_H
 #define FT_H
 
-void ft_putchar(char c);
+#include <unistd.h>
+
 int ft_str_is_alpha(char *str);
 
 #endif

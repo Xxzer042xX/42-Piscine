@@ -13,6 +13,21 @@
 //Converts all uppercase characters in a string to lowercase, and returns the string
 char *ft_strlowcase(char *str)
 {
+    char *orig;
+
+    orig = str;
+    while (*str)
+    {
+        if (*str >= 'A' && *str <= 'Z')
+            *str += 32;
+        str++;
+    }
+    return (orig);
+}
+
+/**
+char *ft_strlowcase(char *str)
+{
     int i;
 
     i = 0;
@@ -24,3 +39,4 @@ char *ft_strlowcase(char *str)
     }
     return (str);
 }
+*/

@@ -14,6 +14,6 @@
 
 int main(int ac, char **av)
 {
-    ft_putchar('0' + ft_str_is_numeric(av[1]));
+    write(1, &(char){ft_str_is_alpha(av[1]) + '0'}, 1);
     return (0);
 }

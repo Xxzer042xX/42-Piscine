@@ -10,21 +10,37 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+char *ft_strncpy(char *dest, char *src, unsigned int n)
+{
+    char *d;
+    char *s;
 
+    d = dest;
+    s = src;
+    while (*s && n)
+    {
+        *d++ = *s++;
+        n--;
+    }
+    while (n--)
+        *d++ = '\0';
+    return(dest);
+}
+
+/*
 //Copies the n first characters of src to dest, and returns the value of dest
 char    *ft_strncpy(char *dest, char *src, unsigned int n)
 {
     unsigned    int i;
 
     i = 0;
-    //Copy src to dest until the end of src or until n
     while (src[i] != '\0' && i < n)
     {
         dest[i] = src[i];
         i++;
     }
-    //If n is greater than the length of src, fill the rest of dest with '\0'
     if(i < n)
         dest[i] = '\0';
     return (dest);
 }
+*/

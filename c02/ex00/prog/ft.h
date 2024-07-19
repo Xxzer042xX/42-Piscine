@@ -13,7 +13,11 @@
 #ifndef FT_H
 # define FT_H
 
+#include <unistd.h>
+#include <stdlib.h>
+
 char    *ft_strcpy(char *dest, char *src);
 void    ft_putstr(char *str);
+int ft_strlen(char *str);
 
 #endif

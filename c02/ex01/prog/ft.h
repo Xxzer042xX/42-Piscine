@@ -13,6 +13,9 @@
 #ifndef FT_H
 #define FT_H
 
+#include <unistd.h>
+#include <stdlib.h>
+
 char    *ft_strncpy(char *dest, char *src, unsigned int n);
 
 #endif
