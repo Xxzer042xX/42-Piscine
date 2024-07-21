@@ -11,18 +11,17 @@
 /* ************************************************************************** */
 
 //Concatenates src to dest and returns dest
-char *ft_strcat(char *dest, char *src)
+char	*ft_strcat(char *dest, char *src)
 {
-    char *s;
-    char *d;
+	char	*s;
+	char	*d;
 
-    s = src;
-    d = dest;
-    while (*d)
-        d++;
-    while (*s)
-        *d++ = *s++;
-    *d = '\0';
-    return (dest);
+	s = src;
+	d = dest;
+	while (*d)
+		d++;
+	while (*s)
+		*d++ = *s++;
+	*d = '\0';
+	return (dest);
 }
-

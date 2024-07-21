@@ -15,7 +15,6 @@
 //Write a string char by char with the write function on the standard output
 void	ft_putstr(char *str)
 {
-    while (*str)
-        write(1, str++, 1);
+	while (*str)
+		write(1, str++, 1);
 }
-

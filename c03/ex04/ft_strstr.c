@@ -10,56 +10,26 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//Searches for the first occurrence of *to_find in *str. Returns a pointer to the located string, or a null pointer if the string is not found
-char *ft_strstr(char *str, char *to_find)
+//Searches for the first occurrence
+char	*ft_strstr(char *str, char *to_find)
 {
-    char *p_str;
-    char *p_to_find;
+	char	*p_str;
+	char	*p_to_find;
 
-    if (*to_find == '\0')
-        return (str);
-    // Parcours de la chaîne principale
-    while (*str)
-    {
-        p_str = str;
-        p_to_find = to_find;
-        // Comparaison des caractères
-        while (*p_str && *p_to_find && *p_str == *p_to_find)
-        {
-            p_str++;
-            p_to_find++;
-        }
-        // Si toute la sous-chaîne a été trouvée
-        if (*p_to_find == '\0')
-            return (str);
-        str++;
-    }
-    return (NULL);
+	if (*to_find == '\0')
+		return (str);
+	while (*str)
+	{
+		p_str = str;
+		p_to_find = to_find;
+		while (*p_str && *p_to_find && *p_str == *p_to_find)
+		{
+			p_str++;
+			p_to_find++;
+		}
+		if (*p_to_find == '\0')
+			return (str);
+		str++;
+	}
+	return (NULL);
 }
-
-/*
-//Searches for the first occurrence of *to_find in *str. Returns a pointer to the located string, or a null pointer if the string is not found
-char *ft_strstr(char *str, char *to_find)
-{
-    int i;
-    int j;
-
-    i = 0;
-    //If to_find is an empty string, return str
-    if (to_find[0] == '\0')
-        return (str);
-    //While str[i] isn't on the end of the string
-    while (str[i] != '\0')
-    {
-        j = 0;
-        //Syncronize the counter of the two strings
-        while (str[i + j] == to_find[j] && to_find[j] != '\0')
-            j++;
-        //Condition for return the pointer to the first occurrence of to_find in str
-        if (to_find[j] == '\0')
-            return (&str[i]);
-        i++;
-    }
-    return (0);
-}
-*/

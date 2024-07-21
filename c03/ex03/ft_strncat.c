@@ -11,18 +11,18 @@
 /* ************************************************************************** */
 
 //Concatenates n characters from src to dest and returns dest
-char *ft_strncat(char *dest, char *src, unsigned int nb)
+char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-    char *d;
+	char	*d;
 
-    d = dest;
-    while (*d)
-        d++;
-    while (*src && nb)
-    {
-        *d++ = *src++;
-        nb--;
-    }
-    *d = '\0';
-    return (dest);
+	d = dest;
+	while (*d)
+		d++;
+	while (*src && nb)
+	{
+		*d++ = *src++;
+		nb--;
+	}
+	*d = '\0';
+	return (dest);
 }

@@ -11,16 +11,16 @@
 /* ************************************************************************** */
 
 //Returns the square root of nb if it exists, 0 otherwise
-int ft_sqrt(int nb)
+int	ft_sqrt(int nb)
 {
-    int i;
+	int	i;
 
-    i = 1;
-    while (i <= nb / 2 || nb == 1)
-    {
-        if (i * i == nb)
-            return (i);
-        i++;
-    }
-    return (0);
+	i = 1;
+	while (i <= nb / 2 || nb == 1)
+	{
+		if (i * i == nb)
+			return (i);
+		i++;
+	}
+	return (0);
 }
