@@ -37,25 +37,3 @@ void	ft_sort_int_tab(int *tab, int size)
 	}
 	ft_sort_int_tab(tab, size - 1);
 }
-
-/*
-//Sort an array of integers in ascending order
-void ft_sort_int_tab(int *tab, int size)
-{
-	int i;
-
-	i = 0;
-	//verifie len de tab
-    if (size <= 1)
-        return;
-	//parcour le tab pour evaluer < || >
-    while (i < size - 1)
-	{
-		if (tab[i] > tab[i + 1])
-            ft_swap(&tab[i], &tab[i + 1]);
-		i++;
-    }
-	//appel recursif 
-    ft_sort_int_tab(tab, size - 1);
-}
-*/

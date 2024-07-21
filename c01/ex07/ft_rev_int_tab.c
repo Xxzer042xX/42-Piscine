@@ -30,23 +30,3 @@ void	ft_rev_int_tab(int *tab, int size)
 		end--;
 	}
 }
-
-/*
-void	ft_rev_int_tab(int *tab, int size)
-{
-	int	tmp;
-	int	start;
-	int	end;
-
-	start = 0;
-	end = size - 1;
-	while (start < end)
-	{
-		tmp = tab[start];
-		tab[start] = tab[end];
-		tab[end] = tmp;
-		start++;
-		end--;
-	}
-}
-*/

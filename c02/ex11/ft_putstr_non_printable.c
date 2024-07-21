@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 //Converts a character to its hexadecimal value(hexa = 16)
 char	conv_low(unsigned char c)
 {
