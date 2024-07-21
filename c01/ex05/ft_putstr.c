@@ -15,17 +15,9 @@
 //Display all the characters of a string char by char
 void	ft_putstr(char *str)
 {
-    while (*str)
-    {
-        write(1, str, 1);
-        str++;
-    }
-}
-
-int	main(int ac, char **av)
-{
-	if(ac == 2)
-		ft_putstr(av[1]);
-	write(1, "\n", 1);
-	return (0);
+	while (*str)
+	{
+		write(1, str, 1);
+		str++;
+	}
 }

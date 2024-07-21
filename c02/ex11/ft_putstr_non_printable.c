@@ -13,35 +13,33 @@
 #include <unistd.h>
 
 //Converts a character to its hexadecimal value(hexa = 16)
-char conv_low(unsigned char c)
+char	conv_low(unsigned char c)
 {
-    if (c < 10)
-        return ('0' + c);
-    else
-        return ('a' + (c - 10));
+	if (c < 10)
+		return ('0' + c);
+	else
+		return ('a' + (c - 10));
 }
 
-//Displays a non-printable character in hexadecimal, divise the byte (nibble = 4  bits = 1/2 byte)
-void aff_non_printable(unsigned char c)
+//Displays a non-printable character in hexadecimal
+void	aff_non_printable(unsigned char c)
 {
-    char hexa[2];
+	char	hexa[2];
 
-    hexa[0] = conv_low(c / 16);
-    hexa[1] = conv_low(c % 16);
-    write(1, "\\", 1);
-    write(1, hexa, 2);
+	hexa[0] = conv_low(c / 16);
+	hexa[1] = conv_low(c % 16);
+	write(1, "\\", 1);
+	write(1, hexa, 2);
 }
 
-//Displays a string, replacing non-printable characters with their hexadecimal value
-void ft_putstr_non_printable(char *str)
+void	ft_putstr_non_printable(char *str)
 {
-    while (*str)
-    {
-        //If the character is printable, display it
-        if (*str>= 32 && *str <= 126)
-            write(1, str, 1);
-        else
-            aff_non_printable(*str);
-        str++;
-    }
+	while (*str)
+	{
+		if (*str >= 32 && *str <= 126)
+			write(1, str, 1);
+		else
+			aff_non_printable(*str);
+		str++;
+	}
 }

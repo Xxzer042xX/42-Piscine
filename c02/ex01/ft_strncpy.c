@@ -10,21 +10,21 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strncpy(char *dest, char *src, unsigned int n)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-    char *d;
-    char *s;
+	char	*d;
+	char	*s;
 
-    d = dest;
-    s = src;
-    while (*s && n)
-    {
-        *d++ = *s++;
-        n--;
-    }
-    while (n--)
-        *d++ = '\0';
-    return(dest);
+	d = dest;
+	s = src;
+	while (*s && n)
+	{
+		*d++ = *s++;
+		n--;
+	}
+	while (n--)
+		*d++ = '\0';
+	return (dest);
 }
 
 /*

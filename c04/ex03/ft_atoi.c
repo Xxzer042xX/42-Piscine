@@ -13,19 +13,17 @@
 //Convert a string to an integer
 int ft_atoi(char *str)
 {
-    int i;
     int sign;
     int result;
 
-    i = 0;
     sign = 0;
     result = 0;
     //Move to the first non-space character or sign character
-    while (str[i] == ' ' || (str[i] >= '\t' && str[i] <= '\r') || str[i] == '-' || str[i] == '+')
+    while (*str == ' ' || (*str >= '\t' && *str <= '\r') || *str == '-' || *str == '+')
     {
-        if (str[i] == '-')
+        if (*str == '-')
             sign += 1;
-        i++;
+        str++;
     }
     //Evaluate the sign is positive or negative
     if (sign % 2 != 0)
@@ -33,10 +31,10 @@ int ft_atoi(char *str)
     else
         sign = 1;
     //Generate the number
-    while (str[i] >= '0' && str[i] <= '9')
+    while (*str >= '0' && *str <= '9')
     {
-        result = result * 10 + (str[i] - '0');
-        i++;
+        result = (result * 10) + (*str - '0');
+        str++;
     }
     return (result * sign);
 }

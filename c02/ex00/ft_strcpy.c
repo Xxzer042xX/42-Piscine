@@ -14,17 +14,13 @@
 #include <stdlib.h>
 
 //Copies the value of src to dest, and returns the pointer of dest
-char    *ft_strcpy(char *dest, char *src)
+char	*ft_strcpy(char *dest, char *src)
 {
-    char *d;
+	char	*d;
 
-    d = dest;
-    while (*src)
-    {
-        *dest = *src;
-        src++;
-        dest++;
-    }
-    *dest = '\0';
-    return (d);
+	d = dest;
+	while (*src)
+		*dest++ = *src++;
+	*dest = '\0';
+	return (d);
 }

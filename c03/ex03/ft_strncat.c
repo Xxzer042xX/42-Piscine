@@ -13,19 +13,16 @@
 //Concatenates n characters from src to dest and returns dest
 char *ft_strncat(char *dest, char *src, unsigned int nb)
 {
-    unsigned int i;
-    unsigned int j;
+    char *d;
 
-    i = 0;
-    j = 0;
-    while (dest[i] != '\0')
-        i++;
-    while (src[j] != '\0' && j < nb)
+    d = dest;
+    while (*d)
+        d++;
+    while (*src && nb)
     {
-        dest[i] = src[j];
-        i++;
-        j++;
+        *d++ = *src++;
+        nb--;
     }
-    dest[i] = '\0';
+    *d = '\0';
     return (dest);
 }

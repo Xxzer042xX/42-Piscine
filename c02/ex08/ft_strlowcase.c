@@ -10,19 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//Converts all uppercase characters in a string to lowercase, and returns the string
-char *ft_strlowcase(char *str)
+char	*ft_strlowcase(char *str)
 {
-    char *orig;
+	char	*orig;
 
-    orig = str;
-    while (*str)
-    {
-        if (*str >= 'A' && *str <= 'Z')
-            *str += 32;
-        str++;
-    }
-    return (orig);
+	orig = str;
+	while (*str)
+	{
+		if (*str >= 'A' && *str <= 'Z')
+			*str += 32;
+		str++;
+	}
+	return (orig);
 }
 
 /**

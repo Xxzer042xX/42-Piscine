@@ -23,12 +23,12 @@ void	ft_putnbr(int nb)
 {
 	if (nb < 0)
 	{
-		write(1, "-", 1);
 		if (nb == -2147483648)
 		{
-			write(1, "2", 1);
-			nb = -147483648;
+			write(1, "-2147483648", 11);
+			return;
 		}
+		write(1, "-", 1);
 		nb = -nb;
 		ft_putnbr(nb);
 	}

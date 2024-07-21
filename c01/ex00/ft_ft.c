@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 //Assign 42 to the pointer's value
-void    ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
-    *nbr =  42;
+	*nbr = 42;
 }

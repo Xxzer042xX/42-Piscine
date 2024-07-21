@@ -13,18 +13,16 @@
 //Concatenates src to dest and returns dest
 char *ft_strcat(char *dest, char *src)
 {
-    char *pt_dest;
-    char *pt_src;
+    char *s;
+    char *d;
 
-    pt_src = src;
-    pt_dest = dest;
-    while (*pt_dest != '\0')
-        pt_dest++;
-    while (*pt_src != '\0')
-    {
-        *pt_dest = *pt_src;
-        pt_dest++;
-        pt_src++;
-    }
+    s = src;
+    d = dest;
+    while (*d)
+        d++;
+    while (*s)
+        *d++ = *s++;
+    *d = '\0';
     return (dest);
 }
+

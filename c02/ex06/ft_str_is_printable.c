@@ -10,19 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//Checks if the string contains only printable characters, and returns 1 if it does, 0 if it doesn't
-int ft_str_is_printable(char *str)
+int	ft_str_is_printable(char *str)
 {
-    while (*str)
-    {
-        if (*str >= 32 && *str <= 126)
-        {
-            str++;
-        }
-        else
-            return (0);
-    }
-    return (1);
+	while (*str)
+	{
+		if (*str >= 32 && *str <= 126)
+			str++;
+		else
+			return (0);
+	}
+	return (1);
 }
 
 /*

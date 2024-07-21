@@ -22,13 +22,13 @@ void	ft_swap(int *a, int *b)
 
 void	ft_sort_int_tab(int *tab, int size)
 {
-	int *start;
-	int *end;
+	int	*start;
+	int	*end;
 
 	start = tab;
 	end = tab + (size - 1);
 	if (size <= 1)
-		return;
+		return ;
 	while (start < end)
 	{
 		if (*start > *(start + 1))

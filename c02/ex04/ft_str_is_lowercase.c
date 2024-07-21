@@ -10,17 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//Checks if the string contains only lowercase characters, and returns 1 if it does, 0 if it doesn't
-int ft_str_is_lowercase(char *str)
+int	ft_str_is_lowercase(char *str)
 {
-    while (*str)
-    {
-        if (*str >= 'a' && *str <= 'z')
-            str++;
-        else
-            return (0);
-    }
-    return (1);
+	while (*str)
+	{
+		if (*str >= 'a' && *str <= 'z')
+			str++;
+		else
+			return (0);
+	}
+	return (1);
 }
 
 /*
