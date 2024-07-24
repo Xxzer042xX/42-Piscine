@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
 //Reverse the order of the elements of an array of integers
 void	ft_rev_int_tab(int *tab, int size)
 {

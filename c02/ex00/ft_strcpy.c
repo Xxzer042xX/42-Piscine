@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdlib.h>
-
 //Copies the value of src to dest, and returns the pointer of dest
 char	*ft_strcpy(char *dest, char *src)
 {
