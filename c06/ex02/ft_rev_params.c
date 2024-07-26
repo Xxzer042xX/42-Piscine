@@ -13,28 +13,28 @@
 #include <unistd.h>
 
 //Prints the parameters passed to the program
-void    ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-    while (*str)
-    {
-        write(1, str, 1);
-        str++;
-    }
+	while (*str)
+	{
+		write(1, str, 1);
+		str++;
+	}
 }
 
-int     main(int ac, char **av)
+int	main(int ac, char **av)
 {
-    int i;
+	int	i;
 
-    i = ac - 1;
-    if (ac > 1)
-    {
-        while(i > 0)
-        {
-            ft_putstr(av[i]);
-            write(1, "\n", 1);
-            i--;
-        }
-    }
-    return (0);
+	i = ac - 1;
+	if (ac > 1)
+	{
+		while (i > 0)
+		{
+			ft_putstr(av[i]);
+			write(1, "\n", 1);
+			i--;
+		}
+	}
+	return (0);
 }

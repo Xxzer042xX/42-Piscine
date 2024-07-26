@@ -13,26 +13,21 @@
 #include <unistd.h>
 
 //Prints the arguments passed to the program
-void    ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-    while (*str)
-    {
-        write(1, str, 1);
-        str++;
-    }
+	while (*str)
+		write(1, str++, 1);
 }
 
-int     main(int ac, char **av)
+int	main(int ac, char **av)
 {
-    if (ac > 1)
-    {
-        av++;
-        while (*av)
-        {
-            ft_putstr(*av);
-            write(1, "\n", 1);
-            av++;
-        }
-    }
-    return (0);
+	if (ac > 1)
+	{
+		while (*(++av))
+		{
+			ft_putstr(*av);
+			write(1, "\n", 1);
+		}
+	}
+	return (0);
 }

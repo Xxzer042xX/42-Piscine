@@ -11,20 +11,12 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-//Prints the name of the program
-void    ft_putstr(char *str)
-{
-    while (*str)
-    {
-        write(1, str, 1);
-        str++;
-    }
-}
 
-int     main(int ac, char **av)
+int	main(int ac, char **av)
 {
-    (void)ac;
-    ft_putstr(av[0]);
-    write(1, "\n", 1);
-    return (0);
+	(void)ac;
+	while (*av[0])
+		write(1, av[0]++, 1);
+	write(1, "\n", 1);
+	return (0);
 }

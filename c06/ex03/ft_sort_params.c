@@ -12,81 +12,62 @@
 
 #include <unistd.h>
 
-// function to swap the strings
-void    swap(char **a, char **b)
+// Fonction de comparaison pour le tri à bulles
+int	compare(const char *a, const char *b)
 {
-    char *temp;
-
-    temp = *a;
-    *a = *b;
-    *b = temp;
+	while (*a && *b && *a == *b)
+	{
+		a++;
+		b++;
+	}
+	return ((*(unsigned char *)a) - (*(unsigned char *)b));
 }
 
-//function to compare the strings
-int ft_strcmp(char *s1, char *s2)
+// Fonction de tri à bulles
+void	bubble_sort(char *arr[], int n)
 {
-    int i;
-    i = 0;
-    while (s1[i] == s2[i] && s1[i] != '\0')
-    {
-        if(s1[i] == '\0' && s2[i] == '\0')
-           return (0);
-        i++;
-    }
-    return (s1[i] - s2[i]);
-}
-// Function to sort the strings
-void    bubble_sort(char **arr, int n)
-{
-    int     i;
-    int     j;
-    int     swapped;
+	int		i;
+	int		j;
+	char	*temp;
 
-    i = 0;
-    while (i < n - 1)
-    {
-        swapped = 0;
-        j = 0;
-        while (j < n - i - 1)
-        {
-            if (ft_strcmp(arr[j], arr[j + 1]) > 0)
-            {
-                swap(&arr[j], &arr[j + 1]);
-                swapped = 1;
-            }
-            j++;
-        }
-        if (swapped == 0)
-            break;
-        i++;
-    }
+	i = 0;
+	while (i < n - 1)
+	{
+		j = 0;
+		while (j < n - i - 1)
+		{
+			if (compare(arr[j], arr[j + 1]) > 0)
+			{
+				temp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
+			}
+			j++;
+		}
+		i++;
+	}
 }
 
-// print the string
-void ft_putstr(char *str)
+// Fonction d'affichage
+void	write_string(const char *str)
 {
-    while (*str)
-        write(1, str++, 1);
-    write(1, "\n", 1);
+	while (*str)
+		write(STDOUT_FILENO, str++, 1);
 }
 
-int main(int ac, char **av)
+int	main(int argc, char *argv[])
 {
-    int i;
-    char *arr[ac];
- 
-    i = 0;
-    while(i < ac)
-    {
-        arr[i] = av[i];
-        i++;
-    }
-    bubble_sort(arr, ac);
+	int	i;
 
-    while (i < ac)
-    {
-        ft_putstr(arr[i]);
-        i++;
-    }
-    return (0);
+	i = 1;
+	if (argc < 2)
+		return (1);
+	bubble_sort(argv + 1, argc - 1);
+	while (i < argc)
+	{
+		write_string(argv[i]);
+		write(STDOUT_FILENO, "\n", 1);
+		i++;
+	}
+	return (0);
 }
