@@ -20,10 +20,10 @@ void	write_comb(char *str, int n, int is_last)
 		write(1, ", ", 2);
 }
 
-// Fonction pour vérifier si la combinaison actuelle est la dernière
+//vérifier si la combinaison actuelle est la dernière (evaluation bool)
 int	is_last_comb(char *str, int n)
 {
-	return (str[0] == '9' - n + 1);
+	return (str[0] == ('9' - n) + 1);
 }
 
 void	ft_print_combn(int n)
@@ -48,8 +48,7 @@ void	ft_print_combn(int n)
 		{
 			if (pos == 0)
 				break ;
-			pos--;
-			nbr = str[pos] + 1;
+			nbr = str[--pos] + 1;
 		}
 	}
 }
