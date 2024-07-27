@@ -41,7 +41,6 @@ void	ft_print_combn(int n)
 		{
 			write_comb(str, n, is_last_comb(str, n));
 			pos--;
-			nbr = str[pos] + 1;
 		}
 		else if (nbr <= '9')
 			str[pos++] = nbr++;
