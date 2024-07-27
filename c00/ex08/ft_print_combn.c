@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdlib.h>
 
 // Fonction pour écrire une combinaison et le séparateur
 void	write_comb(char *str, int n, int is_last)
@@ -55,12 +54,3 @@ void	ft_print_combn(int n)
 		}
 	}
 }
-/*
-int	main(int ac, char **av)
-{
-	if (ac == 2 && av[1][0] > '0' && av[1][0] <= '9')
-		ft_print_combn(atoi(av[1]));
-	write(1, "\n", 1);
-	return (0);
-}
-*/
