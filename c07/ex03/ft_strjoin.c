@@ -17,7 +17,7 @@ int	ft_strlen(const char *str)
 	int	len;
 
 	len = 0;
-	while (str[len] != '\0')
+	while (*str++)
 		len++;
 	return (len);
 }
@@ -25,9 +25,7 @@ int	ft_strlen(const char *str)
 void	ft_strcpy(char *dest, const char *src)
 {
 	while (*src)
-	{
 		*dest++ = *src++;
-	}
 	*dest = '\0';
 }
 
@@ -90,3 +88,27 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 		return (NULL);
 	return (join_strings(size, strs, sep, join));
 }
+
+/*
+#include <stdio.h>
+
+int main(void)
+{
+    char *strings[] = {"Hello", "world", "this", "is", "a", "test"};
+    char *separator = " ";
+    int size = 6;
+    char *result;
+
+    result = ft_strjoin(size, strings, separator);
+    if (result == NULL)
+    {
+        printf("Memory allocation failed\n");
+        return (1);
+    }
+
+    printf("Joined string: %s\n", result);
+    free(result);
+
+    return (0);
+}
+*/
