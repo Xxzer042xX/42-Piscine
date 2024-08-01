@@ -13,31 +13,18 @@
 #include <stdlib.h>
 
 // Returns an array of integers containing all values between min and max.
-int *ft_range(int min, int max)
+int	*ft_range(int min, int max)
 {
-    int *array;
-    int i;
+	int	*p_array;
+	int	*array;
 
-    i = 0;    
-    // If min is greater than or equal to max, return NULL.
-    if (min >= max)
-        return (NULL);
-    else
-    {
-        // Allocates memory for the range array.
-        array = malloc(sizeof(int) * (max - min));
-
-        // If the allocation fails, return NULL.
-        if (array == NULL)
-            return (NULL);
-    }
-
-    // Fills the range array with values from min to max.
-    while (min < max)
-    {
-        array[i] = min;
-        i++;
-        min++;
-    }
-    return (array);
+	if (min >= max)
+		return (NULL);
+	array = malloc(sizeof(int) * (max - min));
+	if (!array)
+		return (NULL);
+	p_array = array;
+	while (min < max)
+		*array++ = min++;
+	return (p_array);
 }
