@@ -37,12 +37,8 @@ int	calculate_total_length(int size, char **strs, int sep_len)
 	total_len = 0;
 	i = 0;
 	while (i < size)
-	{
-		total_len += ft_strlen(strs[i]);
-		i++;
-	}
-	total_len += sep_len * (size - 1);
-	total_len += 1;
+		total_len += ft_strlen(strs[i++]);
+	total_len += sep_len * (size - 1) + 1;
 	return (total_len);
 }
 
@@ -88,27 +84,3 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 		return (NULL);
 	return (join_strings(size, strs, sep, join));
 }
-
-/*
-#include <stdio.h>
-
-int main(void)
-{
-    char *strings[] = {"Hello", "world", "this", "is", "a", "test"};
-    char *separator = " ";
-    int size = 6;
-    char *result;
-
-    result = ft_strjoin(size, strings, separator);
-    if (result == NULL)
-    {
-        printf("Memory allocation failed\n");
-        return (1);
-    }
-
-    printf("Joined string: %s\n", result);
-    free(result);
-
-    return (0);
-}
-*/
