@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 //Converts all int values to char and displays them with ft_putchar
 void	ft_putnbr(int nb)
 {

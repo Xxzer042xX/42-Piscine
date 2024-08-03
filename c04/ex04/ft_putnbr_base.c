@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 // Vérifie si la base est valide
 int	ft_is_valid_base(char *base)
 {

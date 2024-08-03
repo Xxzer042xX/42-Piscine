@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 //Write a string char by char with the write function on the standard output
 void	ft_putstr(char *str)
 {
