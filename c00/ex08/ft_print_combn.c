@@ -12,7 +12,7 @@
 
 #include <unistd.h>
 
-// Fonction pour écrire une combinaison et le séparateur
+// Function to write a combination and the separator
 void	write_comb(char *str, int n, int is_last)
 {
 	write (1, str, n);
@@ -20,12 +20,13 @@ void	write_comb(char *str, int n, int is_last)
 		write(1, ", ", 2);
 }
 
-//vérifier si la combinaison actuelle est la dernière (evaluation bool)
+// Function to check if the current combination is the last one(bool)
 int	is_last_comb(char *str, int n)
 {
 	return (str[0] == ('9' - n) + 1);
 }
 
+// Function to print all possible combinations of n digits in ascending order.
 void	ft_print_combn(int n)
 {
 	char	str[10];

@@ -12,6 +12,7 @@
 
 #include <unistd.h>
 
+//The putnbr function prints an integer to the standard output.
 void	ft_putnbr(int nb)
 {
 	if (nb == -2147483648)
@@ -28,26 +29,3 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb / 10);
 	write (1, &(char){(nb % 10) + '0'}, 1);
 }
-
-/*
-void	ft_putnbr(int nb)
-{
-	if (nb < 0)
-	{
-		if (nb == -2147483648)
-		{
-			write(1, "-2147483648", 11);
-			return ;
-		}
-		write(1, "-", 1);
-		nb = -nb;
-	}
-	if (nb < 10)
-		write (1, &(char){nb + '0'}, 1);
-	else
-	{
-		ft_putnbr(nb / 10);
-		ft_putnbr(nb % 10);
-	}
-}
-*/
