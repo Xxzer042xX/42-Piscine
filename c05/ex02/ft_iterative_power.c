@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to compute `nb` raised to the power of `power` iteratively
 int	ft_iterative_power(int nb, int power)
 {
 	int	i;

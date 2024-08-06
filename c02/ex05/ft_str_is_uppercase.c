@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to check if a string contains only uppercase alphabetic characters
 int	ft_str_is_uppercase(char *str)
 {
 	while (*str)

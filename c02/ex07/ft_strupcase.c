@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to convert all alphabetic characters in a string to uppercase
 char	*ft_strupcase(char *str)
 {
 	char	*orig;

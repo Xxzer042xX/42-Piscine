@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to compare up to `n` characters of two strings
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
 	while ((n > 0) && *s1 && (*s1 == *s2))

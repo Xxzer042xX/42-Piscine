@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to compute `nb` raised to the power of `power` recursively
 int	ft_recursive_power(int nb, int power)
 {
 	if (power < 0)

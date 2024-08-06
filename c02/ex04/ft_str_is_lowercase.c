@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to check if a string contains only lowercase alphabetic characters
 int	ft_str_is_lowercase(char *str)
 {
 	while (*str)

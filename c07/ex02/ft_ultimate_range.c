@@ -12,6 +12,7 @@
 
 #include <stdlib.h>
 
+// Function to create an array of integers from `min` to `max - 1`
 int	ft_ultimate_range(int **range, int min, int max)
 {
 	int	len;

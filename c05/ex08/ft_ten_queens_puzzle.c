@@ -12,13 +12,13 @@
 
 #include <unistd.h>
 
-// Fonction pour écrire un caractère sur la sortie standard
+// Function to write a character to standard output
 void	ft_putchar(char c)
 {
 	write (1, &c, 1);
 }
 
-// Fonction pour vérifier si la position est sûre pour placer une dame
+// Function to check whether the position is safe for placing a queen
 int	is_safe(int board[10], int row, int col)
 {
 	int	i;
@@ -34,7 +34,7 @@ int	is_safe(int board[10], int row, int col)
 	return (1);
 }
 
-// Fonction récursive pour résoudre le puzzle
+// Recursive function to solve the puzzle
 void	solve(int board[10], int col, int *solutions)
 {
 	int	i;
@@ -63,7 +63,7 @@ void	solve(int board[10], int col, int *solutions)
 	}
 }
 
-// Fonction principale pour lancer le solveur
+// Main function to launch the solver
 int	ft_ten_queens_puzzle(void)
 {
 	int	board[10];

@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Performs integer division and modulus of *a by *b
 void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	temp_a;

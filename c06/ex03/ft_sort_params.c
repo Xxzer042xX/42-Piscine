@@ -12,7 +12,7 @@
 
 #include <unistd.h>
 
-// Fonction de comparaison pour le tri à bulles
+// Comparison function for bubble sorting
 int	compare(const char *a, const char *b)
 {
 	while (*a && *b && *a == *b)
@@ -23,7 +23,7 @@ int	compare(const char *a, const char *b)
 	return ((*(unsigned char *)a) - (*(unsigned char *)b));
 }
 
-// Fonction de tri à bulles
+// Bubble sorting function
 void	bubble_sort(char *arr[], int n)
 {
 	int		i;
@@ -48,7 +48,7 @@ void	bubble_sort(char *arr[], int n)
 	}
 }
 
-// Fonction d'affichage
+// Display function
 void	write_string(const char *str)
 {
 	while (*str)

@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to check if a string contains only numeric characters
 int	ft_str_is_numeric(char *str)
 {
 	while (*str)

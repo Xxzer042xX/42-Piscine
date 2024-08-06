@@ -12,7 +12,7 @@
 
 #include <stdlib.h>
 
-// Déclaration des fonctions définies dans ft_convert_base2.c
+// Declaration of functions defined in ft_convert_base2.c
 int		ft_strlen(char *str);
 char	*convert_to_base(int num, char *base);
 
@@ -28,10 +28,10 @@ int	is_valid_char(char c, char *base)
 	return (1);
 }
 
+// Function to check if the base string is valid
 int	is_valid_base(char *base)
 {
 	int	i;
-	int	j;
 
 	if (ft_strlen(base) < 2)
 		return (0);
@@ -45,6 +45,7 @@ int	is_valid_base(char *base)
 	return (1);
 }
 
+// Function to convert a character to its corresponding value in a given base
 int	char_to_value(char c, char *base)
 {
 	int	i;
@@ -59,6 +60,7 @@ int	char_to_value(char c, char *base)
 	return (-1);
 }
 
+// Function to convert a string to an integer based on the given base
 int	ft_atoi_base(char *str, char *base)
 {
 	int	result;
@@ -88,6 +90,7 @@ int	ft_atoi_base(char *str, char *base)
 	return (result * sign);
 }
 
+// Function to convert a number from one base to another base
 char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 {
 	int	num;

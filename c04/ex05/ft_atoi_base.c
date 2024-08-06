@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Function to compute the length of a string
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -20,7 +21,7 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-// Vérifie si la base est valide
+//Checks if the database is valid
 int	ft_is_valid_base(char *base)
 {
 	int	i;
@@ -46,7 +47,7 @@ int	ft_is_valid_base(char *base)
 	return (1);
 }
 
-// Retourne l'index du caractère dans la base, -1 si non trouvé
+// Returns the character index in the database, -1 if not found
 int	ft_in_base(char c, char *base)
 {
 	int	index;
@@ -61,7 +62,7 @@ int	ft_in_base(char c, char *base)
 	return (-1);
 }
 
-// Sauter les espaces blancs et déterminer le signe
+// Skip white spaces and determine the sign
 void	ft_prepare_str(char **str, int *sign)
 {
 	*sign = 1;
@@ -75,7 +76,7 @@ void	ft_prepare_str(char **str, int *sign)
 	}
 }
 
-// Convertit le début de la chaîne en entier selon la base
+// Converts the beginning of the string into an integer according to the base
 int	ft_atoi_base(char *str, char *base)
 {
 	int	sign;

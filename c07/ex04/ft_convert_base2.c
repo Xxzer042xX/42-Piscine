@@ -12,6 +12,7 @@
 
 #include <stdlib.h>
 
+// Function to calculate the length of a string
 int	ft_strlen(char *str)
 {
 	int	len;
@@ -22,6 +23,8 @@ int	ft_strlen(char *str)
 	return (len);
 }
 
+/*Function to calculate the length of the number
+when represented in the given base*/
 int	get_num_length(int num, int base_len)
 {
 	int	length;
@@ -37,6 +40,7 @@ int	get_num_length(int num, int base_len)
 	return (length);
 }
 
+// Function to fill the result string with the number in the given base
 void	fill_base_str(char *result, int num, int base_len, char *base)
 {
 	result[--result[0]] = '\0';
@@ -57,6 +61,7 @@ void	fill_base_str(char *result, int num, int base_len, char *base)
 	}
 }
 
+// Function to convert a number to a string in the given base
 char	*convert_to_base(int num, char *base)
 {
 	int		base_len;

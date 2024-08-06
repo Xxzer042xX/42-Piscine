@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to check if a string contains only printable characters
 int	ft_str_is_printable(char *str)
 {
 	while (*str)

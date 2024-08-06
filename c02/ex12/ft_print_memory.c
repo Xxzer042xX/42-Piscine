@@ -10,11 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
+// Function to print the first `len` characters of a string
 void	ft_putstr(char *str, int len)
 {
 	write (1, str, len);
 }
 
+// Function to print the hexadecimal representation of an unsigned char
 void	print_hex(unsigned char c)
 {
 	char	*hex;
@@ -24,6 +28,7 @@ void	print_hex(unsigned char c)
 	write (1, &hex[c % 16], 1);
 }
 
+// Function to print the address in hexadecimal format
 void	print_address(unsigned long long addr)
 {
 	int		i;
@@ -42,6 +47,7 @@ void	print_address(unsigned long long addr)
 	ft_putstr(": ", 2);
 }
 
+// Function to print the contents of a memory line in hexadecimal format
 void	print_line_content(unsigned char *addr, int line_size)
 {
 	int	i;
@@ -69,6 +75,7 @@ void	print_line_content(unsigned char *addr, int line_size)
 	write (1, "\n", 1);
 }
 
+// Function to print memory contents in a formatted way
 void	*ft_print_memory(void *addr, unsigned int size)
 {
 	unsigned int	i;

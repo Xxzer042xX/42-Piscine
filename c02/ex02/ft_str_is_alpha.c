@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to check if a string contains only alphabetic characters
 int	ft_str_is_alpha(char *str)
 {
 	while (*str)

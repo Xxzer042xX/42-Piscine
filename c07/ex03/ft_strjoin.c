@@ -12,6 +12,7 @@
 
 #include <stdlib.h>
 
+// Function to compute the length of a string
 int	ft_strlen(const char *str)
 {
 	int	len;
@@ -22,6 +23,7 @@ int	ft_strlen(const char *str)
 	return (len);
 }
 
+// Function to copy a string from src to dest
 void	ft_strcpy(char *dest, const char *src)
 {
 	while (*src)
@@ -29,6 +31,8 @@ void	ft_strcpy(char *dest, const char *src)
 	*dest = '\0';
 }
 
+/*Function to calculate the total length required
+to store the concatenated string*/
 int	calculate_total_length(int size, char **strs, int sep_len)
 {
 	int	total_len;
@@ -42,6 +46,8 @@ int	calculate_total_length(int size, char **strs, int sep_len)
 	return (total_len);
 }
 
+/*Function to join an array of strings with a separator
+and store the result in `join`*/
 char	*join_strings(int size, char **strs, char *sep, char *join)
 {
 	char	*current_pos;
@@ -63,6 +69,7 @@ char	*join_strings(int size, char **strs, char *sep, char *join)
 	return (join);
 }
 
+// Helper function to calculate the total length needed for the joined string
 char	*ft_strjoin(int size, char **strs, char *sep)
 {
 	char	*join;

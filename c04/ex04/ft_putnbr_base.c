@@ -12,18 +12,19 @@
 
 #include <unistd.h>
 
-// Vérifie si la base est valide
+//Checks if the base is valid
 int	ft_is_valid_base(char *base)
 {
 	char	*ptr1;
 	char	*ptr2;
 
 	ptr1 = base;
-	if (base == NULL || *(base + 1) == '\0')
+	if (!base || *(base + 1) == '\0')
 		return (0);
 	while (*ptr1)
 	{
-		if (*ptr1 == '+' || *ptr1 == '-')
+		if ((*ptr1 == '+' || *ptr1 == '-' || *ptr1 == ' ') || \
+			(*ptr1 >= '\t' && *ptr1 <= '\r'))
 			return (0);
 		ptr2 = ptr1 + 1;
 		while (*ptr2)
@@ -37,21 +38,23 @@ int	ft_is_valid_base(char *base)
 	return (1);
 }
 
-// Fonction principale pour afficher le nombre dans la base donnée
+//Main function for displaying the number in the database
 void	ft_putnbr_base(int nbr, char *base)
 {
 	long	nb;
 	int		base_len;
 
 	nb = nbr;
-	base_len = 0;
 	if (!ft_is_valid_base(base))
 		return ;
-	while (base[base_len] != '\0')
+	base_len = 0;
+	while (base[base_len])
 		base_len++;
+	if (base_len < 2)
+		return ;
 	if (nb < 0)
 	{
-		write (1, "-", 1);
+		write(1, "-", 1);
 		nb = -nb;
 	}
 	if (nb >= base_len)
@@ -60,5 +63,5 @@ void	ft_putnbr_base(int nbr, char *base)
 		ft_putnbr_base(nb % base_len, base);
 	}
 	else
-		write (1, &base[nb], 1);
+		write(1, &base[nb], 1);
 }

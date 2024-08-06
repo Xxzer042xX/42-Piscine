@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Function to convert all alphabetic characters in a string to lowercase
 char	*ft_strlowcase(char *str)
 {
 	char	*orig;

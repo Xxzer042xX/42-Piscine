@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 //Converts a character to its hexadecimal value(hexa = 16)
 char	conv_low(unsigned char c)
 {
@@ -30,6 +32,7 @@ void	aff_non_printable(unsigned char c)
 	write(1, hexa, 2);
 }
 
+// Function to print a string with non-printable characters replaced by \xNN
 void	ft_putstr_non_printable(char *str)
 {
 	while (*str)
