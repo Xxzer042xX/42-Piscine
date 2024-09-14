@@ -13,15 +13,29 @@
 //Concatenates src to dest and returns dest
 char	*ft_strcat(char *dest, char *src)
 {
-	char	*s;
-	char	*d;
+	char	*p_dest;
 
-	s = src;
-	d = dest;
-	while (*d)
-		d++;
-	while (*s)
-		*d++ = *s++;
-	*d = '\0';
+	p_dest = dest;
+	while (*p_dest)
+		p_dest++;
+	while (*src)
+		*p_dest++ = *src++;
+	*p_dest = *src;
 	return (dest);
 }
+/*
+#include <unistd.h>
+
+void    ft_putstr(char *str)
+{
+    while (*str)
+        write (1, str++, 1);
+}
+int main(void)
+{
+    char    dest[] = "hello ";
+    char    src[] = "world!";
+    ft_putstr(ft_strcat(dest, src));
+
+}
+*/

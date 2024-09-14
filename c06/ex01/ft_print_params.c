@@ -12,11 +12,10 @@
 
 #include <unistd.h>
 
-//Prints the arguments passed to the program
 void	ft_putstr(char *str)
 {
 	while (*str)
-		write(1, str++, 1);
+		write (1, str++, 1);
 }
 
 int	main(int ac, char **av)
@@ -26,8 +25,8 @@ int	main(int ac, char **av)
 		while (*(++av))
 		{
 			ft_putstr(*av);
-			write(1, "\n", 1);
+			write (1, "\n", 1);
 		}
-	}
+	}	
 	return (0);
 }

@@ -15,10 +15,22 @@ int	ft_str_is_alpha(char *str)
 {
 	while (*str)
 	{
-		if ((*str >= 'A' && *str <= 'Z') || (*str >= 'a' && *str <= 'z'))
+		if ((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z'))
 			str++;
 		else
 			return (0);
 	}
 	return (1);
 }
+/*
+#include <unistd.h>
+
+int	main(void)
+{
+	char *str;
+
+	str = "he4llo";
+	write (1, &(char){ft_str_is_alpha(str) + '0'}, 1);
+	return (0);
+}
+*/

@@ -13,21 +13,27 @@
 #include <stdlib.h>
 
 // Copies the string given as argument into a new string.
-char	*ft_strdup(char *src)
+int	ft_strlen(char *str)
 {
-	char	*p_dest;
-	char	*dest;
-	int		len;
+	int	len;
 
 	len = 0;
-	while (src[len])
+	while (str[len])
 		len++;
-	dest = malloc(sizeof(char) * (len + 1));
-	p_dest = dest;
-	if (!dest)
+	return (len);
+}
+
+char	*ft_strdup(char *src)
+{
+	char	*dest;
+	char	*p_dest;
+
+	dest = malloc(sizeof(char) * ft_strlen(src) + 1);
+	if (!(dest))
 		return (NULL);
+	p_dest = dest;
 	while (*src)
 		*p_dest++ = *src++;
-	*p_dest = '\0';
+	*p_dest = *src;
 	return (dest);
 }

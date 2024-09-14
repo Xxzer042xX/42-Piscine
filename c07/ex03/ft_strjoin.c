@@ -91,3 +91,23 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 		return (NULL);
 	return (join_strings(size, strs, sep, join));
 }
+/*
+#include <unistd.h>
+
+int	main(int ac, char **av)
+{
+	char	*result;
+
+	if (ac > 1)
+	{
+		result = ft_strjoin(ac - 1, av + 1, ",");
+		if (result)
+		{
+			write (1, result, ft_strlen(result));
+			free(result);
+		}
+	}
+	write(1, "\n", 1);
+	return (0);
+} 
+*/

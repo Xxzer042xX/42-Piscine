@@ -16,23 +16,44 @@ int	ft_atoi(char *str)
 	int	sign;
 	int	result;
 
-	sign = 0;
+	sign = 1;
 	result = 0;
-	while (*str == ' ' || (*str >= '\t' && *str <= '\r') || \
-		(*str == '-' || *str == '+'))
+	while (*str == 32 || (*str >= '\t' && *str <= '\r'))
+		str++;
+	if (*str == '-' || *str == '+')
 	{
 		if (*str == '-')
-			sign += 1;
+			sign = -1;
 		str++;
 	}
-	if (sign % 2 != 0)
-		sign = -1;
-	else
-		sign = 1;
 	while (*str >= '0' && *str <= '9')
-	{
-		result = (result * 10) + (*str - '0');
-		str++;
-	}
+		result = (result * 10) + (*str++ - '0');
 	return (result * sign);
 }
+/*
+#include <unistd.h>
+#include <stdlib.h>
+
+void	ft_putnbr(int nb)
+{
+	if (nb == -2147483648 && write (1, "-2147483648", 11))
+		return ;
+	if (nb < 0 && write (1, "-", 1))
+		nb *= -1;
+	if (nb >= 10)
+		ft_putnbr(nb / 10);
+	write (1, &(char){(nb % 10) + '0'}, 1);
+}
+
+int	main(int ac, char **av)
+{
+	if (ac == 2)
+	{
+		ft_putnbr(ft_atoi(av[1]));
+		write (1, "\n", 1);
+		ft_putnbr(atoi(av[1]));
+	}
+	write (1, "\n", 1);
+	return (0);
+}
+*/

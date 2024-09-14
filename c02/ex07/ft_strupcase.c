@@ -13,14 +13,31 @@
 // Function to convert all alphabetic characters in a string to uppercase
 char	*ft_strupcase(char *str)
 {
-	char	*orig;
+	char	*p_str;
 
-	orig = str;
-	while (*str)
+	p_str = str;
+	while (*p_str)
 	{
-		if (*str >= 'a' && *str <= 'z')
-			*str -= 32;
-		str++;
+		if (*p_str >= 'a' && *p_str <= 'z')
+			*p_str -= 32;
+		p_str++;
 	}
-	return (orig);
+	return (str);
 }
+/*
+#include <unistd.h>
+
+
+void	ft_putstr(char *str)
+{
+	while (*str)
+		write (1, str++, 1); 
+}
+
+int	main(void)
+{
+	char tab[] = {"hello"};
+	ft_putstr(ft_strupcase(tab));
+	return (0);
+}
+*/

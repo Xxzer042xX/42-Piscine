@@ -13,14 +13,31 @@
 // Function to convert all alphabetic characters in a string to lowercase
 char	*ft_strlowcase(char *str)
 {
-	char	*orig;
+	char	*p_str;
 
-	orig = str;
-	while (*str)
+	p_str = str;
+	while (*p_str)
 	{
-		if (*str >= 'A' && *str <= 'Z')
-			*str += 32;
-		str++;
+		if (*p_str >= 'A' && *p_str <= 'Z')
+			*p_str += 32;
+		p_str++;
 	}
-	return (orig);
+	return (str);
 }
+/*
+#include <unistd.h>
+
+
+void	ft_putstr(char *str)
+{
+	while (*str)
+		write (1, str++, 1);
+}
+
+int	main(void)
+{
+	char str[] = {"HELLO"};
+	ft_putstr(ft_strlowcase(str));
+	return (0);
+}
+*/

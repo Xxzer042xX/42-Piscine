@@ -15,14 +15,27 @@ int	ft_is_prime(int nb)
 {
 	int	i;
 
-	i = 2;
+	i = 3;
 	if (nb <= 1)
 		return (0);
-	while (i < nb)
+	if (nb == 2)
+		return (1);
+	if (nb % 2 == 0)
+		return (0);
+	while ((i * i) < nb)
 	{
-		if (nb % i == 0)
+		if ((nb % i) == 0)
 			return (0);
-		i++;
+		i += 2;
 	}
 	return (1);
 }
+/*
+#include <stdlib.h>
+
+int	main(void)
+{
+	printf("%d\n", ft_is_prime(6));
+	return (0);
+}
+*/

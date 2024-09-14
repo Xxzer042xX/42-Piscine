@@ -21,3 +21,12 @@ void	ft_print_numbers(void)
 	while (++i <= 9)
 		write (1, &(char){i + '0'}, 1);
 }
+
+/*
+int	main(void)
+{
+	ft_print_numbers();
+	write (1, "\n", 1);
+	return (0);
+}
+*/

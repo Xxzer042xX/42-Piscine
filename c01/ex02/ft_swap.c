@@ -19,3 +19,26 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = swap;
 }
+/*
+#include <unistd.h>
+
+int	main(void)
+{
+	int	a;
+	int b;
+	int *p_a;
+	int	*p_b;
+
+	a = 1;
+	b = 2;
+	p_a = &a;
+	p_b = &b;
+	write (1, &(char){*p_a + '0'}, 1);
+	write (1, &(char){*p_b + '0'}, 1);
+	ft_swap(p_a, p_b);
+	write (1, "\n", 1);
+	write (1, &(char){*p_a + '0'}, 1);
+	write (1, &(char){*p_b + '0'}, 1);
+	return (0);
+}
+*/

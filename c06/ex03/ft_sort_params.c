@@ -1,73 +1,71 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sort_params.c                                   :+:      :+:    :+:   */
+/*   ft_sort_params                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/17 23:00:36 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/17 23:00:36 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/08/30 12:10:36 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/08/30 14:59:16 by madelmen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-// Comparison function for bubble sorting
-int	compare(const char *a, const char *b)
+void	ft_putstr(char *str)
 {
-	while (*a && *b && *a == *b)
+	while (*str)
+		write (1, str++, 1);
+	write (1, "\n", 1);
+}	
+
+int	ft_strcmp(char *s1, char *s2)
+{
+	while (*s1 && *s1 == *s2)
 	{
-		a++;
-		b++;
+		s1++;
+		s2++;
 	}
-	return ((*(unsigned char *)a) - (*(unsigned char *)b));
+	return (*s1 - *s2);
 }
 
-// Bubble sorting function
-void	bubble_sort(char *arr[], int n)
+void	ft_swap(char **s1, char **s2)
 {
-	int		i;
-	int		j;
 	char	*temp;
 
+	temp = *s1;
+	*s1 = *s2;
+	*s2 = temp;
+}
+
+void	ft_bubble_sort(char *av[], int ac)
+{
+	int	i;
+	int	j;
+
 	i = 0;
-	while (i < n - 1)
+	while (i < ac)
 	{
-		j = 0;
-		while (j < n - i - 1)
+		j = 1;
+		while ((i + j) < ac)
 		{
-			if (compare(arr[j], arr[j + 1]) > 0)
-			{
-				temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-			}
+			if (ft_strcmp(av[i], av[i + j]) > 0)
+				ft_swap(&av[i], &av[i + j]);
 			j++;
 		}
 		i++;
 	}
 }
 
-// Display function
-void	write_string(const char *str)
+int	main(int ac, char **av)
 {
-	while (*str)
-		write(STDOUT_FILENO, str++, 1);
-}
-
-int	main(int argc, char *argv[])
-{
-	int	i;
-
-	i = 1;
-	if (argc < 2)
-		return (1);
-	bubble_sort(argv + 1, argc - 1);
-	while (i < argc)
+	if (ac > 2)
 	{
-		write_string(argv[i]);
-		write(STDOUT_FILENO, "\n", 1);
-		i++;
+		ft_bubble_sort(av + 1, ac - 1);
+		while (*(++av))
+			ft_putstr(*av);
 	}
+	else if (ac == 2)
+		ft_putstr(*(++av));
 	return (0);
 }

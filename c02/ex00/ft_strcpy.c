@@ -13,11 +13,30 @@
 //Copies the value of src to dest, and returns the pointer of dest
 char	*ft_strcpy(char *dest, char *src)
 {
-	char	*d;
+	char	*p_dest;
 
-	d = dest;
+	p_dest = dest;
 	while (*src)
-		*dest++ = *src++;
-	*dest = '\0';
-	return (d);
+		*p_dest++ = *src++;
+	*p_dest = '\0';
+	return (dest);
 }
+/*
+#include <unistd.h>
+
+void    ft_putstr(char *str)
+{
+     while (*str)
+	 	write (1, str++, 1);
+}
+
+int	main(void)
+{
+	char *str;
+	char dest[6];
+
+	str = "hello";
+	ft_putstr(ft_strcpy(dest, str));
+	return (0);
+}
+*/

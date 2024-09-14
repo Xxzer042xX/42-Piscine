@@ -134,6 +134,5 @@ int **ft_allocate_grid(void)
             ft_error_allocation();
         row++;
     }
-    ft_initialize_grid(grid);
     return (grid);
 }

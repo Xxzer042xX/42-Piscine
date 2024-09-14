@@ -15,10 +15,20 @@ int	ft_str_is_printable(char *str)
 {
 	while (*str)
 	{
-		if (*str >= 32 && *str <= 126)
-			str++;
-		else
+		if (*str < 32 || *str > 126)
 			return (0);
+		str++;
 	}
 	return (1);
 }
+/*
+#include <unistd.h>
+
+int	main(void)
+{
+	char tab[] = {10, 12};
+
+	write (1, &(char){ft_str_is_printable(tab) + '0'}, 1);
+	return (0);
+}
+*/

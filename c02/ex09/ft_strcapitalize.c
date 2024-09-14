@@ -39,3 +39,19 @@ char	*ft_strcapitalize(char *str)
 	}
 	return (orig);
 }
+/*
+#include <unistd.h>
+
+void ft_putstr(char *str)
+{
+	while (*str)
+		write (1, str++, 1);
+}
+
+int	main(void)
+{
+	char src[] = {"salut, comment tu vas ? 42mots quarante-deux; cinquante+et+un"};
+	ft_putstr(ft_strcapitalize(src));
+	return (0);
+}
+*/

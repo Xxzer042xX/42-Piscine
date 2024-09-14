@@ -16,7 +16,7 @@ unsigned int	ft_strlen(char *str)
 	unsigned int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (str[i])
 		i++;
 	return (i);
 }
@@ -33,7 +33,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	i = 0;
 	if (size <= l_dest)
 		return (size + l_src);
-	while (src[i] != '\0' && (l_dest + i) < (size - 1))
+	while (src[i] && (l_dest + i) < (size - 1))
 	{
 		dest[l_dest + i] = src[i];
 		i++;
@@ -41,3 +41,16 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	dest[l_dest + i] = '\0';
 	return (l_dest + l_src);
 }
+/*
+#include <stdio.h>
+
+int main(void)
+{
+    char dest[10] = "salut";
+    char src[] = " poilu";
+
+    printf("%d\n", ft_strlcat(dest, src, 3));
+	printf("%s",(dest));
+    return (0);
+}
+*/

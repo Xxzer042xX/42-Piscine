@@ -19,3 +19,21 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*a = temp_a / *b;
 	*b = temp_a % *b;
 }
+/*
+#include <unistd.h>
+
+int	main(void)
+{
+	int a;
+	int b;
+
+	a = 10;
+	b = 2;
+	ft_ultimate_div(&a, &b);
+	write (1, &(char){a + '0'}, 1);
+	write (1, "\n", 1);
+	write (1, &(char){b + '0'}, 1);
+	write (1, "\n", 1);
+	return (0);
+}
+*/

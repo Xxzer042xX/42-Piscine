@@ -15,16 +15,35 @@
 // Returns an array of integers containing all values between min and max.
 int	*ft_range(int min, int max)
 {
-	int	*p_array;
-	int	*array;
+	int	*range;
+	int	*p_range;
 
 	if (min >= max)
 		return (NULL);
-	array = malloc(sizeof(int) * (max - min));
-	if (!array)
+	range = malloc(sizeof(int) * (max - min));
+	if (!(range))
 		return (NULL);
-	p_array = array;
+	p_range = range;
 	while (min < max)
-		*array++ = min++;
-	return (p_array);
+		*p_range++ = min++;
+	return (range);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	int	*tab;
+	int	min;
+	int	max;
+
+	min = -2;
+	max = 5;
+	tab = ft_range(min, max);
+	if (tab == NULL)
+		return (1);
+	while (min++ < max)
+		printf("%d\n", *tab++);
+	return (0);
+}
+*/

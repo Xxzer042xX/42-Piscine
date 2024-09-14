@@ -5,42 +5,44 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mdelmeni <eljok87@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/08 19:16:23 by mdelmeni          #+#    #+#             */
-/*   Updated: 2024/03/08 19:16:23 by mdelmeni         ###   ########.fr       */
+/*   Created: 2024/09/05 18:31:59 by mdelmeni          #+#    #+#             */
+/*   Updated: 2024/09/05 18:31:59 by mdelmeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-//Converts a character to its hexadecimal value(hexa = 16)
-char	conv_low(unsigned char c)
+char	ft_convector(unsigned char c)
 {
 	if (c < 10)
 		return ('0' + c);
-	else
-		return ('a' + (c - 10));
+	return ('a' + (c - 10));
 }
 
-//Displays a non-printable character in hexadecimal
-void	aff_non_printable(unsigned char c)
-{
-	char	hexa[2];
-
-	hexa[0] = conv_low(c / 16);
-	hexa[1] = conv_low(c % 16);
-	write(1, "\\", 1);
-	write(1, hexa, 2);
-}
-
-// Function to print a string with non-printable characters replaced by \xNN
 void	ft_putstr_non_printable(char *str)
 {
+	char	hex[3];
+
 	while (*str)
 	{
-		if (*str >= 32 && *str <= 126)
-			write(1, str, 1);
+		if (*str < 32 || *str > 126)
+		{
+			hex[0] = '\\';
+			hex[1] = ft_convector((unsigned char)*str / 16);
+			hex[2] = ft_convector((unsigned char)*str % 16);
+			write (1, hex, 3);
+		}
 		else
-			aff_non_printable(*str);
+			write (1, str, 1);
 		str++;
 	}
 }
+/*
+int main(int ac, char **av)
+{
+    if (ac == 2)
+        ft_putstr_non_printable(av[1]);
+    write (1, "\n", 1);
+    return (0);
+}
+*/

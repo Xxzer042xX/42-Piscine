@@ -24,3 +24,12 @@ int	ft_sqrt(int nb)
 	}
 	return (0);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%d\n", ft_sqrt(6));
+	return (0);
+}
+*/

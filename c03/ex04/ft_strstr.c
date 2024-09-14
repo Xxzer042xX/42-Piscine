@@ -16,20 +16,20 @@ char	*ft_strstr(char *str, char *to_find)
 	char	*p_str;
 	char	*p_to_find;
 
-	if (*to_find == '\0')
+	if (!(*to_find))
 		return (str);
 	while (*str)
 	{
 		p_str = str;
 		p_to_find = to_find;
-		while (*p_str && *p_to_find && *p_str == *p_to_find)
+		while (*p_str && *p_str == *p_to_find)
 		{
 			p_str++;
 			p_to_find++;
 		}
-		if (*p_to_find == '\0')
+		if (!(*p_to_find))
 			return (str);
 		str++;
 	}
-	return (NULL);
+	return ((void *) 0);
 }

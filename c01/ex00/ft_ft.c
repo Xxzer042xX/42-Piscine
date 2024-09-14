@@ -15,3 +15,21 @@ void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
+/*
+#include <unistd.h>
+#include <stdlib.h>
+
+int	main(void)
+{
+	int *nbr;
+	nbr = malloc(sizeof(char) * 10);
+
+	*nbr = 0;
+	write (1, &(char){*nbr + '0'}, 1);
+	write (1, "\n", 1);
+	ft_ft(nbr);
+	write (1, &(char){*nbr / 10 + '0'}, 1);
+	write (1, &(char){*nbr % 10 + '0'}, 1);
+	return (0);
+}
+*/

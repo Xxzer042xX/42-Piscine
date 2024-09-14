@@ -19,3 +19,12 @@ int	ft_recursive_power(int nb, int power)
 		return (1);
 	return (nb * ft_recursive_power(nb, power - 1));
 }
+/*
+#include <stdlib.h>
+
+int	main(void)
+{
+	printf("%d\n", ft_recursive_power(2, 3));
+	return (0);
+}
+*/

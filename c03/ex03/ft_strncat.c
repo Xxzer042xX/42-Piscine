@@ -13,16 +13,34 @@
 //Concatenates n characters from src to dest and returns dest
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-	char	*d;
+	char	*p_dest;
 
-	d = dest;
-	while (*d)
-		d++;
-	while (*src && nb)
+	p_dest = dest;
+	while (*p_dest)
+		p_dest++;
+	while (*src && nb > 0)
 	{
-		*d++ = *src++;
+		*p_dest++ = *src++;
 		nb--;
 	}
-	*d = '\0';
+	*p_dest = 0;
 	return (dest);
 }
+/*
+#include <unistd.h>
+
+void    ft_putstr(char *str)
+{
+    while (*str)
+        write (1, str++, 1);
+}
+
+int main(void)
+{
+    char    dest[] = "hello " ;
+    char    src[] = "world!";
+
+    ft_putstr(ft_strncat(dest, src, 2));
+    return (0);
+}
+*/
