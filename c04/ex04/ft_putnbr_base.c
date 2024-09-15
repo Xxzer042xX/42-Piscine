@@ -65,3 +65,4 @@ void	ft_putnbr_base(int nbr, char *base)
 	else
 		write(1, &base[nb], 1);
 }
+/*I.A*/

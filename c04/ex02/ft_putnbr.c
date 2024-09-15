@@ -24,3 +24,22 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb / 10);
 	write (1, &(char){(nb % 10) + '0'}, 1);
 }
+/*
+int	main(void)
+{
+	int i;
+	int tab[] = {-2147483648, -42, 0, 42, 2147483647};
+
+	i = 0;
+	while (i < 5)
+	{
+		ft_putnbr(tab[i++]);
+		write (1, "\n", 1);
+		sleep(1);
+	}
+	write (1, " -------------\n", 16);
+	write (1, "| ft_putnbr.c |\n", 17);
+	write (1, " -------------\n", 16);
+	return (0);
+}
+*/

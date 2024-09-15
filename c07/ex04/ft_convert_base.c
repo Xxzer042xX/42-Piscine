@@ -100,3 +100,4 @@ char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 	num = ft_atoi_base(nbr, base_from);
 	return (convert_to_base(num, base_to));
 }
+/*I.A*/

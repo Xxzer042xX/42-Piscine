@@ -13,31 +13,31 @@
 // Function to capitalize the first letter of each word in a string
 char	*ft_strcapitalize(char *str)
 {
-	char	*orig;
+	char	*p_str;
 
-	orig = str;
-	if (*str && (*str >= 'a' && *str <= 'z'))
-		*str -= 32;
-	str++;
-	while (*str)
+	p_str = str;
+	if (*p_str && (*p_str >= 'a' && *p_str <= 'z'))
+		*p_str -= 32;
+	p_str++;
+	while (*p_str)
 	{
-		if (*str >= 'a' && *str <= 'z')
+		if (*p_str >= 'a' && *p_str <= 'z')
 		{
-			if (!((*(str - 1) >= 'a' && *(str - 1) <= 'z') || \
-				(*(str - 1) >= 'A' && *(str - 1) <= 'Z') || \
-				(*(str - 1) >= '0' && *(str - 1) <= '9')))
-				*str -= 32;
+			if (!((*(p_str - 1) >= 'a' && *(p_str - 1) <= 'z') || \
+				(*(p_str - 1) >= 'A' && *(p_str - 1) <= 'Z') || \
+				(*(p_str - 1) >= '0' && *(p_str - 1) <= '9')))
+				*p_str -= 32;
 		}
-		else if (*str >= 'A' && *str <= 'Z')
+		else if (*p_str >= 'A' && *p_str <= 'Z')
 		{
-			if ((*(str - 1) >= 'a' && *(str - 1) <= 'z') || \
-				(*(str - 1) >= 'A' && *(str - 1) <= 'Z') || \
-				(*(str - 1) >= '0' && *(str - 1) <= '9'))
-				*str += 32;
+			if ((*(p_str - 1) >= 'a' && *(p_str - 1) <= 'z') || \
+				(*(p_str - 1) >= 'A' && *(p_str - 1) <= 'Z') || \
+				(*(p_str - 1) >= '0' && *(p_str - 1) <= '9'))
+				*p_str += 32;
 		}
-		str++;
+		p_str++;
 	}
-	return (orig);
+	return (str);
 }
 /*
 #include <unistd.h>

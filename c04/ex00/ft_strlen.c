@@ -16,7 +16,18 @@ int	ft_strlen(char *str)
 	int	len;
 
 	len = 0;
-	while (str[len])
+	while (*str++)
 		len++;
 	return (len);
 }
+/*
+#include <unistd.h>
+
+int	main(int ac, char **av)
+{
+	if (ac == 2)
+		printf("%d", ft_strlen(av[1])); 
+	printf("\n");
+	return (0);
+}
+*/

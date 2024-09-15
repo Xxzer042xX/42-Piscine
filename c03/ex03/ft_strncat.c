@@ -18,16 +18,14 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	p_dest = dest;
 	while (*p_dest)
 		p_dest++;
-	while (*src && nb > 0)
-	{
+	while (*src && nb-- > 0)
 		*p_dest++ = *src++;
-		nb--;
-	}
 	*p_dest = 0;
 	return (dest);
 }
 /*
 #include <unistd.h>
+#include <stdlib.h>
 
 void    ft_putstr(char *str)
 {
@@ -35,12 +33,11 @@ void    ft_putstr(char *str)
         write (1, str++, 1);
 }
 
-int main(void)
+int main(int ac, char **av)
 {
-    char    dest[] = "hello " ;
-    char    src[] = "world!";
-
-    ft_putstr(ft_strncat(dest, src, 2));
-    return (0);
+	if (ac == 4)
+		ft_putstr(ft_strncat(av[1], av[2], atoi(av[3])));
+    write (1, "\n", 1);
+	return (0);
 }
 */

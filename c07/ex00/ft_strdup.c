@@ -37,3 +37,20 @@ char	*ft_strdup(char *src)
 	*p_dest = *src;
 	return (dest);
 }
+/*
+#include <unistd.h>
+
+void	ft_putstr(char *str)
+{
+	while (*str)
+		write (1, str++, 1);
+}
+
+int	main(int ac, char **av)
+{
+	if (ac == 2)
+		ft_putstr(ft_strdup(av[1]));
+	write (1, "\n", 1);
+	return (0);
+}
+*/

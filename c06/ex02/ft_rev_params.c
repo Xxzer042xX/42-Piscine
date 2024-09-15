@@ -22,15 +22,14 @@ void	ft_putstr(char *str)
 
 int	main(int ac, char **av)
 {
-	int	i;
-
-	i = ac - 1;
+	ac--;
 	if (ac > 1)
 	{
-		while (i > 0)
+		while (ac > 0)
 		{
-			ft_putstr(av[i--]);
+			ft_putstr(av[ac--]);
 			write (1, "\n", 1);
+			sleep (1);
 		}
 	}
 	return (0);

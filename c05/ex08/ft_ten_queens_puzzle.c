@@ -73,3 +73,4 @@ int	ft_ten_queens_puzzle(void)
 	solve(board, 0, &solutions);
 	return (solutions);
 }
+/*I.A*/

@@ -35,3 +35,28 @@ int	ft_ultimate_range(int **range, int min, int max)
 	*range = tab;
 	return (len);
 }
+/*
+#include <stdio.h>
+#include <stdlib.h>
+
+int	main(int ac, char **av)
+{
+	int	*tab;
+	int	i;
+	int size;
+
+	if (ac == 3)
+	{
+		tab = NULL;
+		size = ft_ultimate_range(&tab, atoi(av[1]), atoi(av[2]));
+		if (size < 0)
+			return (1);
+		i = 0;
+		while (i < size)
+			printf("%d\n", tab[i++]);
+		free(tab);
+	}
+	printf("\n");
+	return (0);
+}
+*/
