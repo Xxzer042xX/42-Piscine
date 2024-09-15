@@ -27,7 +27,7 @@ Orchestre un ballet spatial avec une harmonie de paramètres d'entrée et de sor
 
 ### C07 - L'Alchimie des Données
 Transforme les données brutes en structures précieuses. Tu apprendras à mélanger et à combiner des types pour créer des composés de données, comme un alchimiste convertissant le plomb en or.
-
+<!--
 ### C08 - La Bibliothèque des Fonctions Universelles
 Forge des outils universels, créant ta propre bibliothèque de fonctions qui seront les clés pour résoudre n'importe quel défi de programmation dans l'immensité du cosmos du C.
 
@@ -45,7 +45,7 @@ Comme découvrir de nouvelles formes de vie, tu apprendras à créer et manipule
 
 ### C13 - Gestion des Arbres Binaires en C
 Approche les confins inexplorés des structures de données avec les arbres binaires. Tu apprendras à les parcourir, les modifier et les utiliser pour stocker des données de manière efficace et ordonnée, comme cartographier des systèmes stellaires.
-
+-->
 ## 🌠 Conseils de l'Astronaute
 - Partage ton voyage avec d'autres explorateurs sur GitHub et autres plateformes.
 - Profite de chaque ressource pour parfaire tes connaissances.
