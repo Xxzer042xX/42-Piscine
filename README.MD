@@ -1,206 +1,219 @@
-
 <div align="center">
 
 # 🚀 Odyssée Spatiale du C à l'école 42 🚀
 ---
-<br>
 
 [![42 School](https://img.shields.io/badge/42-School-00babc?logo=42)](https://42.fr/)
 [![Piscine](https://img.shields.io/badge/Cursus-Piscine_C-success)](LIEN_PISCINE)
 [![GitHub](https://img.shields.io/badge/Projects-Source_Code-181717?logo=github)](VOTRE_GITHUB)
-<br>
 
 *La Piscine C : Ton voyage initiatique dans l'univers du code*
 </div>
 
-## 🌌 Introduction
-Salut, astronaute en herbe! Si tu es ici, c'est que tu es prêt à embarquer dans une aventure cosmique à travers l'univers du langage C, spécialement conçue par et pour les étudiants de l'école 42. Prépare-toi à plonger dans le grand bain de la Piscine C, où tu nageras parmi les étoiles du code, les galaxies des pointeurs et les trous noirs des segfaults.
+## 📘 Introduction
 
-## 🎯 Modules de la Piscine
+> *"Bienvenue, astronaute en herbe! Prépare-toi pour un voyage extraordinaire à travers l'univers du langage C."*
 
-### 🚀 Shell00 & Shell01 - *Préparation au décollage*
+La Piscine C est ton initiation intensive au code, où tu découvriras les fondamentaux de la programmation à travers une série de défis de difficulté croissante.
+
+## 🎯 Programme d'Entraînement
+
+### 🛠️ Phase Préparatoire 
 <details>
-<summary><strong>Introduction aux commandes Unix</strong> - Découverte des bases de l'environnement Unix et des commandes shell essentielles</summary>
+<summary><strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
 
-- [**Shell00**](https://github.com/42School/42-piscine-shell00)
-  - Commandes de base Unix
-  - Navigation dans le système de fichiers
-  - Gestion des permissions
-  - Configuration Git basique
-  - Création et manipulation de fichiers
-
-- [**Shell01**](https://github.com/42School/42-piscine-shell01)
-  - Scripts shell avancés
-  - Expressions régulières
-  - Manipulation de données textuelles
-  - Automatisation de tâches
-  - Variables d'environnement
+  - [**Shell00 - Préparation au Décollage**](https://github.com/42School/42-piscine-shell00)
+    - `Terminal`: Navigation système de base
+    - `Git`: Configuration initiale
+    - `Permissions`: Gestion des droits
+    - `Fichiers`: Manipulation basique
+    
+  - [**Shell01 - Contrôle de Mission**](https://github.com/42School/42-piscine-shell01)
+    - `Scripts`: Automatisation avancée
+    - `RegEx`: Expressions régulières
+    - `Données`: Traitement de texte
+    - `Variables`: Configuration système
 </details>
 
-### 🌠 Modules C - *Exploration de l'univers C*
+### 🚀 Mission Principale - Les Modules C
 
 <details>
-<summary><strong>C00 - Le Décollage: Introduction au C</strong> - Premiers pas dans le C avec les fonctions basiques d'affichage et les boucles</summary>
+<summary><strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
 
-- [**C00**](https://github.com/42School/42-piscine-c00)
-  - Premiers pas en C
-  - Utilisation de putchar
-  - Boucles simples
-  - Conditions de base
-  - Types de données primitifs
-  - Structure d'un programme C
-  - Compilation avec gcc
-</details>
-
-<details>
-<summary><strong>C01 - En Orbite: Pointeurs et Conditions</strong> - Exploration des pointeurs et de la manipulation de la mémoire en C</summary>
-
-- [**C01**](https://github.com/42School/42-piscine-c01)
-  - Introduction aux pointeurs
-  - Manipulation d'adresses mémoire
-  - Passage par référence
-  - Arithmétique des pointeurs
-  - Conditions avancées
-  - Variables et portée
+  - [**C00 - Premier Contact**](https://github.com/42School/42-piscine-c00)
+    - `putchar()`: Affichage caractère par caractère
+    - `while/for`: Premières boucles
+    - `if/else`: Structures de contrôle
+    - `char/int`: Types de données de base
+    - Compilation avec gcc
 </details>
 
 <details>
-<summary><strong>C02 - Exploration: Chaînes et Tableaux</strong> - Manipulation des chaînes de caractères et des tableaux unidimensionnels</summary>
+<summary><strong>Module C01</strong> - Navigation Spatiale │ Pointeurs & Variables</summary>
 
-- [**C02**](https://github.com/42School/42-piscine-c02)
-  - Manipulation de chaînes
-  - Tableaux unidimensionnels
-  - Fonctions de copie
-  - Gestion des caractères
-  - ASCII et encodage
-  - Fonctions de vérification
+  - [**C01 - Exploration Mémoire**](https://github.com/42School/42-piscine-c01)
+    - `&variable`: Adressage mémoire
+    - `*pointeur`: Déréférencement
+    - `void fonction(int *ptr)`: Passage par référence
+    - `ptr++`: Arithmétique des pointeurs
+    - Portée des variables
 </details>
 
 <details>
-<summary><strong>C03 - Manipulation de Chaînes Avancée</strong> - Fonctions avancées de manipulation de chaînes: strcat, strcmp, strcpy</summary>
+<summary><strong>Module C02</strong> - Cartographie │ Chaînes & Tableaux</summary>
 
-- [**C03**](https://github.com/42School/42-piscine-c03)
-  - Comparaison de chaînes
-  - Concaténation
-  - Recherche de sous-chaînes
-  - strcat, strcmp, strcpy
-  - Gestion de la mémoire
+  - [**C02 - Manipulation de Données**](https://github.com/42School/42-piscine-c02)
+    - `char str[]`: Tableaux de caractères
+    - `strcpy`: Copie de chaînes
+    - `ASCII`: Manipulation de caractères
+    - `isalpha/isdigit`: Vérifications
 </details>
 
 <details>
-<summary><strong>C04 - Fondamentaux Numériques</strong> - Conversion de types et manipulation des nombres dans différentes bases</summary>
+<summary><strong>Module C03</strong> - Communications │ Chaînes Avancées</summary>
 
-- [**C04**](https://github.com/42School/42-piscine-c04)
-  - Conversion de types
-  - Manipulation de nombres
-  - Bases numériques
-  - Fonctions mathématiques
-  - Gestion des entrées/sorties
+  - [**C03 - Protocoles de Communication**](https://github.com/42School/42-piscine-c03)
+    - `strcmp`: Comparaison
+    - `strcat`: Concaténation
+    - `strstr`: Recherche
+    - Gestion mémoire sécurisée
 </details>
 
 <details>
-<summary><strong>C05 - Algorithmes et Optimisation</strong> - Algorithmes mathématiques et introduction à la récursivité</summary>
+<summary><strong>Module C04</strong> - Calculs de Trajectoire │ Nombres & Conversions</summary>
 
-- [**C05**](https://github.com/42School/42-piscine-c05)
-  - Algorithmes mathématiques
-  - Récursivité
-  - Optimisation
-  - Calcul de puissances
-  - Nombres premiers
-  - Suite de Fibonacci
+  - [**C04 - Mathématiques Spatiales**](https://github.com/42School/42-piscine-c04)
+    - `atoi/itoa`: Conversions
+    - Bases numériques
+    - `putnbr`: Affichage nombres
+    - Calculs de précision
 </details>
 
 <details>
-<summary><strong>C06 - Paramètres et Arguments</strong> - Gestion des arguments en ligne de commande avec argc et argv</summary>
+<summary><strong>Module C05</strong> - Optimisation │ Algorithmes</summary>
 
-- [**C06**](https://github.com/42School/42-piscine-c06)
-  - argc et argv
-  - Parsing d'arguments
-  - Programme paramétrable
-  - Traitement des entrées
-  - Gestion des erreurs
+  - [**C05 - Calculs Avancés**](https://github.com/42School/42-piscine-c05)
+    - Récursivité
+    - Nombres premiers
+    - Suite Fibonacci
+    - Optimisation
 </details>
 
 <details>
-<summary><strong>C07 - Allocation Dynamique</strong> - Gestion de la mémoire dynamique avec malloc et free</summary>
+<summary><strong>Module C06</strong> - Interface de Commande │ Arguments</summary>
 
-- [**C07**](https://github.com/42School/42-piscine-c07)
-  - Malloc et free
-  - Duplication de chaînes
-  - Tableaux dynamiques
-  - Split de chaînes
-  - Gestion de la mémoire
+  - [**C06 - Centre de Contrôle**](https://github.com/42School/42-piscine-c06)
+    - `argc`: Nombre d'arguments
+    - `argv`: Tableau d'arguments
+    - Parsing de commandes
+    - Validation d'entrées
 </details>
 
 <details>
-<summary><strong>C08-C13 - Modules Avancés</strong> - Structures avancées, compilation modulaire et structures de données complexes</summary>
+<summary><strong>Module C07</strong> - Gestion des Ressources │ Mémoire Dynamique</summary>
 
-- [**C08**](https://github.com/42School/42-piscine-c08)
-  - Headers et includes
-  - Macros
-  - Structures
-  - Protection des headers
-
-- [**C09**](https://github.com/42School/42-piscine-c09)
-  - Makefiles
-  - Compilation modulaire
-  - Bibliothèques statiques
-
-- [**C10**](https://github.com/42School/42-piscine-c10)
-  - Manipulation de fichiers
-  - Descripteurs de fichiers
-  - Entrées/sorties
-
-- [**C11**](https://github.com/42School/42-piscine-c11)
-  - Pointeurs de fonctions
-  - Callbacks
-  - Algorithmie avancée
-
-- [**C12**](https://github.com/42School/42-piscine-c12)
-  - Listes chaînées
-  - Structures dynamiques
-  - Manipulation de noeuds
-
-- [**C13**](https://github.com/42School/42-piscine-c13)
-  - Arbres binaires
-  - Parcours d'arbres
-  - Structures complexes
+  - [**C07 - Allocation de Ressources**](https://github.com/42School/42-piscine-c07)
+    - `malloc`: Allocation
+    - `free`: Libération
+    - `strdup`: Duplication
+    - Gestion des fuites
 </details>
 
-## 🛸 Outils Essentiels
-- [**Norminette**](https://github.com/42School/norminette)
-  - Vérificateur de norme
-  - Règles de style 42
-  - Installation et utilisation
+<details>
+<summary><strong>Modules Avancés C08-C13</strong> - Missions Spécialisées</summary>
 
-- [**GCC**](https://gcc.gnu.org/)
-  - Compilation
-  - Flags importants
-  - Débogage
+  - [**Module C08**](https://github.com/42School/42-piscine-c08)
+    - Headers et macros
+    - Protection des fichiers
+    
+  - [**Module C09**](https://github.com/42School/42-piscine-c09)
+    - Makefiles
+    - Bibliothèques
+    
+  - [**Module C10**](https://github.com/42School/42-piscine-c10)
+    - Gestion de fichiers
+    - Entrées/Sorties
+    
+  - [**Module C11**](https://github.com/42School/42-piscine-c11)
+    - Pointeurs de fonctions
+    - Callbacks
+    
+  - [**Module C12**](https://github.com/42School/42-piscine-c12)
+    - Listes chaînées
+    - Structures de données
+    
+  - [**Module C13**](https://github.com/42School/42-piscine-c13)
+    - Arbres binaires
+    - Structures complexes
+</details>
 
-- [**Git**](https://git-scm.com/)
-  - Gestion de versions
-  - Collaboration
-  - Sauvegarde du code
+## ⚡ Outils de Mission
 
-## 🌠 Conseils de l'Astronaute
-- Partage ton voyage avec d'autres explorateurs sur GitHub
-- Utilise régulièrement la Norminette
-- Pratique quotidiennement
-- Participe aux rushes et examens
-- Entraide et peer-learning
+<details>
+<summary><strong>Kit de Survie</strong> - Les outils essentiels pour ta mission</summary>
 
-## ⭐ Système d'Évaluation
-- Examens hebdomadaires
-- Rushes du weekend
-- Évaluation par les pairs
-- Points par projet
-- Progression continue
+### 🔍 [Norminette](https://github.com/42School/norminette)
+  - Vérificateur de norme officiel
+  - Installation simple: `python3 -m pip install norminette`
+  - Utilisation: `norminette fichier.c`
 
-## 🛠️ Compétences Acquises
+### 🛠️ [GCC](https://gcc.gnu.org/)
+  - Compilation standard: `gcc fichier.c`
+  - Flags recommandés:
+    ```bash
+    gcc -Wall -Wextra -Werror fichier.c
+    ```
+  - Débogage: `gcc -g fichier.c`
+
+### 📦 [Git](https://git-scm.com/)
+  - Configuration initiale
+    ```bash
+    git config --global user.name "ton_login"
+    git config --global user.email "ton_email"
+    ```
+  - Commandes essentielles:
+    ```bash
+    git add .
+    git commit -m "message"
+    git push
+    ```
+</details>
+
+## 📊 Système d'Évaluation
+
+<details>
+<summary><strong>Protocole d'Évaluation</strong> - Comment progresser dans ta mission</summary>
+
+### 📝 Examens
+  - Examens hebdomadaires
+  - Examen final
+  - Questions théoriques et pratiques
+
+### 🏃 Rushes
+  - Projets de groupe le weekend
+  - 48h de programmation intensive
+  - Collaboration et gestion du temps
+
+### 👥 Évaluations par les Pairs
+  - Minimum 3 évaluations par projet
+  - Défense de ton code
+  - Feedback constructif
+</details>
+
+## 💫 Conseils de Navigation
+
+> *"Le voyage est aussi important que la destination."*
+
+- 📚 Pratique quotidienne
+- 🤝 Entraide entre astronautes
+- 🔄 Git commit réguliers
+- ✅ Norminette avant chaque push
+- 🎯 Focus sur la compréhension
+
+## 🌟 Compétences Acquises
 <div align="center">
 
-`C` • `Shell` • `Git` • `Unix` • `Algorithmique` • `Makefiles` • `Normes de Code`
+`C` │ `Shell` │ `Git` │ `Unix` │ `Algorithmique` │ `Makefiles` │ `Normes de Code`
 </div>
 
 ---
