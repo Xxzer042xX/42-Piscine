@@ -18,7 +18,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ## 🎯 Programme d'Entraînement
 
-### 🛠️ Phase Préparatoire 
+### &nbsp;&nbsp;&nbsp;&nbsp;🛠️ Phase Préparatoire 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
 
@@ -35,10 +35,10 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
     - `Variables`: Configuration système
 </details>
 
-### 🚀 Mission Principale - Les Modules C
+### &nbsp;&nbsp;&nbsp;&nbsp;🚀 Mission Principale - Les Modules C
 
 <details>
-<summary><strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
 
   - [**C00 - Premier Contact**](https://github.com/42School/42-piscine-c00)
     - `putchar()`: Affichage caractère par caractère
@@ -49,7 +49,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Module C01</strong> - Navigation Spatiale │ Pointeurs & Variables</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C01</strong> - Navigation Spatiale │ Pointeurs & Variables</summary>
 
   - [**C01 - Exploration Mémoire**](https://github.com/42School/42-piscine-c01)
     - `&variable`: Adressage mémoire
@@ -60,7 +60,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Module C02</strong> - Cartographie │ Chaînes & Tableaux</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C02</strong> - Cartographie │ Chaînes & Tableaux</summary>
 
   - [**C02 - Manipulation de Données**](https://github.com/42School/42-piscine-c02)
     - `char str[]`: Tableaux de caractères
@@ -70,7 +70,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Module C03</strong> - Communications │ Chaînes Avancées</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C03</strong> - Communications │ Chaînes Avancées</summary>
 
   - [**C03 - Protocoles de Communication**](https://github.com/42School/42-piscine-c03)
     - `strcmp`: Comparaison
@@ -80,7 +80,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Module C04</strong> - Calculs de Trajectoire │ Nombres & Conversions</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C04</strong> - Calculs de Trajectoire │ Nombres & Conversions</summary>
 
   - [**C04 - Mathématiques Spatiales**](https://github.com/42School/42-piscine-c04)
     - `atoi/itoa`: Conversions
@@ -90,7 +90,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Module C05</strong> - Optimisation │ Algorithmes</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C05</strong> - Optimisation │ Algorithmes</summary>
 
   - [**C05 - Calculs Avancés**](https://github.com/42School/42-piscine-c05)
     - Récursivité
@@ -100,7 +100,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Module C06</strong> - Interface de Commande │ Arguments</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C06</strong> - Interface de Commande │ Arguments</summary>
 
   - [**C06 - Centre de Contrôle**](https://github.com/42School/42-piscine-c06)
     - `argc`: Nombre d'arguments
@@ -110,7 +110,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Module C07</strong> - Gestion des Ressources │ Mémoire Dynamique</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C07</strong> - Gestion des Ressources │ Mémoire Dynamique</summary>
 
   - [**C07 - Allocation de Ressources**](https://github.com/42School/42-piscine-c07)
     - `malloc`: Allocation
@@ -120,7 +120,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 </details>
 
 <details>
-<summary><strong>Modules Avancés C08-C13</strong> - Missions Spécialisées</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Modules Avancés C08-C13</strong> - Missions Spécialisées</summary>
 
   - [**Module C08**](https://github.com/42School/42-piscine-c08)
     - Headers et macros
@@ -150,7 +150,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 ## ⚡ Outils de Mission
 
 <details>
-<summary><strong>Kit de Survie</strong> - Les outils essentiels pour ta mission</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Kit de Survie</strong> - Les outils essentiels pour ta mission</summary>
 
 ### 🔍 [Norminette](https://github.com/42School/norminette)
   - Vérificateur de norme officiel
@@ -182,7 +182,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 ## 📊 Système d'Évaluation
 
 <details>
-<summary><strong>Protocole d'Évaluation</strong> - Comment progresser dans ta mission</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Protocole d'Évaluation</strong> - Comment progresser dans ta mission</summary>
 
 ### 📝 Examens
   - Examens hebdomadaires
