@@ -233,7 +233,11 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ---
 
-> *                "Que la force du code soit avec toi, jeune padawan! 🌌"*
+<div align="center">
+
+> *"Que la force du code soit avec toi, jeune padawan! 🌌"*
+
+</div>
 
 ---
 
