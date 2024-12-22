@@ -3,9 +3,9 @@
 # 🚀 Odyssée Spatiale du C à l'école 42 🚀
 ---
 
-[![Source](https://img.shields.io/badge/Source-Code_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/42-projects)
-[![Profile](https://img.shields.io/badge/Main-Profile-00babc?style=for-the-badge&logo=42&logoColor=white)](https://github.com/your-username)
-[![Readme](https://img.shields.io/badge/Readme-Project-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username/project-readme)
+[![Source](https://img.shields.io/badge/Source-Code_Projects-181717?logo=github&logoColor=white)](https://github.com/42-projects)
+[![Profile](https://img.shields.io/badge/Main-Profile-00babc?logo=42&logoColor=white)](https://github.com/your-username)
+[![Readme](https://img.shields.io/badge/Readme-Project-success?logo=github&logoColor=white)](https://github.com/your-username/project-readme)
 
 *La Piscine C : Ton voyage initiatique dans l'univers du code*
 </div>
