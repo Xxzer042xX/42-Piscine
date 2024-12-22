@@ -18,6 +18,8 @@
 
 La Piscine C est ton initiation intensive au code, où tu découvriras les fondamentaux de la programmation à travers une série de défis de difficulté croissante.
 
+<br>
+
 ## 🎯 Programme d'Entraînement
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;🛠️ Phase Préparatoire 
@@ -36,6 +38,8 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
     - `Données`: Traitement de texte
     - `Variables`: Configuration système
 </details>
+
+<br>
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;🚀 Mission Principale - Les Modules C
 
@@ -149,6 +153,8 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
     - Structures complexes
 </details>
 
+<br>
+
 ## ⚡ Outils de Mission
 
 <details>
@@ -181,6 +187,8 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
     ```
 </details>
 
+<br>
+
 ## 📊 Système d'Évaluation
 
 <details>
@@ -202,6 +210,8 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
   - Feedback constructif
 </details>
 
+<br>
+
 ## 💫 Conseils de Navigation
 
 > *"Le voyage est aussi important que la destination."*
@@ -211,6 +221,8 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 - 🔄 Git commit réguliers
 - ✅ Norminette avant chaque push
 - 🎯 Focus sur la compréhension
+
+<br>
 
 ## 🌟 Compétences Acquises
 <div align="center">
