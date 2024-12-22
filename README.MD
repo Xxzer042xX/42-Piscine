@@ -3,7 +3,7 @@
 # 🚀 Odyssée Spatiale du C à l'école 42 🚀
 ---
 
-[![Source](https://img.shields.io/badge/Source-Code_Projects-181717?logo=github&logoColor=white)](https://github.com/42-projects)
+[![Source](https://img.shields.io/badge/Source-Code_Projects-181717?logo=github&logoColor=white)](https://github.com/Xxzer042xX/42-Piscine/tree/master)
 [![Profile](https://img.shields.io/badge/Main-Profile-purple?logo=github&logoColor=white)](https://github.com/your-username)
 [![Readme](https://img.shields.io/badge/Readme-Project-181717?logo=github&logoColor=white)](https://github.com/Xxzer042xX/42-Piscine/blob/master/README.MD)
 
