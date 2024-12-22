@@ -225,10 +225,11 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ## 🌟 Compétences Acquises
 <div align="center">
+<br>
 
 `C` │ `Shell` │ `Git` │ `Unix` │ `Algorithmique` │ `Makefiles` │ `Normes de Code`
 </div>
-
+<br>
 ---
 <div align="center">
 <sub>Que la force du code soit avec toi, jeune padawan! 🌌</sub>
