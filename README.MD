@@ -18,9 +18,9 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ## 🎯 Programme d'Entraînement
 
-### 🛠️ Phase Préparatoire 
+### &nbsp;&nbsp;&nbsp;&nbsp;🛠️ Phase Préparatoire 
 <details>
-<summary><strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
 
   - [**Shell00 - Préparation au Décollage**](https://github.com/42School/42-piscine-shell00)
     - `Terminal`: Navigation système de base
@@ -35,10 +35,10 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
     - `Variables`: Configuration système
 </details>
 
-### 🚀 Mission Principale - Les Modules C
+### &nbsp;&nbsp;&nbsp;&nbsp;🚀 Mission Principale - Les Modules C
 
 <details>
-<summary><strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
 
   - [**C00 - Premier Contact**](https://github.com/42School/42-piscine-c00)
     - `putchar()`: Affichage caractère par caractère
