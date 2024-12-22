@@ -35,7 +35,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
     - `Variables`: Configuration système
 </details>
 
-### &nbsp;&nbsp;&nbsp;&nbsp;🚀 Mission Principale - Les Modules C
+### 🚀 Mission Principale - Les Modules C
 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
