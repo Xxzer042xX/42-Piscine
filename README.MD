@@ -3,9 +3,9 @@
 # 🚀 Odyssée Spatiale du C à l'école 42 🚀
 ---
 
-[![42 School](https://img.shields.io/badge/42-School-00babc?logo=42)](https://42.fr/)
-[![Piscine](https://img.shields.io/badge/Cursus-Piscine_C-success)](LIEN_PISCINE)
-[![GitHub](https://img.shields.io/badge/Projects-Source_Code-181717?logo=github)](VOTRE_GITHUB)
+[![Source](https://img.shields.io/badge/Source-Code_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/42-projects)
+[![Profile](https://img.shields.io/badge/Main-Profile-00babc?style=for-the-badge&logo=42&logoColor=white)](https://github.com/your-username)
+[![Readme](https://img.shields.io/badge/Readme-Project-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username/project-readme)
 
 *La Piscine C : Ton voyage initiatique dans l'univers du code*
 </div>
@@ -18,7 +18,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ## 🎯 Programme d'Entraînement
 
-### 🛠️ Phase Préparatoire 
+### &nbsp;&nbsp;&nbsp;&nbsp;🛠️ Phase Préparatoire 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
 
@@ -35,7 +35,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
     - `Variables`: Configuration système
 </details>
 
-### 🚀 Mission Principale - Les Modules C
+### &nbsp;&nbsp;&nbsp;&nbsp;🚀 Mission Principale - Les Modules C
 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
