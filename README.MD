@@ -27,13 +27,13 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
 
-  - [**Shell00 - Préparation au Décollage**](https://github.com/42School/42-piscine-shell00)
+  - [**Shell00 - Préparation au Décollage**](https://github.com/Xxzer042xX/42-Piscine/tree/master/extra/shell/shell00)
     - `Terminal`: Navigation système de base
     - `Git`: Configuration initiale
     - `Permissions`: Gestion des droits
     - `Fichiers`: Manipulation basique
     
-  - [**Shell01 - Contrôle de Mission**](https://github.com/42School/42-piscine-shell01)
+  - [**Shell01 - Contrôle de Mission**](https://github.com/Xxzer042xX/42-Piscine/tree/master/extra/shell/shell01)
     - `Scripts`: Automatisation avancée
     - `RegEx`: Expressions régulières
     - `Données`: Traitement de texte
