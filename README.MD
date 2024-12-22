@@ -4,8 +4,8 @@
 ---
 
 [![Source](https://img.shields.io/badge/Source-Code_Projects-181717?logo=github&logoColor=white)](https://github.com/42-projects)
-[![Profile](https://img.shields.io/badge/Main-Profile-00babc?logo=42&logoColor=white)](https://github.com/your-username)
-[![Readme](https://img.shields.io/badge/Readme-Project-success?logo=github&logoColor=white)](https://github.com/your-username/project-readme)
+[![Profile](https://img.shields.io/badge/Main-Profile-purple?logo=github&logoColor=white)](https://github.com/your-username)
+[![Readme](https://img.shields.io/badge/Readme-Project-181717?logo=github&logoColor=white)](https://github.com/your-username/project-readme)
 
 *La Piscine C : Ton voyage initiatique dans l'univers du code*
 </div>
