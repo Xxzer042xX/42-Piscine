@@ -18,7 +18,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ## 🎯 Programme d'Entraînement
 
-### &nbsp;&nbsp;&nbsp;&nbsp;🛠️ Phase Préparatoire 
+### 🛠️ Phase Préparatoire 
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
 
