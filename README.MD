@@ -45,7 +45,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
 
-  - [**C00 - Premier Contact**](https://github.com/42School/42-piscine-c00)
+  - [**C00 - Premier Contact**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c00)
     - `putchar()`: Affichage caractère par caractère
     - `while/for`: Premières boucles
     - `if/else`: Structures de contrôle
@@ -56,7 +56,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C01</strong> - Navigation Spatiale │ Pointeurs & Variables</summary>
 
-  - [**C01 - Exploration Mémoire**](https://github.com/42School/42-piscine-c01)
+  - [**C01 - Exploration Mémoire**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c01)
     - `&variable`: Adressage mémoire
     - `*pointeur`: Déréférencement
     - `void fonction(int *ptr)`: Passage par référence
@@ -67,7 +67,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C02</strong> - Cartographie │ Chaînes & Tableaux</summary>
 
-  - [**C02 - Manipulation de Données**](https://github.com/42School/42-piscine-c02)
+  - [**C02 - Manipulation de Données**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c02)
     - `char str[]`: Tableaux de caractères
     - `strcpy`: Copie de chaînes
     - `ASCII`: Manipulation de caractères
@@ -77,7 +77,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C03</strong> - Communications │ Chaînes Avancées</summary>
 
-  - [**C03 - Protocoles de Communication**](https://github.com/42School/42-piscine-c03)
+  - [**C03 - Protocoles de Communication**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c03)
     - `strcmp`: Comparaison
     - `strcat`: Concaténation
     - `strstr`: Recherche
@@ -87,7 +87,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C04</strong> - Calculs de Trajectoire │ Nombres & Conversions</summary>
 
-  - [**C04 - Mathématiques Spatiales**](https://github.com/42School/42-piscine-c04)
+  - [**C04 - Mathématiques Spatiales**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c04)
     - `atoi/itoa`: Conversions
     - Bases numériques
     - `putnbr`: Affichage nombres
@@ -97,7 +97,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C05</strong> - Optimisation │ Algorithmes</summary>
 
-  - [**C05 - Calculs Avancés**](https://github.com/42School/42-piscine-c05)
+  - [**C05 - Calculs Avancés**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c05)
     - Récursivité
     - Nombres premiers
     - Suite Fibonacci
@@ -107,7 +107,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C06</strong> - Interface de Commande │ Arguments</summary>
 
-  - [**C06 - Centre de Contrôle**](https://github.com/42School/42-piscine-c06)
+  - [**C06 - Centre de Contrôle**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c06)
     - `argc`: Nombre d'arguments
     - `argv`: Tableau d'arguments
     - Parsing de commandes
@@ -117,7 +117,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C07</strong> - Gestion des Ressources │ Mémoire Dynamique</summary>
 
-  - [**C07 - Allocation de Ressources**](https://github.com/42School/42-piscine-c07)
+  - [**C07 - Allocation de Ressources**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c07)
     - `malloc`: Allocation
     - `free`: Libération
     - `strdup`: Duplication
