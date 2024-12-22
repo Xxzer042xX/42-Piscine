@@ -5,7 +5,7 @@
 
 [![42 School](https://img.shields.io/badge/42-School-00babc?logo=42)](https://42.fr/)
 [![Piscine](https://img.shields.io/badge/Cursus-Piscine_C-success)](LIEN_PISCINE)
-[![GitHub](https://img.shields.io/badge/Projects-Source_Code-181717?logo=github)](VOTRE_GITHUB)
+[![GitHub](https://img.shields.io/badge/Project-README-181717?logo=github)](VOTRE_GITHUB)
 
 *La Piscine C : Ton voyage initiatique dans l'univers du code*
 </div>
