@@ -20,7 +20,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ### 🛠️ Phase Préparatoire 
 <details>
-<summary style="padding-left: 2em"><strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
 
   - [**Shell00 - Préparation au Décollage**](https://github.com/42School/42-piscine-shell00)
     - `Terminal`: Navigation système de base
