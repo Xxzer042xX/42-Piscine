@@ -236,3 +236,13 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <div align="center">
 <sub>Que la force du code soit avec toi, jeune padawan! 🌌</sub>
 </div>
+
+---
+
+<div align="center">
+
+*Made with ❤️ from 42 Lausanne*
+
+<sub>*Part of my journey at École 42 - Exploring the depths of C programming*</sub>
+
+</div>
