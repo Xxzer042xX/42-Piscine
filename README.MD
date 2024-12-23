@@ -28,6 +28,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Shell00 & Shell01 - Les commandes essentielles pour ta mission spatiale</strong></summary>
 
 - [**Shell00 - Préparation au Décollage**](https://github.com/Xxzer042xX/42-Piscine/tree/master/extra/shell/shell00)
+
   - `Terminal`: Navigation système de base
   - `Git`: Configuration initiale
   - `Permissions`: Gestion des droits
@@ -46,6 +47,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C00 - Décollage Initial │ Introduction aux bases du C</strong></summary>
 
 - [**C00 - Premier Contact**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c00)
+
   - `putchar()`: Affichage caractère par caractère
   - `while/for`: Premières boucles
   - `if/else`: Structures de contrôle
@@ -57,6 +59,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C01 - Navigation Spatiale │ Pointeurs & Variables</strong></summary>
 
 - [**C01 - Exploration Mémoire**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c01)
+  
   - `&variable`: Adressage mémoire
   - `*pointeur`: Déréférencement
   - `void fonction(int *ptr)`: Passage par référence
@@ -68,6 +71,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C02 - Cartographie │ Chaînes & Tableaux</strong></summary>
 
 - [**C02 - Manipulation de Données**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c02)
+  
   - `char str[]`: Tableaux de caractères
   - `strcpy`: Copie de chaînes
   - `ASCII`: Manipulation de caractères
@@ -78,6 +82,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C03 - Communications │ Chaînes Avancées</strong></summary>
 
 - [**C03 - Protocoles de Communication**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c03)
+  
   - `strcmp`: Comparaison
   - `strcat`: Concaténation
   - `strstr`: Recherche
@@ -88,6 +93,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C04 - Calculs de Trajectoire │ Nombres & Conversions</strong></summary>
 
 - [**C04 - Mathématiques Spatiales**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c04)
+  
   - `atoi/itoa`: Conversions
   - Bases numériques
   - `putnbr`: Affichage nombres
@@ -98,6 +104,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C05 - Optimisation │ Algorithmes</strong></summary>
 
 - [**C05 - Calculs Avancés**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c05)
+  
   - Récursivité
   - Nombres premiers
   - Suite Fibonacci
@@ -108,6 +115,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C06 - Interface de Commande │ Arguments</strong></summary>
 
 - [**C06 - Centre de Contrôle**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c06)
+  
   - `argc`: Nombre d'arguments
   - `argv`: Tableau d'arguments
   - Parsing de commandes
@@ -118,6 +126,7 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Module C07 - Gestion des Ressources │ Mémoire Dynamique</strong></summary>
 
 - [**C07 - Allocation de Ressources**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c07)
+  
   - `malloc`: Allocation
   - `free`: Libération
   - `strdup`: Duplication
@@ -128,26 +137,32 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 <summary><strong>Modules Avancés C08-C13 - Missions Spécialisées</strong></summary>
 
 - [**Module C08**](https://github.com/42School/42-piscine-c08)
+  
   - Headers et macros
   - Protection des fichiers
     
 - [**Module C09**](https://github.com/42School/42-piscine-c09)
+  
   - Makefiles
   - Bibliothèques
     
 - [**Module C10**](https://github.com/42School/42-piscine-c10)
+  
   - Gestion de fichiers
   - Entrées/Sorties
     
 - [**Module C11**](https://github.com/42School/42-piscine-c11)
+  
   - Pointeurs de fonctions
   - Callbacks
     
 - [**Module C12**](https://github.com/42School/42-piscine-c12)
+  
   - Listes chaînées
   - Structures de données
     
 - [**Module C13**](https://github.com/42School/42-piscine-c13)
+  
   - Arbres binaires
   - Structures complexes
 </details>
