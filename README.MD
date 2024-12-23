@@ -25,131 +25,131 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 
 ### 🛠️ Phase Préparatoire 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Shell00 & Shell01</strong> - Les commandes essentielles pour ta mission spatiale</summary>
+<summary><strong>Shell00 & Shell01 - Les commandes essentielles pour ta mission spatiale</strong></summary>
 
-  - [**Shell00 - Préparation au Décollage**](https://github.com/Xxzer042xX/42-Piscine/tree/master/extra/shell/shell00)
-    - `Terminal`: Navigation système de base
-    - `Git`: Configuration initiale
-    - `Permissions`: Gestion des droits
-    - `Fichiers`: Manipulation basique
+- [**Shell00 - Préparation au Décollage**](https://github.com/Xxzer042xX/42-Piscine/tree/master/extra/shell/shell00)
+  - `Terminal`: Navigation système de base
+  - `Git`: Configuration initiale
+  - `Permissions`: Gestion des droits
+  - `Fichiers`: Manipulation basique
     
-  - [**Shell01 - Contrôle de Mission**](https://github.com/Xxzer042xX/42-Piscine/tree/master/extra/shell/shell01)
-    - `Scripts`: Automatisation avancée
-    - `RegEx`: Expressions régulières
-    - `Données`: Traitement de texte
-    - `Variables`: Configuration système
+- [**Shell01 - Contrôle de Mission**](https://github.com/Xxzer042xX/42-Piscine/tree/master/extra/shell/shell01)
+  - `Scripts`: Automatisation avancée
+  - `RegEx`: Expressions régulières
+  - `Données`: Traitement de texte
+  - `Variables`: Configuration système
 </details>
 
 ### 🚀 Mission Principale - Les Modules C
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C00</strong> - Décollage Initial │ Introduction aux bases du C</summary>
+<summary><strong>Module C00 - Décollage Initial │ Introduction aux bases du C</strong></summary>
 
-  - [**C00 - Premier Contact**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c00)
-    - `putchar()`: Affichage caractère par caractère
-    - `while/for`: Premières boucles
-    - `if/else`: Structures de contrôle
-    - `char/int`: Types de données de base
-    - Compilation avec gcc
+- [**C00 - Premier Contact**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c00)
+  - `putchar()`: Affichage caractère par caractère
+  - `while/for`: Premières boucles
+  - `if/else`: Structures de contrôle
+  - `char/int`: Types de données de base
+  - Compilation avec gcc
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C01</strong> - Navigation Spatiale │ Pointeurs & Variables</summary>
+<summary><strong>Module C01 - Navigation Spatiale │ Pointeurs & Variables</strong></summary>
 
-  - [**C01 - Exploration Mémoire**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c01)
-    - `&variable`: Adressage mémoire
-    - `*pointeur`: Déréférencement
-    - `void fonction(int *ptr)`: Passage par référence
-    - `ptr++`: Arithmétique des pointeurs
-    - Portée des variables
+- [**C01 - Exploration Mémoire**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c01)
+  - `&variable`: Adressage mémoire
+  - `*pointeur`: Déréférencement
+  - `void fonction(int *ptr)`: Passage par référence
+  - `ptr++`: Arithmétique des pointeurs
+  - Portée des variables
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C02</strong> - Cartographie │ Chaînes & Tableaux</summary>
+<summary><strong>Module C02 - Cartographie │ Chaînes & Tableaux</strong></summary>
 
-  - [**C02 - Manipulation de Données**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c02)
-    - `char str[]`: Tableaux de caractères
-    - `strcpy`: Copie de chaînes
-    - `ASCII`: Manipulation de caractères
-    - `isalpha/isdigit`: Vérifications
+- [**C02 - Manipulation de Données**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c02)
+  - `char str[]`: Tableaux de caractères
+  - `strcpy`: Copie de chaînes
+  - `ASCII`: Manipulation de caractères
+  - `isalpha/isdigit`: Vérifications
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C03</strong> - Communications │ Chaînes Avancées</summary>
+<summary><strong>Module C03 - Communications │ Chaînes Avancées</strong></summary>
 
-  - [**C03 - Protocoles de Communication**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c03)
-    - `strcmp`: Comparaison
-    - `strcat`: Concaténation
-    - `strstr`: Recherche
-    - Gestion mémoire sécurisée
+- [**C03 - Protocoles de Communication**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c03)
+  - `strcmp`: Comparaison
+  - `strcat`: Concaténation
+  - `strstr`: Recherche
+  - Gestion mémoire sécurisée
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C04</strong> - Calculs de Trajectoire │ Nombres & Conversions</summary>
+<summary><strong>Module C04 - Calculs de Trajectoire │ Nombres & Conversions</strong></summary>
 
-  - [**C04 - Mathématiques Spatiales**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c04)
-    - `atoi/itoa`: Conversions
-    - Bases numériques
-    - `putnbr`: Affichage nombres
-    - Calculs de précision
+- [**C04 - Mathématiques Spatiales**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c04)
+  - `atoi/itoa`: Conversions
+  - Bases numériques
+  - `putnbr`: Affichage nombres
+  - Calculs de précision
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C05</strong> - Optimisation │ Algorithmes</summary>
+<summary><strong>Module C05 - Optimisation │ Algorithmes</strong></summary>
 
-  - [**C05 - Calculs Avancés**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c05)
-    - Récursivité
-    - Nombres premiers
-    - Suite Fibonacci
-    - Optimisation
+- [**C05 - Calculs Avancés**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c05)
+  - Récursivité
+  - Nombres premiers
+  - Suite Fibonacci
+  - Optimisation
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C06</strong> - Interface de Commande │ Arguments</summary>
+<summary><strong>Module C06 - Interface de Commande │ Arguments</strong></summary>
 
-  - [**C06 - Centre de Contrôle**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c06)
-    - `argc`: Nombre d'arguments
-    - `argv`: Tableau d'arguments
-    - Parsing de commandes
-    - Validation d'entrées
+- [**C06 - Centre de Contrôle**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c06)
+  - `argc`: Nombre d'arguments
+  - `argv`: Tableau d'arguments
+  - Parsing de commandes
+  - Validation d'entrées
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Module C07</strong> - Gestion des Ressources │ Mémoire Dynamique</summary>
+<summary><strong>Module C07 - Gestion des Ressources │ Mémoire Dynamique</strong></summary>
 
-  - [**C07 - Allocation de Ressources**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c07)
-    - `malloc`: Allocation
-    - `free`: Libération
-    - `strdup`: Duplication
-    - Gestion des fuites
+- [**C07 - Allocation de Ressources**](https://github.com/Xxzer042xX/42-Piscine/tree/master/c07)
+  - `malloc`: Allocation
+  - `free`: Libération
+  - `strdup`: Duplication
+  - Gestion des fuites
 </details>
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Modules Avancés C08-C13</strong> - Missions Spécialisées</summary>
+<summary><strong>Modules Avancés C08-C13 - Missions Spécialisées</strong></summary>
 
-  - [**Module C08**](https://github.com/42School/42-piscine-c08)
-    - Headers et macros
-    - Protection des fichiers
+- [**Module C08**](https://github.com/42School/42-piscine-c08)
+  - Headers et macros
+  - Protection des fichiers
     
-  - [**Module C09**](https://github.com/42School/42-piscine-c09)
-    - Makefiles
-    - Bibliothèques
+- [**Module C09**](https://github.com/42School/42-piscine-c09)
+  - Makefiles
+  - Bibliothèques
     
-  - [**Module C10**](https://github.com/42School/42-piscine-c10)
-    - Gestion de fichiers
-    - Entrées/Sorties
+- [**Module C10**](https://github.com/42School/42-piscine-c10)
+  - Gestion de fichiers
+  - Entrées/Sorties
     
-  - [**Module C11**](https://github.com/42School/42-piscine-c11)
-    - Pointeurs de fonctions
-    - Callbacks
+- [**Module C11**](https://github.com/42School/42-piscine-c11)
+  - Pointeurs de fonctions
+  - Callbacks
     
-  - [**Module C12**](https://github.com/42School/42-piscine-c12)
-    - Listes chaînées
-    - Structures de données
+- [**Module C12**](https://github.com/42School/42-piscine-c12)
+  - Listes chaînées
+  - Structures de données
     
-  - [**Module C13**](https://github.com/42School/42-piscine-c13)
-    - Arbres binaires
-    - Structures complexes
+- [**Module C13**](https://github.com/42School/42-piscine-c13)
+  - Arbres binaires
+  - Structures complexes
 </details>
 
 <br>
@@ -157,33 +157,33 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 ## ⚡ Outils de Mission
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Kit de Survie</strong> - Les outils essentiels pour ta mission</summary>
+<summary><strong>Kit de Survie - Les outils essentiels pour ta mission</strong></summary>
 
 ### 🔍 [Norminette](https://github.com/42School/norminette)
-  - Vérificateur de norme officiel
-  - Installation simple: `python3 -m pip install norminette`
-  - Utilisation: `norminette fichier.c`
+- Vérificateur de norme officiel
+- Installation simple: `python3 -m pip install norminette`
+- Utilisation: `norminette fichier.c`
 
 ### 🛠️ [GCC](https://gcc.gnu.org/)
-  - Compilation standard: `gcc fichier.c`
-  - Flags recommandés:
-    ```bash
-    gcc -Wall -Wextra -Werror fichier.c
-    ```
-  - Débogage: `gcc -g fichier.c`
+- Compilation standard: `gcc fichier.c`
+- Flags recommandés:
+  ```bash
+  gcc -Wall -Wextra -Werror fichier.c
+  ```
+- Débogage: `gcc -g fichier.c`
 
 ### 📦 [Git](https://git-scm.com/)
-  - Configuration initiale
-    ```bash
-    git config --global user.name "ton_login"
-    git config --global user.email "ton_email"
-    ```
-  - Commandes essentielles:
-    ```bash
-    git add .
-    git commit -m "message"
-    git push
-    ```
+- Configuration initiale
+  ```bash
+  git config --global user.name "ton_login"
+  git config --global user.email "ton_email"
+  ```
+- Commandes essentielles:
+  ```bash
+  git add .
+  git commit -m "message"
+  git push
+  ```
 </details>
 
 <br>
@@ -191,22 +191,22 @@ La Piscine C est ton initiation intensive au code, où tu découvriras les fonda
 ## 📊 Système d'Évaluation
 
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Protocole d'Évaluation</strong> - Comment progresser dans ta mission</summary>
+<summary><strong>Protocole d'Évaluation - Comment progresser dans ta mission</strong></summary>
 
 ### 📝 Examens
-  - Examens hebdomadaires
-  - Examen final
-  - Questions théoriques et pratiques
+- Examens hebdomadaires
+- Examen final
+- Questions théoriques et pratiques
 
 ### 🏃 Rushes
-  - Projets de groupe le weekend
-  - 48h de programmation intensive
-  - Collaboration et gestion du temps
+- Projets de groupe le weekend
+- 48h de programmation intensive
+- Collaboration et gestion du temps
 
 ### 👥 Évaluations par les Pairs
-  - Minimum 3 évaluations par projet
-  - Défense de ton code
-  - Feedback constructif
+- Minimum 3 évaluations par projet
+- Défense de ton code
+- Feedback constructif
 </details>
 
 <br>
